@@ -25,7 +25,7 @@ CONTENT_MAP_STYLE = {
 
 # STYLE OF CONTENT
 CONTENT_STYLE = {
-    "margin-left": "18rem",
+    "margin-left": "60rem",
     "margin-right": "2rem",
     "padding": "2rem 1rem",
     "width": "40rem"
