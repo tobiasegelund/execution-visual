@@ -5,8 +5,9 @@ from dash.dependencies import Input, Output
 import plotly.graph_objects as go
 import plotly.express as px
 from collections import Counter
-from app.inputs import df, available_region, available_states, available_years, available_victim_types
-from app.style import colors, SIDEBAR_STYLE, CONTENT_MAP_STYLE, CONTENT_STYLE
+from app.inputs import df, available_region, available_states, available_years
+from app.style import colors, SIDEBAR_STYLE, CONTENT_MAP_STYLE, CONTENT_STYLE,CONTENT_STYLE_PART1, CONTENT_STYLE_PART2
+from app.helper_functions import filter_data
 from app.app import app
 
 
@@ -15,8 +16,8 @@ sidebar_page_1 = html.Div(
         html.H2("Execution", className="sidebar-design"),
         dbc.Nav(
             [
-                dbc.NavLink("Overall", active=True, href="/execution-page1"),
-                dbc.NavLink("Timeline", active=True, href="/execution-page2"),
+                dbc.NavLink("Overall", active=True, href="/overall"),
+                dbc.NavLink("Timeline", active=True, href="/timeline"),
             ],
             vertical=True,
         ),
@@ -24,106 +25,182 @@ sidebar_page_1 = html.Div(
         html.Hr(),
         dcc.RadioItems(
             id='input_race_page1',
-            options=[{'label': i, 'value': i} for i in ['Black', 'White']],
-            value='Black'
-            # labelStyle={'display': 'inline-block'}
+            options=[{'label': i, 'value': i} for i in ['All', 'White', 'Other']],
+            value='All'
+        ),
+        html.Br(),
+        dcc.RadioItems(
+            id='input_sex_page1',
+            options=[{'label': i, 'value': i} for i in ['Both', 'Male', 'Female']],
+            value='Both'
         ),
         html.Br(),
         dcc.Dropdown(
             id='input_region_page1',
-            options=[{'label': i, 'value': i} for i in available_region],
-            # value='Dropdown of regions'
+            options=[{'label': i, 'value': i} for i in available_region]
         ),
         html.Br(),
         dcc.Dropdown(
             id='input_state_page1',
-            options=[{'label': i, 'value': i} for i in available_states],
-            # value='Dropdown of states'
+            options=[{'label': i, 'value': i} for i in available_states]
         ),
-        html.Br(),
-        dcc.Dropdown(
-            id='input_victim_types_page1',
-            options=[{'label': i, 'value': i} for i in available_victim_types],
-            multi=True
-        )
+        html.Br()
     ],
     style=SIDEBAR_STYLE,
 )
 
 content_map_page_1 = html.Div([
-
-    dcc.Slider(
-        id='input_slider_page1',
-        min=2010,
-        max=df['Year'].max(),
-        value=df['Year'].max(),
-        marks={str(year): str(year) for year in available_years},
-        step=None
-    ),
-    dcc.Graph(
-        id='indicator_tester_page1'
-    )
+    html.H1('INCOMING MAP')
 
     ],
     style=CONTENT_MAP_STYLE
 )
 
-content_page_1 = html.Div([
-    html.H1('PAGE 1'),
+content_part1_page_1 = html.Div([
+    dcc.Graph(
+        id='race_convicted_figure'
+    ),
+    dcc.Graph(
+        id='victims_figure'
+    )
     ],
-    style=CONTENT_MAP_STYLE
+    style=CONTENT_STYLE_PART1
+)
+
+content_part2_page_1 = html.Div([
+    dcc.Graph(
+        id='sex_convicted_figure'
+    )
+    ],
+    style=CONTENT_STYLE_PART2
 )
 
 
 
 page_1_layout = html.Div([
         sidebar_page_1,
-        content_map_page_1
+        content_map_page_1,
+        content_part1_page_1,
+        content_part2_page_1
     ]
 )
 
 
 @app.callback(
-    Output('indicator_tester_page1', 'figure'),
+    Output('race_convicted_figure', 'figure'),
     Input('input_race_page1', 'value'),
-    Input('input_region_page1', 'value')
+    Input('input_region_page1', 'value'),
+    Input('input_sex_page1', 'value'),
+    Input('input_state_page1', 'value')
 )
-def update_figure(input_race, input_region):
+def race_convicted_update(input_race, input_region, input_sex, input_state):
 
 
-    if input_region is None:
-        df_local=df[df['Race']==input_race]
+    df_local = filter_data(df,
+        input_region=input_region,
+        input_sex=input_sex,
+        input_state=input_state
+    )
 
+    if input_race == 'White':
+        local_colors  = [colors['highlight_color'], colors['plot_color']]
+    elif input_race == 'Other':
+        local_colors = [colors['plot_color'], colors['highlight_color']]
     else:
-        df_local=df[(df['Race']==input_race) & (df['Region']==input_region)]
-
+        local_colors = [colors['plot_color'], colors['plot_color']]
 
     fig = go.Figure()
 
-    fig.add_trace(go.Scatter(
-        x=list(Counter(df_local['Year']).keys()),
-        y=list(Counter(df_local['Year']).values()),
-        name='Legend-name',
-        line={'width': 2, 'color': 'rgb(229, 151, 50)', 'dash':'dash'}
-        # dash options include 'dash', 'dot', and 'dashdot'
+    fig.add_trace(go.Bar(
+        x=df_local[['White Convicted', 'Other Convicted']].sum().keys(),
+        y=df_local[['White Convicted', 'Other Convicted']].sum(),
+        marker_color=local_colors
         )
     )
-
-    # fig.update_xaxes(visible=False, fixedrange=True)
-    # fig.update_yaxes(visible=False, fixedrange=True)
 
     # remove facet/subplot labels
     # fig.update_layout(annotations=[], overwrite=True)
 
-    # strip down the rest of the plot
     fig.update_layout(
-        title='Figure Title',
-        xaxis_title='Year',
-        yaxis_title='Deaths',
-        showlegend=False,
+        title='Executions based on race',
+        height=400,
+        width=400,
         plot_bgcolor="white",
-        # margin=dict(t=10,l=10,b=10,r=10)
     )
 
+    return fig
+
+
+@app.callback(
+    Output('sex_convicted_figure', 'figure'),
+    Input('input_race_page1', 'value'),
+    Input('input_region_page1', 'value'),
+    Input('input_sex_page1', 'value'),
+    Input('input_state_page1', 'value')
+)
+def sex_convicted_update(input_race, input_region, input_sex, input_state):
+
+
+    df_local = filter_data(df,
+        input_race=input_race,
+        input_region=input_region,
+        input_state=input_state
+    )
+
+    if input_sex == 'Male':
+        local_colors  = [colors['highlight_color'], colors['plot_color']]
+    elif input_sex == 'Female':
+        local_colors = [colors['plot_color'], colors['highlight_color']]
+    else:
+        local_colors = [colors['plot_color'], colors['plot_color']]
+
+    fig = go.Figure()
+
+    fig.add_trace(go.Bar(
+        x=df_local[['Male Convicted', 'Female Convicted']].sum().keys(),
+        y=df_local[['Male Convicted', 'Female Convicted']].sum(),
+        marker_color=local_colors
+        )
+    )
+
+    fig.update_layout(
+        title='Executions based on sex',
+        height=400,
+        width=400,
+        plot_bgcolor="white",
+    )
+
+    return fig
+
+
+@app.callback(
+    Output('victims_figure', 'figure'),
+    Input('input_race_page1', 'value'),
+    Input('input_region_page1', 'value'),
+    Input('input_sex_page1', 'value'),
+    Input('input_state_page1', 'value')
+)
+def victims_update(input_race, input_region, input_sex, input_state):
+
+    fig = go.Figure()
+
+    df_local = filter_data(df,
+        input_race=input_race,
+        input_region=input_region,
+        input_sex=input_sex,
+        input_state=input_state
+        )
+
+    fig.add_trace(go.Bar(
+        x=df_local[['White Male Victims', 'White Female Victims', 'Other Male Victims', 'Other Female Victims']].sum().keys(),
+        y=df_local[['White Male Victims', 'White Female Victims', 'Other Male Victims', 'Other Female Victims']].sum(),
+        marker_color=colors['plot_color'],
+        )
+    )
+
+    fig.update_layout(
+        title='Victims based on race and sex',
+        plot_bgcolor="white",
+    )
 
     return fig

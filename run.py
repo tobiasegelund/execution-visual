@@ -19,7 +19,7 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
     Input('url', 'pathname')
 )
 def display_page(pathname):
-    if pathname == '/execution-page1':
+    if pathname == '/overall':
         return page_1_layout
     else:
         return page_2_layout
