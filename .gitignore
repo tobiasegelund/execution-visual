@@ -140,3 +140,7 @@ cython_debug/
 
 # DS_Store (MAC)
 .DS_Store
+
+#sublime text project files
+.sublime-workspace
+.sublime-project

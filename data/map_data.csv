@@ -1,0 +1,52 @@
+,State,White Convicted,Other Convicted,Executions,State Code,Executions Scaled,White/Other ratio
+0,Alabama,38,29,67,AL,5.204692619390966,1.31
+1,Arizona,29,8,37,AZ,4.610917912644224,3.62
+2,Arkansas,20,11,31,AR,4.433987204485146,1.82
+3,California,8,5,13,CA,3.5649493574615367,1.6
+4,Colorado,1,0,1,CO,1.0,inf
+5,Connecticut,1,0,1,CT,1.0,inf
+6,Delaware,8,8,16,DE,3.772588722239781,1.0
+7,Federal,6,5,11,FE,3.3978952727983707,1.2
+8,Florida,62,37,99,FL,5.59511985013459,1.68
+9,Georgia,48,28,76,GA,5.330733340286331,1.71
+10,Idaho,3,0,3,ID,2.09861228866811,inf
+11,Illinois,7,5,12,IL,3.4849066497880004,1.4
+12,Indiana,17,3,20,IN,3.995732273553991,5.67
+13,Kentucky,3,0,3,KY,2.09861228866811,inf
+14,Louisiana,15,13,28,LA,4.332204510175204,1.15
+15,Maryland,2,3,5,MD,2.6094379124341005,0.67
+16,Mississippi,15,6,21,MS,4.044522437723423,2.5
+17,Missouri,55,35,90,MO,5.499809670330265,1.57
+18,Montana,3,0,3,MT,2.09861228866811,inf
+19,Nebraska,2,2,4,NE,2.386294361119891,1.0
+20,Nevada,9,3,12,NV,3.4849066497880004,3.0
+21,New Mexico,1,0,1,NM,1.0,inf
+22,North Carolina,28,15,43,NC,4.761200115693562,1.87
+23,Ohio,37,19,56,OH,5.02535169073515,1.95
+24,Oklahoma,67,45,112,OK,5.718498871295094,1.49
+25,Oregon,2,0,2,OR,1.6931471805599454,inf
+26,Pennsylvania,3,0,3,PA,2.09861228866811,inf
+27,South Carolina,27,16,43,SC,4.761200115693562,1.69
+28,South Dakota,5,0,5,SD,2.6094379124341005,inf
+29,Tennessee,12,1,13,TN,3.5649493574615367,12.0
+30,Texas,251,319,570,TX,7.345636360828596,0.79
+31,Utah,5,2,7,UT,2.9459101490553135,2.5
+32,Virginia,57,56,113,VA,5.727387818712341,1.02
+33,Washington,5,0,5,WA,2.6094379124341005,inf
+34,Wyoming,1,0,1,WY,1.0,inf
+35,Alaska,0,0,0,AK,0.0,No executions
+36,Hawaii,0,0,0,HI,0.0,No executions
+37,Iowa,0,0,0,IA,0.0,No executions
+38,Kansas,0,0,0,KS,0.0,No executions
+39,Maine,0,0,0,ME,0.0,No executions
+40,Massachusetts,0,0,0,MA,0.0,No executions
+41,Michigan,0,0,0,MI,0.0,No executions
+42,Minnesota,0,0,0,MN,0.0,No executions
+43,New Hampshire,0,0,0,NH,0.0,No executions
+44,New Jersey,0,0,0,NJ,0.0,No executions
+45,New York,0,0,0,NY,0.0,No executions
+46,North Dakota,0,0,0,ND,0.0,No executions
+47,Rhode Island,0,0,0,RI,0.0,No executions
+48,Vermont,0,0,0,VT,0.0,No executions
+49,West Virginia,0,0,0,WV,0.0,No executions
+50,Wisconsin,0,0,0,WI,0.0,No executions
