@@ -6,9 +6,9 @@ import plotly.graph_objects as go
 import plotly.express as px
 import numpy as np
 from collections import Counter
-from app.inputs import df, available_region, available_states, available_years, available_regions_states, encoded_image, encoded_image2, df_map
+from app.inputs import df, available_region, available_states, available_years, available_regions_states, encoded_image, df_map, df_executions_sunburst, df_victims_sunburst
 from app.style import colors, SIDEBAR_STYLE, CONTENT_MAP_STYLE, CONTENT_STYLE,CONTENT_STYLE_PART1, CONTENT_STYLE_PART2
-from app.helper_functions import filter_data
+from app.helper_functions import filter_data, build_hierarchical_dataframe
 from app.app import app
 
 
@@ -19,27 +19,38 @@ sidebar_page_1 = html.Div(
             [
                 dbc.NavLink(
                     html.Span(
-                        [html.Img(src='data:image/png;base64,{}'.format(encoded_image2.decode()),
-                            style={'height': '30px'}
+                        [html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode()),
+                            style={'height': '20px', 'margin-top': '-3px'}
                         ),
-                        html.P("Overall", style={'margin-left': '8px', 'margin-top': '1px', 'margin-bottom': '-25px'})
+                        html.P("Overview", style={'margin-left': '8px', 'margin-top': '1px', 'margin-bottom': '-25px'})
                     ],
                     style={'display': '-webkit-inline-box'}
                     ),
                     active=True,
-                    href="/overall"
+                    href="/overview"
                 ),
                 dbc.NavLink(
                     html.Span(
                         [html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode()),
-                            style={'height': '30px'}
+                            style={'height': '20px', 'margin-top': '-3px'}
                         ),
-                        html.P("Timeline", style={'margin-left': '8px', 'margin-top': '1px'})
+                        html.P("Timeline", style={'margin-left': '8px', 'margin-top': '0px', 'margin-bottom': '-25px'})
                     ],
-                    style={'display': '-webkit-inline-box'}
+                    style={'display': '-webkit-inline-box', 'opacity': '0.6'}
                     ),
                     active=True,
                     href="/timeline"),
+                dbc.NavLink(
+                    html.Span(
+                        [html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode()),
+                            style={'height': '20px', 'margin-top': '-3px'}
+                        ),
+                        html.P("Frame of reference", style={'margin-left': '8px', 'margin-top': '0px'})
+                    ],
+                    style={'display': '-webkit-inline-box', 'opacity': '0.6'}
+                    ),
+                    active=True,
+                    href="/frameofreference"),
             ],
             style={'font-size': '18px'},
             vertical=True,
@@ -53,7 +64,9 @@ sidebar_page_1 = html.Div(
             style={
                 'font-size': '17px',
                 'font-weight': '700'
-            }
+            },
+            labelStyle={"margin-right": "10px"},
+            inputStyle={"margin-right": "5px"}
         ),
         html.Br(),
         dcc.Checklist(
@@ -63,7 +76,9 @@ sidebar_page_1 = html.Div(
             style={
                 'font-size': '17px',
                 'font-weight': '700'
-            }
+            },
+            labelStyle={"margin-right": "10px"},
+            inputStyle={"margin-right": "5px"}
         ),
         html.Br(),
         dcc.Dropdown(
@@ -84,38 +99,52 @@ sidebar_page_1 = html.Div(
     style=SIDEBAR_STYLE,
 )
 
-content_map_page_1 = html.Div([
-    html.H2('INCOMING MAP'),
-    dcc.Graph(
-        id='map1'
-    )
+content_page1 = html.Div(
+    [
+        dbc.Row(
+            [
+                html.H2('Death Row Executions 1977-2020'),
+                dbc.Col(
+                    html.Div([
+                        dcc.Graph(
+                            id='map1'
+                        )
+                    ]),
+                    width={"offset": 1}
+                )
+            ]
+        ),
+        dbc.Row(
+            [
+                dbc.Col(
+                    html.Div([
+                        html.H4('Executions based on race & gender'),
+                        dcc.Graph(
+                            id='convicted_sunburst_figure'
+                        )
+                    ]),
+                    width={"offset": 2}
+                ),
+                dbc.Col(
+                    html.Div([
+                        html.H4('Victims based on race & gender'),
+                        dcc.Graph(
+                            id='victims_figure'
+                        )
+                    ]),
+                    width={"offset": 2}
+                ),
+            ]
+        ),
     ],
     style=CONTENT_MAP_STYLE
 )
 
-content_part1_page_1 = html.Div([
-    dcc.Graph(
-        id='race_convicted_figure'
-    ),
-    dcc.Graph(
-        id='victims_figure'
-    )],
-    style=CONTENT_STYLE_PART1
-)
-
-content_part2_page_1 = html.Div([
-    dcc.Graph(
-        id='sex_convicted_figure'
-    )],
-    style=CONTENT_STYLE_PART2
-)
 
 
 page_1_layout = html.Div([
     sidebar_page_1,
-    content_map_page_1,
-    content_part1_page_1,
-    content_part2_page_1
+    content_page1
 ])
 
 
@@ -138,61 +167,6 @@ def update_states(input_region):
 
 
 @app.callback(
-    Output('race_convicted_figure', 'figure'),
-    Input('input_race_page1', 'value'),
-    Input('input_region_page1', 'value'),
-    Input('input_sex_page1', 'value'),
-    Input('input_state_page1', 'value')
-)
-def race_convicted_update(input_race, input_region, input_sex, input_state):
-
-
-    df_local = filter_data(df,
-        input_region=input_region,
-        input_sex=input_sex,
-        input_state=input_state
-    )
-
-    if input_race == ['White']:
-        local_colors  = [colors['highlight_color'], colors['plot_color']]
-    elif input_race == ['Other']:
-        local_colors = [colors['plot_color'], colors['highlight_color']]
-    else:
-        local_colors = [colors['plot_color'], colors['plot_color']]
-
-    fig = go.Figure()
-
-    fig.add_trace(go.Bar(
-        x=df_local[['White Convicted', 'Other Convicted']].sum().keys(),
-        y=df_local[['White Convicted', 'Other Convicted']].sum(),
-        marker_color=local_colors,
-        hovertemplate =
-          '<b>%{text}</b><br>' +
-          '<i>Deaths</i>: %{y} <br>' +
-          '<extra></extra>',
-        text = ['White Convicted', 'Other Convicted']
-    ))
-
-    # remove facet/subplot labels
-    # fig.update_layout(annotations=[], overwrite=True)
-
-    fig.update_layout(
-        title='Executions based on race',
-        height=400,
-        width=400,
-        plot_bgcolor="white",
-        hoverlabel=dict(
-            bgcolor="white",
-            font_size=16,
-            font_family="Rockwell"
-        ),
-        hoverlabel_align = 'right'
-    )
-
-    return fig
-
-
-@app.callback(
     Output('map1', 'figure'),
     Input('input_race_page1', 'value'),
     Input('input_region_page1', 'value'),
@@ -201,23 +175,63 @@ def race_convicted_update(input_race, input_region, input_sex, input_state):
 )
 def update_map(input_race, input_region, input_sex, input_state):
 
+    # https://plotly.com/python/builtin-colorscales/
     df_local = filter_data(
             df=df_map,
-            input_state=input_state
+            input_state=input_state,
+            input_region = input_region
         )
+    df_local["Executions scaled"] = np.log(df_local["Executions"]+1)
 
-    fig = px.choropleth(
-        data_frame=df_local,
-        locationmode="USA-states",
-        locations="State Code",
-        color=np.log(df_local["Executions"]+1),
-        color_continuous_scale=px.colors.sequential.YlOrRd,
-        range_color=[0,8],
-        hover_name="State",
-        hover_data={"Executions": True, "White Convicted": True, "Other Convicted": True, "State Code": False,
-                    "Executions Scaled": False, "White/Other ratio": False},
-        title="Death Row Executions 1977-2016",
-        scope="usa"
+    fig = go.Figure(
+        data=go.Choropleth(
+        locations=df_local['State Code'],
+        z=df_local["Executions Scaled"].astype(float),
+        zmin=0,
+        zmax=8,
+        locationmode='USA-states',
+        colorscale=px.colors.sequential.Teal,
+        colorbar_len=0.5,
+        autocolorscale=False,
+        marker_line_color='white', # line markers between states
+        text=df_local[['State', 'Executions', 'White Convicted', 'Other Convicted']], # hover text
+        hovertemplate=
+            '<b>%{text[0]}</b><br>' +
+            '<i>Executions</i>: %{text[1]} <br>' +
+            '<i>White Executed</i>: %{text[2]} <br>' +
+            '<i>Other Race Executed</i>: %{text[3]} <br>' +
+            '<extra></extra>',
+        colorbar=dict(
+            title="No. of executions",
+            titleside="top",
+            tickmode="array",
+            tickvals=[0.5, 7.5],
+            ticktext=['Low', 'High'],
+            ticks="outside"
+        )
+    ))
+
+    fig.update_layout(
+        # title_text='Death Row Executions 1977-2020',
+        geo = dict(
+            scope='usa',
+            projection=go.layout.geo.Projection(type = 'albers usa'),
+            showlakes=True,
+            lakecolor='rgb(255, 255, 255)'
+        ),
+        height=600,
+        width=1500,
+        hoverlabel=dict(
+            bgcolor="white",
+            font_size=16,
+            font_family="Rockwell"
+        ),
+        hoverlabel_align = 'right',
+        margin = dict(t=0, l=0, r=0, b=50),
+        legend=dict(
+            bgcolor='black',
+            orientation='v'
+        )
     )
 
     return fig
@@ -225,53 +239,56 @@ def update_map(input_race, input_region, input_sex, input_state):
 
 
 @app.callback(
-    Output('sex_convicted_figure', 'figure'),
+    Output('convicted_sunburst_figure', 'figure'),
     Input('input_race_page1', 'value'),
     Input('input_region_page1', 'value'),
     Input('input_sex_page1', 'value'),
     Input('input_state_page1', 'value')
 )
-def sex_convicted_update(input_race, input_region, input_sex, input_state):
-
-
-    df_local = filter_data(df,
+def convicted_sunburst_update(input_race, input_region, input_sex, input_state):
+    df_local = filter_data(df_executions_sunburst,
         input_race=input_race,
         input_region=input_region,
+        input_sex=input_sex,
         input_state=input_state
     )
 
-    if input_sex == ['Male']:
-        local_colors  = [colors['highlight_color'], colors['plot_color']]
-    elif input_sex == ['Female']:
-        local_colors = [colors['plot_color'], colors['highlight_color']]
-    else:
-        local_colors = [colors['plot_color'], colors['plot_color']]
+    df_local = build_hierarchical_dataframe(df_local, ['Race4', 'Race3', 'Race2'], 'Executions')
 
     fig = go.Figure()
 
-    fig.add_trace(go.Bar(
-        x=df_local[['Male Convicted', 'Female Convicted']].sum().keys(),
-        y=df_local[['Male Convicted', 'Female Convicted']].sum(),
-        marker_color=local_colors,
-        hovertemplate =
-          '<b>%{text}</b><br>' +
-          '<i>Deaths</i>: %{y} <br>' +
-          '<extra></extra>',
-        text = ['Male', 'Female']
-        )
-    )
+    # https://plotly.com/python/reference/sunburst/#sunburst-text
+    fig.add_trace(go.Sunburst(
+        labels=df_local["id"],
+        parents=df_local["parent"],
+        values=df_local["value"],
+        branchvalues="total",
+        maxdepth=2,
+        marker=dict(
+            # colors=df_all_trees['color'],
+            colorscale='RdBu',
+            line=dict(
+                width=1
+            )
+        ),
+        insidetextfont=dict(
+            size=16,
+            family="Rockwell"
+        ),
+        insidetextorientation='horizontal'
+    ))
 
     fig.update_layout(
-        title='Executions based on sex',
-        height=400,
-        width=400,
         plot_bgcolor="white",
         hoverlabel=dict(
             bgcolor="white",
             font_size=16,
             font_family="Rockwell"
         ),
-        hoverlabel_align = 'right'
+        hoverlabel_align = 'right',
+        margin = dict(t=0, l=0, r=0, b=0),
+        height = 400,
+        width = 400
     )
 
     return fig
@@ -284,38 +301,53 @@ def sex_convicted_update(input_race, input_region, input_sex, input_state):
     Input('input_sex_page1', 'value'),
     Input('input_state_page1', 'value')
 )
-def victims_update(input_race, input_region, input_sex, input_state):
+def victims_sunburst_update(input_race, input_region, input_sex, input_state):
 
-    fig = go.Figure()
-
-    df_local = filter_data(df,
+    df_local = filter_data(df_victims_sunburst,
         input_race=input_race,
         input_region=input_region,
         input_sex=input_sex,
         input_state=input_state
-        )
-
-    fig.add_trace(go.Bar(
-        x=df_local[['White Male Victims', 'White Female Victims', 'Other Male Victims', 'Other Female Victims']].sum().keys(),
-        y=df_local[['White Male Victims', 'White Female Victims', 'Other Male Victims', 'Other Female Victims']].sum(),
-        marker_color=colors['plot_color'],
-        hovertemplate =
-          '<b>%{text}</b><br>' +
-          '<i>Deaths</i>: %{y} <br>' +
-          '<extra></extra>',
-        text = ['White Male Victims', 'White Female Victims', 'Other Male Victims', 'Other Female Victims']
-        )
     )
 
+    df_local = build_hierarchical_dataframe(df_local, ['Race4', 'Race3', 'Race2'], 'Victim')
+
+    fig = go.Figure()
+
+    # https://plotly.com/python/reference/sunburst/#sunburst-text
+    fig.add_trace(go.Sunburst(
+        labels=df_local["id"],
+        parents=df_local["parent"],
+        values=df_local["value"],
+        branchvalues="total",
+        maxdepth=2,
+        marker=dict(
+            # colors=df_all_trees['color'],
+            colorscale='RdBu',
+            line=dict(
+                width=1
+            )
+        ),
+        insidetextfont=dict(
+            size=16,
+            family="Rockwell"
+        ),
+        insidetextorientation='horizontal'
+    ))
+
     fig.update_layout(
-        title='Victims based on race and sex',
         plot_bgcolor="white",
         hoverlabel=dict(
             bgcolor="white",
             font_size=16,
             font_family="Rockwell"
         ),
-        hoverlabel_align = 'right'
+        hoverlabel_align = 'right',
+        margin = dict(t=0, l=0, r=0, b=0),
+        height = 400,
+        width = 400
     )
+
+    return fig
 
     return fig

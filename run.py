@@ -5,6 +5,7 @@ from dash.dependencies import Input, Output
 from app.style import colors
 from app.page1 import page_1_layout
 from app.page2 import page_2_layout
+from app.page3 import page_3_layout
 from app.app import app
 
 app.layout = html.Div(style={'backgroundColor': colors['background']}, children=[
@@ -19,10 +20,14 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
     Input('url', 'pathname')
 )
 def display_page(pathname):
-    if pathname == '/overall':
+    if pathname == '/overview':
         return page_1_layout
-    else:
+    elif pathname == '/timeline':
         return page_2_layout
+    elif pathname == '/frameofreference':
+        return page_3_layout
+    else:
+        return page_1_layout
 
 
 

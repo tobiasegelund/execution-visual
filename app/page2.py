@@ -1,4 +1,3 @@
-import dash
 import dash_bootstrap_components as dbc
 import dash_core_components as dcc
 import dash_html_components as html
@@ -6,7 +5,7 @@ from dash.dependencies import Input, Output
 import plotly.graph_objects as go
 import plotly.express as px
 from collections import Counter
-from app.inputs import df, available_region, available_states, available_years, available_regions_states, df_map_timeline
+from app.inputs import df, available_region, available_states, available_years, available_regions_states, df_map_timeline, encoded_image
 from app.helper_functions import filter_data
 from app.style import colors, SIDEBAR_STYLE, CONTENT_MAP_STYLE, CONTENT_STYLE
 from app.app import app
@@ -17,8 +16,40 @@ sidebar_page_2 = html.Div(
         html.H2("Execution", className="sidebar-design"),
         dbc.Nav(
             [
-                dbc.NavLink("Overall", active=True, href="/overall"),
-                dbc.NavLink("Timeline", active=True, href="/timeline"),
+                dbc.NavLink(
+                    html.Span(
+                        [html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode()),
+                            style={'height': '20px', 'margin-top': '-3px'}
+                        ),
+                        html.P("Overview", style={'margin-left': '8px', 'margin-top': '1px', 'margin-bottom': '-25px'})
+                    ],
+                    style={'display': '-webkit-inline-box', 'opacity': '0.6'}
+                    ),
+                    active=True,
+                    href="/overview"
+                ),
+                dbc.NavLink(
+                    html.Span(
+                        [html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode()),
+                            style={'height': '20px', 'margin-top': '-3px'}
+                        ),
+                        html.P("Timeline", style={'margin-left': '8px', 'margin-top': '0px', 'margin-bottom': '-25px'})
+                    ],
+                    style={'display': '-webkit-inline-box'}
+                    ),
+                    active=True,
+                    href="/timeline"),
+                dbc.NavLink(
+                    html.Span(
+                        [html.Img(src='data:image/png;base64,{}'.format(encoded_image.decode()),
+                            style={'height': '20px', 'margin-top': '-3px'}
+                        ),
+                        html.P("Frame of reference", style={'margin-left': '8px', 'margin-top': '0px'})
+                    ],
+                    style={'display': '-webkit-inline-box', 'opacity': '0.6'}
+                    ),
+                    active=True,
+                    href="/frameofreference"),
             ],
             style={'font-size': '18px'},
             vertical=True
@@ -32,7 +63,9 @@ sidebar_page_2 = html.Div(
             style={
                 'font-size': '17px',
                 'font-weight': '700'
-            }
+            },
+            labelStyle={"margin-right": "10px"},
+            inputStyle={"margin-right": "5px"}
         ),
         html.Br(),
         dcc.Checklist(
@@ -42,7 +75,9 @@ sidebar_page_2 = html.Div(
             style={
                 'font-size': '17px',
                 'font-weight': '700'
-            }
+            },
+            labelStyle={"margin-right": "10px"},
+            inputStyle={"margin-right": "5px"}
         ),
         html.Br(),
         dcc.Dropdown(
@@ -62,40 +97,66 @@ sidebar_page_2 = html.Div(
     style=SIDEBAR_STYLE,
 )
 
-content_map_page_2 = html.Div([
-
-    html.H1('INCOMING MAP'),
-    dcc.Graph(
-        id='map_timeline'
-    ),
-    dcc.RangeSlider(
-        id='input_ranger',
-        min=2010,
-        max=2020,
-        step=None,
-        marks={str(year): str(year) for year in available_years},
-        value=[2012, 2018]
-    )
+content_page2 = html.Div(
+    [
+        dbc.Row(
+            [
+                html.H2('Death Row Executions 1977-2020'),
+                dbc.Col(
+                    html.Div([
+                        dcc.Graph(
+                            id='map_timeline'
+                        )
+                    ]),
+                    width={"offset": 1}
+                )
+            ]
+        ),
+        dbc.Row(
+            [
+                dbc.Col(
+                    html.Div([
+                        html.H4('Executions over time since 1977'),
+                        dcc.Graph(
+                            id='executions_timeline_page2'
+                        )
+                    ]),
+                    width=6
+                ),
+                dbc.Col(
+                    html.Div([
+                        html.H4('Victims of executed humans over time since 1977'),
+                        dcc.Graph(
+                            id='victims_grouped_page2'
+                        )
+                    ]),
+                    width=6
+                ),
+            ]
+        ),
+        dbc.Row(
+            dbc.Col(
+                html.Div(
+                    [
+                        dcc.RangeSlider(
+                            id='input_ranger',
+                            min=1977,
+                            max=2020,
+                            step=None,
+                            marks={str(year): {'label': str(year), 'style': {'size': '12rem'}} for year in available_years},
+                            value=[1977, 2020]
+                        )
+                    ]
+                )
+            )
+        )
     ],
     style=CONTENT_MAP_STYLE
 )
 
-content_page_2= html.Div([
-    dcc.Graph(
-        id='executions_timeline_page2'
-    ),
-    dcc.Graph(
-        id='victims_grouped_page2'
-    )
-    ],
-    style=CONTENT_STYLE
-)
-
-
 page_2_layout = html.Div([
         sidebar_page_2,
-        content_map_page_2,
-        content_page_2
+        content_page2
     ]
 )
 
@@ -130,30 +191,59 @@ def update_map_timeline(input_race, input_region, input_sex, input_state, input_
     df_local = filter_data(
         df_map_timeline,
         input_state=input_state,
-        input_time=input_time
+        input_time=input_time,
+        input_region=input_region
     )
 
-    fig = px.choropleth(
-        data_frame=df_local,
-        locationmode="USA-states",
-        locations="State Code",
-        color="Executions Scaled",
-        color_continuous_scale=px.colors.sequential.YlOrRd,
-        range_color=[0,5],
-        hover_name="State",
-        hover_data={"Executions": True, "White Convicted": True, "Other Convicted": True, "State Code": False,
-                    "Executions Scaled": False},
-        title=f"Death Row Executions in year",
-        scope="usa",
-        # template="plotly_dark",
-    )
+    # https://plotly.com/python/reference/#layout-legend
+    fig = go.Figure(
+        data=go.Choropleth(
+        locations=df_local['State Code'],
+        z=df_local["Executions Scaled"].astype(float),
+        zmin=0,
+        zmax=5,
+        locationmode='USA-states',
+        colorscale=px.colors.sequential.Teal,
+        colorbar_len=0.5,
+        autocolorscale=False,
+        marker_line_color='white', # line markers between states
+        text=df_local[['State', 'Executions', 'White Convicted', 'Other Convicted']], # hover text
+        hovertemplate=
+            '<b>%{text[0]}</b><br>' +
+            '<i>Executions</i>: %{text[1]} <br>' +
+            '<i>White executed</i>: %{text[2]} <br>' +
+            '<i>Other Race executed</i>: %{text[3]} <br>' +
+            '<extra></extra>',
+        colorbar=dict(
+            title="No. of executions",
+            titleside="top",
+            tickmode="array",
+            tickvals=[0.5, 4.5],
+            ticktext=['Low', 'High'],
+            ticks="outside"
+        )
+    ))
 
+    fig.update_layout(
+        # title_text='Death Row Executions 1977-2020',
+        geo = dict(
+            scope='usa',
+            projection=go.layout.geo.Projection(type = 'albers usa'),
+            showlakes=True, # lakes
+            lakecolor='rgb(255, 255, 255)'),
+            height=600,
+            width=1500,
+            hoverlabel=dict(
+                bgcolor="white",
+                font_size=16,
+                font_family="Rockwell"
+            ),
+            hoverlabel_align = 'right',
+            margin = dict(t=0, l=0, r=0, b=50),
+    )
 
 
     return fig
-
-
-
 
 
 @app.callback(
@@ -161,9 +251,10 @@ def update_map_timeline(input_race, input_region, input_sex, input_state, input_
     Input('input_race_page2', 'value'),
     Input('input_region_page2', 'value'),
     Input('input_sex_page2', 'value'),
-    Input('input_state_page2', 'value')
+    Input('input_state_page2', 'value'),
+    Input('input_ranger', 'value')
 )
-def executions_timelige(input_race, input_region, input_sex, input_state):
+def executions_timeline(input_race, input_region, input_sex, input_state, input_year):
 
     df_local = filter_data(df,
         # input_race=input_race,
@@ -207,7 +298,7 @@ def executions_timelige(input_race, input_region, input_sex, input_state):
 
     # strip down the rest of the plot
     fig.update_layout(
-        title='Humans executated over time since 1977',
+        # title='Humans executated over time since 1977',
         xaxis_title='Year',
         yaxis_title='Executions',
         showlegend=True,
@@ -218,7 +309,7 @@ def executions_timelige(input_race, input_region, input_sex, input_state):
             font_size=16,
             font_family="Rockwell"
         ),
-        # margin=dict(t=10,l=10,b=10,r=10)
+        margin = dict(t=0, l=0, r=0, b=0),
     )
 
 
@@ -230,9 +321,10 @@ def executions_timelige(input_race, input_region, input_sex, input_state):
     Input('input_race_page2', 'value'),
     Input('input_region_page2', 'value'),
     Input('input_sex_page2', 'value'),
-    Input('input_state_page2', 'value')
+    Input('input_state_page2', 'value'),
+    Input('input_ranger', 'value')
 )
-def victims_timeline(input_race, input_region, input_sex, input_state):
+def victims_timeline(input_race, input_region, input_sex, input_state, input_year):
 
     fig = go.Figure()
 
@@ -240,7 +332,8 @@ def victims_timeline(input_race, input_region, input_sex, input_state):
         input_race=input_race,
         input_region=input_region,
         input_sex=input_sex,
-        input_state=input_state
+        input_state=input_state,
+        # input_year=input_year
     )
 
     fig.add_trace(go.Bar(
@@ -260,7 +353,7 @@ def victims_timeline(input_race, input_region, input_sex, input_state):
     fig.update_yaxes(range=[0, 140], visible=True, dtick=20, fixedrange=True)
 
     fig.update_layout(
-        title='Victims over time since 1977',
+        # title='Victims over time since 1977',
         xaxis_title='Year',
         yaxis_title='Victims',
         showlegend=False,
@@ -271,8 +364,9 @@ def victims_timeline(input_race, input_region, input_sex, input_state):
             font_family="Rockwell"
         ),
         hoverlabel_align = 'right',
-        width=1000,
-        height=500,
+        margin = dict(t=0, l=0, r=0, b=0),
+        # width=1000,
+        # height=500,
     )
 
     return fig

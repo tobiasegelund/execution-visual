@@ -1,0 +1,94 @@
+,Region,State,Race,Sex,Race2,Race3,Race4,Executions
+0,Federal,Federal,Black,Male,Other,Other Male,Black Male,3
+1,Federal,Federal,Latino,Male,Other,Other Male,Latino Male,1
+2,Federal,Federal,Native American,Male,Other,Other Male,Native American Male,1
+3,Federal,Federal,White,Male,White,White Male,White Male,6
+4,Midwest,Illinois,Black,Male,Other,Other Male,Black Male,5
+5,Midwest,Illinois,White,Male,White,White Male,White Male,7
+6,Midwest,Indiana,Black,Male,Other,Other Male,Black Male,3
+7,Midwest,Indiana,White,Male,White,White Male,White Male,17
+8,Midwest,Missouri,Black,Male,Other,Other Male,Black Male,34
+9,Midwest,Missouri,Native American,Male,Other,Other Male,Native American Male,1
+10,Midwest,Missouri,White,Male,White,White Male,White Male,55
+11,Midwest,Nebraska,Black,Male,Other,Other Male,Black Male,2
+12,Midwest,Nebraska,White,Male,White,White Male,White Male,2
+13,Midwest,Ohio,Black,Male,Other,Other Male,Black Male,19
+14,Midwest,Ohio,White,Male,White,White Male,White Male,37
+15,Midwest,South Dakota,White,Male,White,White Male,White Male,5
+16,Northeast,Connecticut,White,Male,White,White Male,White Male,1
+17,Northeast,Pennsylvania,White,Male,White,White Male,White Male,3
+18,South,Alabama,Black,Male,Other,Other Male,Black Male,29
+19,South,Alabama,White,Female,White,White Female,White Female,1
+20,South,Alabama,White,Male,White,White Male,White Male,37
+21,South,Arkansas,Black,Male,Other,Other Male,Black Male,10
+22,South,Arkansas,Latino,Male,Other,Other Male,Latino Male,1
+23,South,Arkansas,White,Female,White,White Female,White Female,1
+24,South,Arkansas,White,Male,White,White Male,White Male,19
+25,South,Delaware,Black,Male,Other,Other Male,Black Male,7
+26,South,Delaware,Native American,Male,Other,Other Male,Native American Male,1
+27,South,Delaware,White,Male,White,White Male,White Male,8
+28,South,Florida,Black,Male,Other,Other Male,Black Male,28
+29,South,Florida,Latino,Male,Other,Other Male,Latino Male,8
+30,South,Florida,Native American,Male,Other,Other Male,Native American Male,1
+31,South,Florida,White,Female,White,White Female,White Female,2
+32,South,Florida,White,Male,White,White Male,White Male,60
+33,South,Georgia,Black,Male,Other,Other Male,Black Male,28
+34,South,Georgia,White,Female,White,White Female,White Female,1
+35,South,Georgia,White,Male,White,White Male,White Male,47
+36,South,Kentucky,White,Male,White,White Male,White Male,3
+37,South,Louisiana,Black,Male,Other,Other Male,Black Male,13
+38,South,Louisiana,White,Male,White,White Male,White Male,15
+39,South,Maryland,Black,Male,Other,Other Male,Black Male,3
+40,South,Maryland,White,Male,White,White Male,White Male,2
+41,South,Mississippi,Black,Male,Other,Other Male,Black Male,6
+42,South,Mississippi,White,Male,White,White Male,White Male,15
+43,South,North Carolina,Black,Male,Other,Other Male,Black Male,13
+44,South,North Carolina,Native American,Male,Other,Other Male,Native American Male,1
+45,South,North Carolina,Other Race,Male,Other,Other Male,Other Race Male,1
+46,South,North Carolina,White,Female,White,White Female,White Female,1
+47,South,North Carolina,White,Male,White,White Male,White Male,27
+48,South,Oklahoma,Asian,Male,Other,Other Male,Asian Male,2
+49,South,Oklahoma,Black,Female,Other,Other Female,Black Female,1
+50,South,Oklahoma,Black,Male,Other,Other Male,Black Male,34
+51,South,Oklahoma,Latino,Male,Other,Other Male,Latino Male,1
+52,South,Oklahoma,Native American,Male,Other,Other Male,Native American Male,6
+53,South,Oklahoma,Other Race,Male,Other,Other Male,Other Race Male,1
+54,South,Oklahoma,White,Female,White,White Female,White Female,2
+55,South,Oklahoma,White,Male,White,White Male,White Male,65
+56,South,South Carolina,Black,Male,Other,Other Male,Black Male,16
+57,South,South Carolina,White,Male,White,White Male,White Male,27
+58,South,Tennessee,Black,Male,Other,Other Male,Black Male,1
+59,South,Tennessee,White,Male,White,White Male,White Male,12
+60,South,Texas,Asian,Male,Other,Other Male,Asian Male,2
+61,South,Texas,Black,Female,Other,Other Female,Black Female,3
+62,South,Texas,Black,Male,Other,Other Male,Black Male,203
+63,South,Texas,Latino,Male,Other,Other Male,Latino Male,109
+64,South,Texas,Native American,Male,Other,Other Male,Native American Male,2
+65,South,Texas,White,Female,White,White Female,White Female,3
+66,South,Texas,White,Male,White,White Male,White Male,248
+67,South,Virginia,Black,Male,Other,Other Male,Black Male,52
+68,South,Virginia,Latino,Male,Other,Other Male,Latino Male,3
+69,South,Virginia,Other Race,Male,Other,Other Male,Other Race Male,1
+70,South,Virginia,White,Female,White,White Female,White Female,1
+71,South,Virginia,White,Male,White,White Male,White Male,56
+72,West,Arizona,Black,Male,Other,Other Male,Black Male,1
+73,West,Arizona,Latino,Male,Other,Other Male,Latino Male,5
+74,West,Arizona,Native American,Male,Other,Other Male,Native American Male,2
+75,West,Arizona,White,Male,White,White Male,White Male,29
+76,West,California,Asian,Male,Other,Other Male,Asian Male,1
+77,West,California,Black,Male,Other,Other Male,Black Male,2
+78,West,California,Native American,Male,Other,Other Male,Native American Male,2
+79,West,California,White,Male,White,White Male,White Male,8
+80,West,Colorado,White,Male,White,White Male,White Male,1
+81,West,Idaho,White,Male,White,White Male,White Male,3
+82,West,Montana,White,Male,White,White Male,White Male,3
+83,West,Nevada,Asian,Male,Other,Other Male,Asian Male,1
+84,West,Nevada,Black,Male,Other,Other Male,Black Male,1
+85,West,Nevada,Latino,Male,Other,Other Male,Latino Male,1
+86,West,Nevada,White,Male,White,White Male,White Male,9
+87,West,New Mexico,White,Male,White,White Male,White Male,1
+88,West,Oregon,White,Male,White,White Male,White Male,2
+89,West,Utah,Black,Male,Other,Other Male,Black Male,2
+90,West,Utah,White,Male,White,White Male,White Male,5
+91,West,Washington,White,Male,White,White Male,White Male,5
+92,West,Wyoming,White,Male,White,White Male,White Male,1

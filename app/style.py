@@ -4,7 +4,6 @@ colors = {
     'text': '#7FDBFF',
     'plot_color': 'rgb(55, 83, 109)',
     'highlight_color': 'rgb(229, 151, 50)'
-
 }
 
 # STYLE OF SIDEBAR
@@ -20,11 +19,11 @@ SIDEBAR_STYLE = {
 
 # STYLE OF MAP
 CONTENT_MAP_STYLE = {
-    "position": "fixed",
+    # "position": "",
     "margin-left": "18rem",
     "margin-right": "2rem",
     "padding": "2rem 1rem",
-    "width": "40rem"
+    # "width": "40rem"
 }
 
 # STYLE OF CONTENT

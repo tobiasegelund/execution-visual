@@ -1,12 +1,13 @@
 import pandas as pd
 import base64
 
-encoded_image = base64.b64encode(open("./icons/right-arrow.png", 'rb').read())
-encoded_image2 = base64.b64encode(open("./icons/down-arrow.png", 'rb').read())
+encoded_image = base64.b64encode(open("./icons/fast-forward-double-right-arrows-symbol.png", 'rb').read())
 
 df = pd.read_csv('./data/executions.csv')
 df_map = pd.read_csv('./data/map_data.csv')
 df_map_timeline = pd.read_csv('./data/timeline_map_data.csv')
+df_executions_sunburst = pd.read_csv('./data/executions_data_sunburst.csv')
+df_victims_sunburst = pd.read_csv('./data/victims_sunburst.csv')
 
 available_region = df['Region'].unique()
 available_states = df['State'].unique()
@@ -24,13 +25,13 @@ available_years = [
 
 
 available_regions_states = {
-    'West': ['Utah', 'Nevada', 'Wyoming', 'Arizona', 'California', 'Washington', 'Idaho', 'Montana', 'Oregon', 'Colorado', 'New Mexico'],
+    'West': ['Utah', 'Nevada', 'Wyoming', 'Arizona', 'California', 'Washington', 'Idaho', 'Montana', 'Oregon', 'Colorado', 'New Mexico', 'Hawaii', 'Alaska', ],
     'South': ['Florida', 'Virginia', 'Texas', 'Alabama', 'Mississippi',
        'Louisiana', 'Georgia', 'North Carolina', 'South Carolina',
        'Arkansas', 'Oklahoma', 'Delaware', 'Maryland', 'Kentucky',
-       'Tennessee'],
+       'Tennessee', 'West Virginia'],
     'Midwest': ['Indiana', 'Missouri', 'Illinois', 'Nebraska', 'Ohio',
-       'South Dakota'],
-    'Northeast': ['Pennsylvania', 'Connecticut'],
+       'South Dakota', 'Iowa', 'Minnesota', 'Kansas', 'North Dakota', 'Michigan', 'Wisconsin'],
+    'Northeast': ['Pennsylvania', 'Connecticut', 'Maine', 'New Hampshire', 'Vermont', 'Massachusetts', 'Rhode Island', 'New York', 'New Jersey'],
     'Federal': ['Federal']
 }
