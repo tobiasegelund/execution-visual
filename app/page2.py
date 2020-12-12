@@ -5,7 +5,7 @@ from dash.dependencies import Input, Output
 import plotly.graph_objects as go
 import plotly.express as px
 from collections import Counter
-from app.inputs import df, available_region, available_states, available_years, available_regions_states, df_map_timeline, encoded_image
+from app.inputs import df, available_region, available_states, available_years, available_regions_states, df_map_timeline, encoded_image, github_image
 from app.helper_functions import filter_data
 from app.style import colors, SIDEBAR_STYLE, CONTENT_MAP_STYLE, CONTENT_STYLE
 from app.app import app
@@ -98,6 +98,13 @@ sidebar_page_2 = html.Div(
             # options=[{'label': i, 'value': i} for i in available_states],
             multi=True,
             placeholder='Select state..'
+        ),
+        html.Br(),
+        html.A(
+            [
+            html.Img(src='data:image/png;base64,{}'.format(github_image.decode()),
+                                style={'height': '50px'})
+            ], href='https://github.com/tobiasegelund/execution-visual', target="_blank", style={"margin-left": "80px"}
         )
     ],
     style=SIDEBAR_STYLE,
@@ -217,7 +224,7 @@ def update_map_timeline(input_race, input_region, input_sex, input_state, input_
             '<extra></extra>',
         colorbar=dict(
             title="No. of executions",
-            x=0.8,
+            x=0.9,
             y=0.5,
             titleside="top",
             tickmode="array",
@@ -235,7 +242,7 @@ def update_map_timeline(input_race, input_region, input_sex, input_state, input_
             showlakes=True, # lakes
             lakecolor='rgb(255, 255, 255)'),
             height=600,
-            width=1500,
+            width=1300,
             hoverlabel=dict(
                 bgcolor="white",
                 font_size=16,
@@ -272,7 +279,7 @@ def executions_timeline(input_race, input_region, input_sex, input_state, input_
         x=list(Counter(df_local['Year']).keys()),
         y=list(Counter(df_local['Year']).values()),
         name='All',
-        line={'width': 2, 'color': colors['plot_color']}
+        line={'width': 2, 'color': 'black', 'dash': 'dash'}
         # dash options include 'dash', 'dot', and 'dashdot'
         )
     )
@@ -284,7 +291,7 @@ def executions_timeline(input_race, input_region, input_sex, input_state, input_
         x=list(Counter(df_local_white['Year']).keys()),
         y=list(Counter(df_local_white['Year']).values()),
         name='White humans',
-        line={'width': 2, 'color': 'green'},
+        line={'width': 2, 'color': '#183363'},
         )
     )
 
@@ -292,7 +299,7 @@ def executions_timeline(input_race, input_region, input_sex, input_state, input_
         x=list(Counter(df_local_other['Year']).keys()),
         y=list(Counter(df_local_other['Year']).values()),
         name='Other humans',
-        line={'width': 2, 'color': 'crimson'},
+        line={'width': 2, 'color': '#68021f'},
         )
     )
 

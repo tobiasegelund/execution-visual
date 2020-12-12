@@ -5,7 +5,7 @@ from dash.dependencies import Input, Output
 import plotly.graph_objects as go
 import plotly.express as px
 from collections import Counter
-from app.inputs import available_region, available_states, available_regions_states, encoded_image, state_stats, race_pop_data, race_victim_pop_data
+from app.inputs import available_region, available_states, available_regions_states_page3, encoded_image, state_stats, race_pop_data, race_victim_pop_data, available_regions_page3, github_image
 from app.helper_functions import filter_data
 from app.style import colors, SIDEBAR_STYLE, CONTENT_MAP_STYLE, CONTENT_STYLE
 from app.app import app
@@ -62,7 +62,7 @@ sidebar_page_3 = html.Div(
         html.H6('REGION:'),
         dcc.Dropdown(
             id='input_region_page3',
-            options=[{'label': i, 'value': i} for i in available_region],
+            options=[{'label': i, 'value': i} for i in available_regions_page3],
             multi=True,
             placeholder='Select region..'
         ),
@@ -73,6 +73,13 @@ sidebar_page_3 = html.Div(
             # options=[{'label': i, 'value': i} for i in available_states],
             multi=True,
             placeholder='Select state..'
+        ),
+        html.Br(),
+        html.A(
+            [
+            html.Img(src='data:image/png;base64,{}'.format(github_image.decode()),
+                                style={'height': '50px'})
+            ], href='https://github.com/tobiasegelund/execution-visual', target="_blank", style={"margin-left": "80px"}
         )
     ],
     style=SIDEBAR_STYLE,
@@ -80,7 +87,7 @@ sidebar_page_3 = html.Div(
 
 content_page3 = html.Div(
     [
-        html.H2('Death Row Executions 1977-2020'),
+        html.H2('Death Row Executions pr. MILION (M) STATE capita 1977-2020'),
         dbc.Row(
             [
                 dbc.Col(
@@ -140,7 +147,7 @@ def update_states(input_region):
         return [{'label': i, 'value': i} for i in available_states]
 
     else:
-        values = list(map(available_regions_states.get, input_region))
+        values = list(map(available_regions_states_page3.get, input_region))
         states = []
         for value in values:
             for state in value:
@@ -184,7 +191,7 @@ def update_map2(input_region, input_state):
             '<extra></extra>',
         colorbar=dict(
             title="No. of executions",
-            x=0.8,
+            x=0.9,
             y=0.5,
             titleside="top",
             tickmode="array",
@@ -202,7 +209,7 @@ def update_map2(input_region, input_state):
             showlakes=True, # lakes
             lakecolor='rgb(255, 255, 255)'),
             height=600,
-            width=1500,
+            width=1300,
             hoverlabel=dict(
                 bgcolor="white",
                 font_size=16,

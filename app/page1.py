@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 import numpy as np
 from collections import Counter
-from app.inputs import df, available_region, available_states, available_years, available_regions_states, encoded_image, df_map, df_executions_sunburst, df_victims_sunburst
+from app.inputs import df, available_region, available_states, available_years, available_regions_states, encoded_image, df_map, df_executions_sunburst, df_victims_sunburst, github_image
 from app.style import colors, SIDEBAR_STYLE, CONTENT_MAP_STYLE, CONTENT_STYLE,CONTENT_STYLE_PART1, CONTENT_STYLE_PART2
 from app.helper_functions import filter_data, build_hierarchical_dataframe
 from app.app import app
@@ -100,7 +100,13 @@ sidebar_page_1 = html.Div(
             multi=True,
             placeholder='Select state..'
         ),
-        html.Br()
+        html.Br(),
+        html.A(
+            [
+            html.Img(src='data:image/png;base64,{}'.format(github_image.decode()),
+                                style={'height': '50px'})
+            ], href='https://github.com/tobiasegelund/execution-visual', target="_blank", style={"margin-left": "80px"}
+        )
     ],
     style=SIDEBAR_STYLE,
 )
@@ -211,7 +217,7 @@ def update_map(input_race, input_region, input_sex, input_state):
             '<extra></extra>',
         colorbar=dict(
             title="No. of executions",
-            x=0.8,
+            x=0.9,
             y=0.5,
             titleside="top",
             tickmode="array",
@@ -230,7 +236,7 @@ def update_map(input_race, input_region, input_sex, input_state):
             lakecolor='rgb(255, 255, 255)'
         ),
         height=600,
-        width=1500,
+        width=1300,
         hoverlabel=dict(
             bgcolor="white",
             font_size=16,
@@ -273,10 +279,11 @@ def convicted_sunburst_update(input_race, input_region, input_sex, input_state):
         parents=df_local["parent"],
         values=df_local["value"],
         branchvalues="total",
-        maxdepth=2,
+        maxdepth=4,
         marker=dict(
             colors=df_local['color'],
-            colorscale='RdYlGn',
+            colorscale='RdBu',
+            cmid=0.5,
             line=dict(
                 width=1
             )
@@ -285,7 +292,7 @@ def convicted_sunburst_update(input_race, input_region, input_sex, input_state):
             size=16,
             family="Rockwell"
         ),
-        insidetextorientation='horizontal',
+        insidetextorientation='tangential',
         hovertemplate='<b>%{label} </b> <br> Executions: %{value}<br>'+
                         '<extra></extra>',
     ))
@@ -299,8 +306,8 @@ def convicted_sunburst_update(input_race, input_region, input_sex, input_state):
         ),
         hoverlabel_align = 'right',
         margin = dict(t=0, l=0, r=0, b=0),
-        height = 400,
-        width = 400
+        height = 550,
+        width = 550
     )
 
     return fig
@@ -332,10 +339,11 @@ def victims_sunburst_update(input_race, input_region, input_sex, input_state):
         parents=df_local["parent"],
         values=df_local["value"],
         branchvalues="total",
-        maxdepth=2,
+        maxdepth=4,
         marker=dict(
             colors=df_local['color'],
-            colorscale='RdYlGn',
+            colorscale='RdBu',
+            cmid=0.5,
             line=dict(
                 width=1
             )
@@ -344,7 +352,7 @@ def victims_sunburst_update(input_race, input_region, input_sex, input_state):
             size=16,
             family="Rockwell"
         ),
-        insidetextorientation='horizontal',
+        insidetextorientation='tangential',
         hovertemplate='<b>%{label} </b> <br> Victims: %{value}<br>'+
                         '<extra></extra>',
     ))
@@ -358,8 +366,8 @@ def victims_sunburst_update(input_race, input_region, input_sex, input_state):
         ),
         hoverlabel_align = 'right',
         margin = dict(t=0, l=0, r=0, b=0),
-        height = 400,
-        width = 400
+        height = 550,
+        width = 550
     )
 
     return fig
