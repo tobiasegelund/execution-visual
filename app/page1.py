@@ -14,7 +14,7 @@ from app.app import app
 
 sidebar_page_1 = html.Div(
     [
-        html.H1("Execution", className="sidebar-design"),
+        html.H2("Executions", className="sidebar-design"),
         dbc.Nav(
             [
                 dbc.NavLink(
@@ -57,6 +57,9 @@ sidebar_page_1 = html.Div(
         ),
 
         html.Hr(),
+        html.H5('Filter on executions', style={'font-size':'14px'}),
+        html.Br(),
+        html.H6('RACE:'),
         dcc.Checklist(
             id='input_race_page1',
             options=[{'label': i, 'value': i} for i in ['White', 'Other']],
@@ -69,6 +72,7 @@ sidebar_page_1 = html.Div(
             inputStyle={"margin-right": "5px"}
         ),
         html.Br(),
+        html.H6('GENDER:'),
         dcc.Checklist(
             id='input_sex_page1',
             options=[{'label': i, 'value': i} for i in ['Male', 'Female']],
@@ -81,6 +85,7 @@ sidebar_page_1 = html.Div(
             inputStyle={"margin-right": "5px"}
         ),
         html.Br(),
+        html.H6('REGION:'),
         dcc.Dropdown(
             id='input_region_page1',
             options=[{'label': i, 'value': i} for i in available_region],
@@ -88,6 +93,7 @@ sidebar_page_1 = html.Div(
             placeholder='Select region..'
         ),
         html.Br(),
+        html.H6('STATE:'),
         dcc.Dropdown(
             id='input_state_page1',
             # options=[{'label': i, 'value': i} for i in available_states],
@@ -101,16 +107,16 @@ sidebar_page_1 = html.Div(
 
 content_page1 = html.Div(
     [
+        html.H2('Death Row Executions 1977-2020'),
         dbc.Row(
             [
-                html.H2('Death Row Executions 1977-2020'),
                 dbc.Col(
                     html.Div([
                         dcc.Graph(
                             id='map1'
                         )
                     ]),
-                    width={"offset": 1}
+                    width={"offset": 2}
                 )
             ]
         ),
@@ -178,15 +184,19 @@ def update_map(input_race, input_region, input_sex, input_state):
     # https://plotly.com/python/builtin-colorscales/
     df_local = filter_data(
             df=df_map,
+            input_race=input_race,
+            input_sex=input_sex,
             input_state=input_state,
             input_region = input_region
         )
-    df_local["Executions scaled"] = np.log(df_local["Executions"]+1)
+
+    df_local = df_local.groupby(['State', 'Region', 'State Code']).sum().reset_index()
+    df_local["Executions scaled"] = np.log(df_local["Executions"])
 
     fig = go.Figure(
         data=go.Choropleth(
         locations=df_local['State Code'],
-        z=df_local["Executions Scaled"].astype(float),
+        z=df_local["Executions scaled"].astype(float),
         zmin=0,
         zmax=8,
         locationmode='USA-states',
@@ -198,11 +208,11 @@ def update_map(input_race, input_region, input_sex, input_state):
         hovertemplate=
             '<b>%{text[0]}</b><br>' +
             '<i>Executions</i>: %{text[1]} <br>' +
-            '<i>White Executed</i>: %{text[2]} <br>' +
-            '<i>Other Race Executed</i>: %{text[3]} <br>' +
             '<extra></extra>',
         colorbar=dict(
             title="No. of executions",
+            x=0.8,
+            y=0.5,
             titleside="top",
             tickmode="array",
             tickvals=[0.5, 7.5],
@@ -265,8 +275,8 @@ def convicted_sunburst_update(input_race, input_region, input_sex, input_state):
         branchvalues="total",
         maxdepth=2,
         marker=dict(
-            # colors=df_all_trees['color'],
-            colorscale='RdBu',
+            colors=df_local['color'],
+            colorscale='RdYlGn',
             line=dict(
                 width=1
             )
@@ -275,7 +285,9 @@ def convicted_sunburst_update(input_race, input_region, input_sex, input_state):
             size=16,
             family="Rockwell"
         ),
-        insidetextorientation='horizontal'
+        insidetextorientation='horizontal',
+        hovertemplate='<b>%{label} </b> <br> Executions: %{value}<br>'+
+                        '<extra></extra>',
     ))
 
     fig.update_layout(
@@ -322,8 +334,8 @@ def victims_sunburst_update(input_race, input_region, input_sex, input_state):
         branchvalues="total",
         maxdepth=2,
         marker=dict(
-            # colors=df_all_trees['color'],
-            colorscale='RdBu',
+            colors=df_local['color'],
+            colorscale='RdYlGn',
             line=dict(
                 width=1
             )
@@ -332,7 +344,9 @@ def victims_sunburst_update(input_race, input_region, input_sex, input_state):
             size=16,
             family="Rockwell"
         ),
-        insidetextorientation='horizontal'
+        insidetextorientation='horizontal',
+        hovertemplate='<b>%{label} </b> <br> Victims: %{value}<br>'+
+                        '<extra></extra>',
     ))
 
     fig.update_layout(
@@ -347,7 +361,5 @@ def victims_sunburst_update(input_race, input_region, input_sex, input_state):
         height = 400,
         width = 400
     )
-
-    return fig
 
     return fig

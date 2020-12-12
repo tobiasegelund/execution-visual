@@ -13,7 +13,7 @@ from app.app import app
 
 sidebar_page_2 = html.Div(
     [
-        html.H2("Execution", className="sidebar-design"),
+        html.H2("Executions", className="sidebar-design"),
         dbc.Nav(
             [
                 dbc.NavLink(
@@ -56,6 +56,9 @@ sidebar_page_2 = html.Div(
         ),
 
         html.Hr(),
+        html.H5('Filter on executions', style={'font-size':'14px'}),
+        html.Br(),
+        html.H6('RACE:'),
         dcc.Checklist(
             id='input_race_page2',
             options=[{'label': i, 'value': i} for i in ['White', 'Other']],
@@ -68,6 +71,7 @@ sidebar_page_2 = html.Div(
             inputStyle={"margin-right": "5px"}
         ),
         html.Br(),
+        html.H6('GENDER:'),
         dcc.Checklist(
             id='input_sex_page2',
             options=[{'label': i, 'value': i} for i in ['Male', 'Female']],
@@ -80,6 +84,7 @@ sidebar_page_2 = html.Div(
             inputStyle={"margin-right": "5px"}
         ),
         html.Br(),
+        html.H6('REGION:'),
         dcc.Dropdown(
             id='input_region_page2',
             options=[{'label': i, 'value': i} for i in available_region],
@@ -87,6 +92,7 @@ sidebar_page_2 = html.Div(
             placeholder='Select region..'
         ),
         html.Br(),
+        html.H6('STATE:'),
         dcc.Dropdown(
             id='input_state_page2',
             # options=[{'label': i, 'value': i} for i in available_states],
@@ -99,16 +105,27 @@ sidebar_page_2 = html.Div(
 
 content_page2 = html.Div(
     [
+
+        html.H2('Death Row Executions 1977-2020'),
+        html.Div(
+            dcc.RangeSlider(
+                id='input_ranger',
+                min=1977,
+                max=2020,
+                step=None,
+                marks={str(year): {'label': str(year), 'style': {'font-size': '13px'}} for year in available_years},
+                value=[1985, 2010]
+            )
+         ),
         dbc.Row(
             [
-                html.H2('Death Row Executions 1977-2020'),
                 dbc.Col(
                     html.Div([
                         dcc.Graph(
                             id='map_timeline'
                         )
                     ]),
-                    width={"offset": 1}
+                    width={"offset": 2}
                 )
             ]
         ),
@@ -125,7 +142,7 @@ content_page2 = html.Div(
                 ),
                 dbc.Col(
                     html.Div([
-                        html.H4('Victims of executed humans over time since 1977'),
+                        html.H4('Number of victims by executed humans over time since 1977'),
                         dcc.Graph(
                             id='victims_grouped_page2'
                         )
@@ -133,22 +150,6 @@ content_page2 = html.Div(
                     width=6
                 ),
             ]
-        ),
-        dbc.Row(
-            dbc.Col(
-                html.Div(
-                    [
-                        dcc.RangeSlider(
-                            id='input_ranger',
-                            min=1977,
-                            max=2020,
-                            step=None,
-                            marks={str(year): {'label': str(year), 'style': {'size': '12rem'}} for year in available_years},
-                            value=[1977, 2020]
-                        )
-                    ]
-                )
-            )
         )
     ],
     style=CONTENT_MAP_STYLE
@@ -190,6 +191,8 @@ def update_map_timeline(input_race, input_region, input_sex, input_state, input_
 
     df_local = filter_data(
         df_map_timeline,
+        input_sex=input_sex,
+        input_race=input_race,
         input_state=input_state,
         input_time=input_time,
         input_region=input_region
@@ -199,9 +202,9 @@ def update_map_timeline(input_race, input_region, input_sex, input_state, input_
     fig = go.Figure(
         data=go.Choropleth(
         locations=df_local['State Code'],
-        z=df_local["Executions Scaled"].astype(float),
+        z=df_local["Executions scaled"].astype(float),
         zmin=0,
-        zmax=5,
+        zmax=6,
         locationmode='USA-states',
         colorscale=px.colors.sequential.Teal,
         colorbar_len=0.5,
@@ -211,14 +214,14 @@ def update_map_timeline(input_race, input_region, input_sex, input_state, input_
         hovertemplate=
             '<b>%{text[0]}</b><br>' +
             '<i>Executions</i>: %{text[1]} <br>' +
-            '<i>White executed</i>: %{text[2]} <br>' +
-            '<i>Other Race executed</i>: %{text[3]} <br>' +
             '<extra></extra>',
         colorbar=dict(
             title="No. of executions",
+            x=0.8,
+            y=0.5,
             titleside="top",
             tickmode="array",
-            tickvals=[0.5, 4.5],
+            tickvals=[0.5, 5.5],
             ticktext=['Low', 'High'],
             ticks="outside"
         )
@@ -332,8 +335,7 @@ def victims_timeline(input_race, input_region, input_sex, input_state, input_yea
         input_race=input_race,
         input_region=input_region,
         input_sex=input_sex,
-        input_state=input_state,
-        # input_year=input_year
+        input_state=input_state
     )
 
     fig.add_trace(go.Bar(
@@ -345,7 +347,7 @@ def victims_timeline(input_race, input_region, input_sex, input_state, input_yea
             '<i>Victims</i>: %{y} <br>'+
             '<i>Year</i>: %{x} <br>' +
             '<extra></extra>',
-        text = [f'{first} {last}' for first, last in zip(df['First Name'], df['Last Name'])]
+        text = [f'{first} {last}' for first, last in zip(df_local['First Name'], df_local['Last Name'])]
         ),
     )
 

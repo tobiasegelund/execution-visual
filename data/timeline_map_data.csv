@@ -1,2143 +1,653 @@
-,Year,State Code,Region,White Convicted,Other Convicted,Executions,Executions Scaled,State
-0,1977,UT,West,1,0,1,1.0,Utah
-1,1979,FL,South,1,0,1,1.0,Florida
-2,1979,NV,West,1,0,1,1.0,Nevada
-3,1981,IN,Midwest,1,0,1,1.0,Indiana
-4,1982,TX,South,0,1,1,1.0,Texas
-5,1982,VA,South,1,0,1,1.0,Virginia
-6,1983,AL,South,1,0,1,1.0,Alabama
-7,1983,FL,South,1,0,1,1.0,Florida
-8,1983,GA,South,1,0,1,1.0,Georgia
-9,1983,LA,South,0,1,1,1.0,Louisiana
-10,1983,MS,South,1,0,1,1.0,Mississippi
-11,1984,FL,South,5,3,8,3.0794415416798357,Florida
-12,1984,GA,South,0,2,2,1.6931471805599454,Georgia
-13,1984,LA,South,3,2,5,2.6094379124341005,Louisiana
-14,1984,NC,South,2,0,2,1.6931471805599454,North Carolina
-15,1984,TX,South,3,0,3,2.09861228866811,Texas
-16,1984,VA,South,0,1,1,1.0,Virginia
-17,1985,FL,South,2,1,3,2.09861228866811,Florida
-18,1985,GA,South,0,3,3,2.09861228866811,Georgia
-19,1985,IN,Midwest,1,0,1,1.0,Indiana
-20,1985,LA,South,1,0,1,1.0,Louisiana
-21,1985,NV,West,1,0,1,1.0,Nevada
-22,1985,SC,South,1,0,1,1.0,South Carolina
-23,1985,TX,South,3,3,6,2.791759469228055,Texas
-24,1985,VA,South,0,2,2,1.6931471805599454,Virginia
-25,1986,AL,South,0,1,1,1.0,Alabama
-26,1986,FL,South,1,2,3,2.09861228866811,Florida
-27,1986,GA,South,0,1,1,1.0,Georgia
-28,1986,NC,South,1,0,1,1.0,North Carolina
-29,1986,SC,South,1,0,1,1.0,South Carolina
-30,1986,TX,South,6,4,10,3.302585092994046,Texas
-31,1986,VA,South,0,1,1,1.0,Virginia
-32,1987,AL,South,1,0,1,1.0,Alabama
-33,1987,FL,South,0,1,1,1.0,Florida
-34,1987,GA,South,2,3,5,2.6094379124341005,Georgia
-35,1987,LA,South,5,3,8,3.0794415416798357,Louisiana
-36,1987,MS,South,0,2,2,1.6931471805599454,Mississippi
-37,1987,TX,South,2,4,6,2.791759469228055,Texas
-38,1987,UT,West,0,1,1,1.0,Utah
-39,1987,VA,South,1,0,1,1.0,Virginia
-40,1988,FL,South,1,1,2,1.6931471805599454,Florida
-41,1988,GA,South,1,0,1,1.0,Georgia
-42,1988,LA,South,2,1,3,2.09861228866811,Louisiana
-43,1988,TX,South,1,2,3,2.09861228866811,Texas
-44,1988,UT,West,1,0,1,1.0,Utah
-45,1988,VA,South,0,1,1,1.0,Virginia
-46,1989,AL,South,0,4,4,2.386294361119891,Alabama
-47,1989,FL,South,2,0,2,1.6931471805599454,Florida
-48,1989,GA,South,0,1,1,1.0,Georgia
-49,1989,MO,Midwest,1,0,1,1.0,Missouri
-50,1989,MS,South,0,1,1,1.0,Mississippi
-51,1989,NV,West,2,0,2,1.6931471805599454,Nevada
-52,1989,TX,South,2,2,4,2.386294361119891,Texas
-53,1989,VA,South,0,1,1,1.0,Virginia
-54,1990,AL,South,0,1,1,1.0,Alabama
-55,1990,AR,South,2,0,2,1.6931471805599454,Arkansas
-56,1990,FL,South,3,1,4,2.386294361119891,Florida
-57,1990,IL,Midwest,1,0,1,1.0,Illinois
-58,1990,LA,South,0,1,1,1.0,Louisiana
-59,1990,MO,Midwest,3,1,4,2.386294361119891,Missouri
-60,1990,NV,West,1,0,1,1.0,Nevada
-61,1990,OK,South,1,0,1,1.0,Oklahoma
-62,1990,SC,South,1,0,1,1.0,South Carolina
-63,1990,TX,South,2,2,4,2.386294361119891,Texas
-64,1990,VA,South,2,1,3,2.09861228866811,Virginia
-65,1991,FL,South,1,1,2,1.6931471805599454,Florida
-66,1991,GA,South,0,1,1,1.0,Georgia
-67,1991,LA,South,0,1,1,1.0,Louisiana
-68,1991,MO,Midwest,0,1,1,1.0,Missouri
-69,1991,NC,South,1,0,1,1.0,North Carolina
-70,1991,SC,South,1,0,1,1.0,South Carolina
-71,1991,TX,South,2,3,5,2.6094379124341005,Texas
-72,1991,VA,South,1,1,2,1.6931471805599454,Virginia
-73,1992,AL,South,1,1,2,1.6931471805599454,Alabama
-74,1992,AR,South,1,1,2,1.6931471805599454,Arkansas
-75,1992,AZ,West,1,0,1,1.0,Arizona
-76,1992,CA,West,1,0,1,1.0,California
-77,1992,DE,South,1,0,1,1.0,Delaware
-78,1992,FL,South,1,1,2,1.6931471805599454,Florida
-79,1992,MO,Midwest,1,0,1,1.0,Missouri
-80,1992,NC,South,1,0,1,1.0,North Carolina
-81,1992,OK,South,1,1,2,1.6931471805599454,Oklahoma
-82,1992,TX,South,5,7,12,3.4849066497880004,Texas
-83,1992,UT,West,0,1,1,1.0,Utah
-84,1992,VA,South,3,1,4,2.386294361119891,Virginia
-85,1992,WY,West,1,0,1,1.0,Wyoming
-86,1993,AZ,West,2,0,2,1.6931471805599454,Arizona
-87,1993,CA,West,1,0,1,1.0,California
-88,1993,DE,South,0,2,2,1.6931471805599454,Delaware
-89,1993,FL,South,3,0,3,2.09861228866811,Florida
-90,1993,GA,South,2,0,2,1.6931471805599454,Georgia
-91,1993,LA,South,1,0,1,1.0,Louisiana
-92,1993,MO,Midwest,1,3,4,2.386294361119891,Missouri
-93,1993,TX,South,6,11,17,3.833213344056216,Texas
-94,1993,VA,South,2,3,5,2.6094379124341005,Virginia
-95,1993,WA,West,1,0,1,1.0,Washington
-96,1994,AR,South,4,1,5,2.6094379124341005,Arkansas
-97,1994,DE,South,0,1,1,1.0,Delaware
-98,1994,FL,South,1,0,1,1.0,Florida
-99,1994,GA,South,0,1,1,1.0,Georgia
-100,1994,ID,West,1,0,1,1.0,Idaho
-101,1994,IL,Midwest,1,0,1,1.0,Illinois
-102,1994,IN,Midwest,0,1,1,1.0,Indiana
-103,1994,MD,South,1,0,1,1.0,Maryland
-104,1994,NC,South,1,0,1,1.0,North Carolina
-105,1994,NE,Midwest,0,1,1,1.0,Nebraska
-106,1994,TX,South,9,5,14,3.6390573296152584,Texas
-107,1994,VA,South,0,2,2,1.6931471805599454,Virginia
-108,1994,WA,West,1,0,1,1.0,Washington
-109,1995,AL,South,0,2,2,1.6931471805599454,Alabama
-110,1995,AR,South,1,1,2,1.6931471805599454,Arkansas
-111,1995,AZ,West,1,0,1,1.0,Arizona
-112,1995,DE,South,1,0,1,1.0,Delaware
-113,1995,FL,South,2,1,3,2.09861228866811,Florida
-114,1995,GA,South,2,0,2,1.6931471805599454,Georgia
-115,1995,IL,Midwest,3,2,5,2.6094379124341005,Illinois
-116,1995,LA,South,0,1,1,1.0,Louisiana
-117,1995,MO,Midwest,3,3,6,2.791759469228055,Missouri
-118,1995,MT,West,1,0,1,1.0,Montana
-119,1995,NC,South,2,0,2,1.6931471805599454,North Carolina
-120,1995,OK,South,3,0,3,2.09861228866811,Oklahoma
-121,1995,PA,Northeast,2,0,2,1.6931471805599454,Pennsylvania
-122,1995,SC,South,0,1,1,1.0,South Carolina
-123,1995,TX,South,8,11,19,3.9444389791664403,Texas
-124,1995,VA,South,2,3,5,2.6094379124341005,Virginia
-125,1996,AL,South,0,1,1,1.0,Alabama
-126,1996,AR,South,1,0,1,1.0,Arkansas
-127,1996,AZ,West,1,1,2,1.6931471805599454,Arizona
-128,1996,CA,West,2,0,2,1.6931471805599454,California
-129,1996,DE,South,2,1,3,2.09861228866811,Delaware
-130,1996,FL,South,0,2,2,1.6931471805599454,Florida
-131,1996,GA,South,2,0,2,1.6931471805599454,Georgia
-132,1996,IL,Midwest,0,1,1,1.0,Illinois
-133,1996,IN,Midwest,0,1,1,1.0,Indiana
-134,1996,LA,South,0,1,1,1.0,Louisiana
-135,1996,MO,Midwest,4,2,6,2.791759469228055,Missouri
-136,1996,NE,Midwest,1,0,1,1.0,Nebraska
-137,1996,NV,West,1,0,1,1.0,Nevada
-138,1996,OK,South,2,0,2,1.6931471805599454,Oklahoma
-139,1996,OR,West,1,0,1,1.0,Oregon
-140,1996,SC,South,5,1,6,2.791759469228055,South Carolina
-141,1996,TX,South,1,2,3,2.09861228866811,Texas
-142,1996,UT,West,1,0,1,1.0,Utah
-143,1996,VA,South,5,3,8,3.0794415416798357,Virginia
-144,1997,AL,South,2,1,3,2.09861228866811,Alabama
-145,1997,AR,South,2,2,4,2.386294361119891,Arkansas
-146,1997,AZ,West,2,0,2,1.6931471805599454,Arizona
-147,1997,CO,West,1,0,1,1.0,Colorado
-148,1997,FL,South,0,1,1,1.0,Florida
-149,1997,IL,Midwest,0,2,2,1.6931471805599454,Illinois
-150,1997,IN,Midwest,0,1,1,1.0,Indiana
-151,1997,KY,South,1,0,1,1.0,Kentucky
-152,1997,LA,South,1,0,1,1.0,Louisiana
-153,1997,MD,South,0,1,1,1.0,Maryland
-154,1997,MO,Midwest,5,1,6,2.791759469228055,Missouri
-155,1997,NE,Midwest,0,1,1,1.0,Nebraska
-156,1997,OK,South,0,1,1,1.0,Oklahoma
-157,1997,OR,West,1,0,1,1.0,Oregon
-158,1997,SC,South,1,1,2,1.6931471805599454,South Carolina
-159,1997,TX,South,20,17,37,4.610917912644224,Texas
-160,1997,VA,South,4,5,9,3.1972245773362196,Virginia
-161,1998,AL,South,1,0,1,1.0,Alabama
-162,1998,AR,South,1,0,1,1.0,Arkansas
-163,1998,AZ,West,2,2,4,2.386294361119891,Arizona
-164,1998,CA,West,1,0,1,1.0,California
-165,1998,FL,South,2,2,4,2.386294361119891,Florida
-166,1998,GA,South,1,0,1,1.0,Georgia
-167,1998,IL,Midwest,1,0,1,1.0,Illinois
-168,1998,IN,Midwest,1,0,1,1.0,Indiana
-169,1998,MD,South,0,1,1,1.0,Maryland
-170,1998,MO,Midwest,1,2,3,2.09861228866811,Missouri
-171,1998,MT,West,1,0,1,1.0,Montana
-172,1998,NC,South,3,0,3,2.09861228866811,North Carolina
-173,1998,NV,West,0,1,1,1.0,Nevada
-174,1998,OK,South,3,1,4,2.386294361119891,Oklahoma
-175,1998,SC,South,3,4,7,2.9459101490553135,South Carolina
-176,1998,TX,South,13,7,20,3.995732273553991,Texas
-177,1998,VA,South,4,9,13,3.5649493574615367,Virginia
-178,1998,WA,West,1,0,1,1.0,Washington
-179,1999,AL,South,0,2,2,1.6931471805599454,Alabama
-180,1999,AR,South,4,0,4,2.386294361119891,Arkansas
-181,1999,AZ,West,5,2,7,2.9459101490553135,Arizona
-182,1999,CA,West,0,2,2,1.6931471805599454,California
-183,1999,DE,South,1,1,2,1.6931471805599454,Delaware
-184,1999,FL,South,1,0,1,1.0,Florida
-185,1999,IL,Midwest,1,0,1,1.0,Illinois
-186,1999,IN,Midwest,1,0,1,1.0,Indiana
-187,1999,KY,South,1,0,1,1.0,Kentucky
-188,1999,LA,South,0,1,1,1.0,Louisiana
-189,1999,MO,Midwest,4,5,9,3.1972245773362196,Missouri
-190,1999,NC,South,2,2,4,2.386294361119891,North Carolina
-191,1999,NV,West,0,1,1,1.0,Nevada
-192,1999,OH,Midwest,1,0,1,1.0,Ohio
-193,1999,OK,South,3,3,6,2.791759469228055,Oklahoma
-194,1999,PA,Northeast,1,0,1,1.0,Pennsylvania
-195,1999,SC,South,2,2,4,2.386294361119891,South Carolina
-196,1999,TX,South,17,18,35,4.555348061489413,Texas
-197,1999,UT,West,1,0,1,1.0,Utah
-198,1999,VA,South,8,6,14,3.6390573296152584,Virginia
-199,2000,AL,South,1,3,4,2.386294361119891,Alabama
-200,2000,AR,South,1,1,2,1.6931471805599454,Arkansas
-201,2000,AZ,West,3,0,3,2.09861228866811,Arizona
-202,2000,CA,West,0,1,1,1.0,California
-203,2000,DE,South,0,1,1,1.0,Delaware
-204,2000,FL,South,4,2,6,2.791759469228055,Florida
-205,2000,LA,South,0,1,1,1.0,Louisiana
-206,2000,MO,Midwest,4,1,5,2.6094379124341005,Missouri
-207,2000,NC,South,0,1,1,1.0,North Carolina
-208,2000,OK,South,4,7,11,3.3978952727983707,Oklahoma
-209,2000,SC,South,0,1,1,1.0,South Carolina
-210,2000,TN,South,1,0,1,1.0,Tennessee
-211,2000,TX,South,19,21,40,4.688879454113936,Texas
-212,2000,VA,South,5,3,8,3.0794415416798357,Virginia
-213,2001,AR,South,1,0,1,1.0,Arkansas
-214,2001,CA,West,1,0,1,1.0,California
-215,2001,DE,South,1,1,2,1.6931471805599454,Delaware
-216,2001,FE,Federal,1,1,2,1.6931471805599454,Federal
-217,2001,FL,South,1,0,1,1.0,Florida
-218,2001,GA,South,3,1,4,2.386294361119891,Georgia
-219,2001,IN,Midwest,2,0,2,1.6931471805599454,Indiana
-220,2001,MO,Midwest,4,3,7,2.9459101490553135,Missouri
-221,2001,NC,South,3,2,5,2.6094379124341005,North Carolina
-222,2001,NM,West,1,0,1,1.0,New Mexico
-223,2001,NV,West,1,0,1,1.0,Nevada
-224,2001,OH,Midwest,0,1,1,1.0,Ohio
-225,2001,OK,South,11,7,18,3.8903717578961645,Oklahoma
-226,2001,TX,South,10,7,17,3.833213344056216,Texas
-227,2001,VA,South,2,0,2,1.6931471805599454,Virginia
-228,2001,WA,West,1,0,1,1.0,Washington
-229,2002,AL,South,2,0,2,1.6931471805599454,Alabama
-230,2002,CA,West,1,0,1,1.0,California
-231,2002,FL,South,1,2,3,2.09861228866811,Florida
-232,2002,GA,South,4,0,4,2.386294361119891,Georgia
-233,2002,LA,South,1,0,1,1.0,Louisiana
-234,2002,MO,Midwest,5,1,6,2.791759469228055,Missouri
-235,2002,MS,South,2,0,2,1.6931471805599454,Mississippi
-236,2002,NC,South,1,1,2,1.6931471805599454,North Carolina
-237,2002,OH,Midwest,2,1,3,2.09861228866811,Ohio
-238,2002,OK,South,6,1,7,2.9459101490553135,Oklahoma
-239,2002,SC,South,2,1,3,2.09861228866811,South Carolina
-240,2002,TX,South,17,16,33,4.49650756146648,Texas
-241,2002,VA,South,2,2,4,2.386294361119891,Virginia
-242,2003,AL,South,3,0,3,2.09861228866811,Alabama
-243,2003,AR,South,0,1,1,1.0,Arkansas
-244,2003,FE,Federal,0,1,1,1.0,Federal
-245,2003,FL,South,2,1,3,2.09861228866811,Florida
-246,2003,GA,South,3,0,3,2.09861228866811,Georgia
-247,2003,IN,Midwest,2,0,2,1.6931471805599454,Indiana
-248,2003,MO,Midwest,2,0,2,1.6931471805599454,Missouri
-249,2003,NC,South,3,4,7,2.9459101490553135,North Carolina
-250,2003,OH,Midwest,2,1,3,2.09861228866811,Ohio
-251,2003,OK,South,8,6,14,3.6390573296152584,Oklahoma
-252,2003,TX,South,14,10,24,4.178053830347945,Texas
-253,2003,VA,South,2,0,2,1.6931471805599454,Virginia
-254,2004,AL,South,2,0,2,1.6931471805599454,Alabama
-255,2004,AR,South,0,1,1,1.0,Arkansas
-256,2004,FL,South,1,1,2,1.6931471805599454,Florida
-257,2004,GA,South,2,0,2,1.6931471805599454,Georgia
-258,2004,MD,South,1,0,1,1.0,Maryland
-259,2004,NC,South,3,1,4,2.386294361119891,North Carolina
-260,2004,NV,West,2,0,2,1.6931471805599454,Nevada
-261,2004,OH,Midwest,5,2,7,2.9459101490553135,Ohio
-262,2004,OK,South,4,2,6,2.791759469228055,Oklahoma
-263,2004,SC,South,4,0,4,2.386294361119891,South Carolina
-264,2004,TX,South,8,15,23,4.13549421592915,Texas
-265,2004,VA,South,4,1,5,2.6094379124341005,Virginia
-266,2005,AL,South,4,0,4,2.386294361119891,Alabama
-267,2005,AR,South,1,0,1,1.0,Arkansas
-268,2005,CA,West,1,1,2,1.6931471805599454,California
-269,2005,CT,Northeast,1,0,1,1.0,Connecticut
-270,2005,DE,South,1,0,1,1.0,Delaware
-271,2005,FL,South,1,0,1,1.0,Florida
-272,2005,GA,South,3,0,3,2.09861228866811,Georgia
-273,2005,IN,Midwest,5,0,5,2.6094379124341005,Indiana
-274,2005,MD,South,0,1,1,1.0,Maryland
-275,2005,MO,Midwest,1,4,5,2.6094379124341005,Missouri
-276,2005,MS,South,1,0,1,1.0,Mississippi
-277,2005,NC,South,3,2,5,2.6094379124341005,North Carolina
-278,2005,OH,Midwest,1,3,4,2.386294361119891,Ohio
-279,2005,OK,South,1,3,4,2.386294361119891,Oklahoma
-280,2005,SC,South,2,1,3,2.09861228866811,South Carolina
-281,2005,TX,South,11,8,19,3.9444389791664403,Texas
-282,2006,AL,South,1,0,1,1.0,Alabama
-283,2006,CA,West,0,1,1,1.0,California
-284,2006,FL,South,2,2,4,2.386294361119891,Florida
-285,2006,IN,Midwest,1,0,1,1.0,Indiana
-286,2006,MS,South,1,0,1,1.0,Mississippi
-287,2006,MT,West,1,0,1,1.0,Montana
-288,2006,NC,South,2,2,4,2.386294361119891,North Carolina
-289,2006,NV,West,0,1,1,1.0,Nevada
-290,2006,OH,Midwest,4,1,5,2.6094379124341005,Ohio
-291,2006,OK,South,3,1,4,2.386294361119891,Oklahoma
-292,2006,SC,South,1,0,1,1.0,South Carolina
-293,2006,TN,South,1,0,1,1.0,Tennessee
-294,2006,TX,South,4,20,24,4.178053830347945,Texas
-295,2006,VA,South,3,1,4,2.386294361119891,Virginia
-296,2007,AL,South,0,3,3,2.09861228866811,Alabama
-297,2007,AZ,West,1,0,1,1.0,Arizona
-298,2007,GA,South,0,1,1,1.0,Georgia
-299,2007,IN,Midwest,2,0,2,1.6931471805599454,Indiana
-300,2007,OH,Midwest,2,0,2,1.6931471805599454,Ohio
-301,2007,OK,South,2,1,3,2.09861228866811,Oklahoma
-302,2007,SC,South,0,1,1,1.0,South Carolina
-303,2007,SD,Midwest,1,0,1,1.0,South Dakota
-304,2007,TN,South,2,0,2,1.6931471805599454,Tennessee
-305,2007,TX,South,12,14,26,4.258096538021482,Texas
-306,2008,FL,South,1,1,2,1.6931471805599454,Florida
-307,2008,GA,South,2,1,3,2.09861228866811,Georgia
-308,2008,KY,South,1,0,1,1.0,Kentucky
-309,2008,MS,South,2,0,2,1.6931471805599454,Mississippi
-310,2008,OH,Midwest,1,1,2,1.6931471805599454,Ohio
-311,2008,OK,South,2,0,2,1.6931471805599454,Oklahoma
-312,2008,SC,South,1,2,3,2.09861228866811,South Carolina
-313,2008,TX,South,6,12,18,3.8903717578961645,Texas
-314,2008,VA,South,1,3,4,2.386294361119891,Virginia
-315,2009,AL,South,4,2,6,2.791759469228055,Alabama
-316,2009,FL,South,2,0,2,1.6931471805599454,Florida
-317,2009,GA,South,3,0,3,2.09861228866811,Georgia
-318,2009,IN,Midwest,1,0,1,1.0,Indiana
-319,2009,MO,Midwest,1,0,1,1.0,Missouri
-320,2009,OH,Midwest,4,1,5,2.6094379124341005,Ohio
-321,2009,OK,South,2,1,3,2.09861228866811,Oklahoma
-322,2009,SC,South,1,1,2,1.6931471805599454,South Carolina
-323,2009,TN,South,1,1,2,1.6931471805599454,Tennessee
-324,2009,TX,South,3,21,24,4.178053830347945,Texas
-325,2009,VA,South,1,2,3,2.09861228866811,Virginia
-326,2010,AL,South,4,1,5,2.6094379124341005,Alabama
-327,2010,AZ,West,0,1,1,1.0,Arizona
-328,2010,FL,South,1,0,1,1.0,Florida
-329,2010,GA,South,2,0,2,1.6931471805599454,Georgia
-330,2010,LA,South,1,0,1,1.0,Louisiana
-331,2010,MS,South,3,0,3,2.09861228866811,Mississippi
-332,2010,OH,Midwest,3,5,8,3.0794415416798357,Ohio
-333,2010,OK,South,2,1,3,2.09861228866811,Oklahoma
-334,2010,TX,South,7,10,17,3.833213344056216,Texas
-335,2010,UT,West,1,0,1,1.0,Utah
-336,2010,VA,South,2,1,3,2.09861228866811,Virginia
-337,2010,WA,West,1,0,1,1.0,Washington
-338,2011,AL,South,3,3,6,2.791759469228055,Alabama
-339,2011,AZ,West,3,1,4,2.386294361119891,Arizona
-340,2011,DE,South,1,0,1,1.0,Delaware
-341,2011,FL,South,1,1,2,1.6931471805599454,Florida
-342,2011,GA,South,2,2,4,2.386294361119891,Georgia
-343,2011,ID,West,1,0,1,1.0,Idaho
-344,2011,MO,Midwest,1,0,1,1.0,Missouri
-345,2011,MS,South,1,1,2,1.6931471805599454,Mississippi
-346,2011,OH,Midwest,2,3,5,2.6094379124341005,Ohio
-347,2011,OK,South,1,1,2,1.6931471805599454,Oklahoma
-348,2011,SC,South,1,0,1,1.0,South Carolina
-349,2011,TX,South,6,7,13,3.5649493574615367,Texas
-350,2011,VA,South,0,1,1,1.0,Virginia
-351,2012,AZ,West,5,1,6,2.791759469228055,Arizona
-352,2012,DE,South,0,1,1,1.0,Delaware
-353,2012,FL,South,2,1,3,2.09861228866811,Florida
-354,2012,ID,West,1,0,1,1.0,Idaho
-355,2012,MS,South,4,2,6,2.791759469228055,Mississippi
-356,2012,OH,Midwest,3,0,3,2.09861228866811,Ohio
-357,2012,OK,South,4,2,6,2.791759469228055,Oklahoma
-358,2012,SD,Midwest,2,0,2,1.6931471805599454,South Dakota
-359,2012,TX,South,4,11,15,3.70805020110221,Texas
-360,2013,AL,South,1,0,1,1.0,Alabama
-361,2013,AZ,West,2,0,2,1.6931471805599454,Arizona
-362,2013,FL,South,5,2,7,2.9459101490553135,Florida
-363,2013,GA,South,1,0,1,1.0,Georgia
-364,2013,MO,Midwest,2,0,2,1.6931471805599454,Missouri
-365,2013,OH,Midwest,3,0,3,2.09861228866811,Ohio
-366,2013,OK,South,3,3,6,2.791759469228055,Oklahoma
-367,2013,TX,South,5,11,16,3.772588722239781,Texas
-368,2013,VA,South,1,0,1,1.0,Virginia
-369,2014,AZ,West,1,0,1,1.0,Arizona
-370,2014,FL,South,2,6,8,3.0794415416798357,Florida
-371,2014,GA,South,0,2,2,1.6931471805599454,Georgia
-372,2014,MO,Midwest,5,5,10,3.302585092994046,Missouri
-373,2014,OH,Midwest,1,0,1,1.0,Ohio
-374,2014,OK,South,1,2,3,2.09861228866811,Oklahoma
-375,2014,TX,South,2,8,10,3.302585092994046,Texas
-376,2015,FL,South,2,0,2,1.6931471805599454,Florida
-377,2015,GA,South,3,2,5,2.6094379124341005,Georgia
-378,2015,MO,Midwest,3,3,6,2.791759469228055,Missouri
-379,2015,OK,South,0,1,1,1.0,Oklahoma
-380,2015,TX,South,3,10,13,3.5649493574615367,Texas
-381,2015,VA,South,0,1,1,1.0,Virginia
-382,2016,AL,South,2,0,2,1.6931471805599454,Alabama
-383,2016,FL,South,1,0,1,1.0,Florida
-384,2016,GA,South,7,2,9,3.1972245773362196,Georgia
-385,2016,MO,Midwest,1,0,1,1.0,Missouri
-386,2016,TX,South,5,2,7,2.9459101490553135,Texas
-387,2017,AL,South,1,2,3,2.09861228866811,Alabama
-388,2017,AR,South,1,3,4,2.386294361119891,Arkansas
-389,2017,FL,South,3,0,3,2.09861228866811,Florida
-390,2017,GA,South,1,0,1,1.0,Georgia
-391,2017,MO,Midwest,1,0,1,1.0,Missouri
-392,2017,OH,Midwest,2,0,2,1.6931471805599454,Ohio
-393,2017,TX,South,3,4,7,2.9459101490553135,Texas
-394,2017,VA,South,1,1,2,1.6931471805599454,Virginia
-395,2018,AL,South,2,0,2,1.6931471805599454,Alabama
-396,2018,FL,South,1,1,2,1.6931471805599454,Florida
-397,2018,GA,South,0,2,2,1.6931471805599454,Georgia
-398,2018,NE,Midwest,1,0,1,1.0,Nebraska
-399,2018,OH,Midwest,1,0,1,1.0,Ohio
-400,2018,SD,Midwest,1,0,1,1.0,South Dakota
-401,2018,TN,South,3,0,3,2.09861228866811,Tennessee
-402,2018,TX,South,5,8,13,3.5649493574615367,Texas
-403,2019,AL,South,2,1,3,2.09861228866811,Alabama
-404,2019,FL,South,2,0,2,1.6931471805599454,Florida
-405,2019,GA,South,0,3,3,2.09861228866811,Georgia
-406,2019,MO,Midwest,1,0,1,1.0,Missouri
-407,2019,SD,Midwest,1,0,1,1.0,South Dakota
-408,2019,TN,South,3,0,3,2.09861228866811,Tennessee
-409,2019,TX,South,5,4,9,3.1972245773362196,Texas
-410,2020,AL,South,0,1,1,1.0,Alabama
-411,2020,FE,Federal,5,3,8,3.0794415416798357,Federal
-412,2020,GA,South,1,0,1,1.0,Georgia
-413,2020,MO,Midwest,1,0,1,1.0,Missouri
-414,2020,TN,South,1,0,1,1.0,Tennessee
-415,2020,TX,South,2,1,3,2.09861228866811,Texas
-416,1977,FE,Federal,0,0,0,0.0,Federal
-417,1977,AL,South,0,0,0,0.0,Alabama
-418,1977,AK,West,0,0,0,0.0,Alaska
-419,1977,AZ,West,0,0,0,0.0,Arizona
-420,1977,AR,South,0,0,0,0.0,Arkansas
-421,1977,CA,West,0,0,0,0.0,California
-422,1977,CO,West,0,0,0,0.0,Colorado
-423,1977,CT,Northeast,0,0,0,0.0,Connecticut
-424,1977,DE,South,0,0,0,0.0,Delaware
-425,1977,FL,South,0,0,0,0.0,Florida
-426,1977,GA,South,0,0,0,0.0,Georgia
-427,1977,HI,West,0,0,0,0.0,Hawaii
-428,1977,ID,West,0,0,0,0.0,Idaho
-429,1977,IL,Midwest,0,0,0,0.0,Illinois
-430,1977,IN,Midwest,0,0,0,0.0,Indiana
-431,1977,IA,Midwest,0,0,0,0.0,Iowa
-432,1977,KS,Midwest,0,0,0,0.0,Kansas
-433,1977,KY,South,0,0,0,0.0,Kentucky
-434,1977,LA,South,0,0,0,0.0,Louisiana
-435,1977,ME,Northeast,0,0,0,0.0,Maine
-436,1977,MD,South,0,0,0,0.0,Maryland
-437,1977,MA,Northeast,0,0,0,0.0,Massachusetts
-438,1977,MI,Midwest,0,0,0,0.0,Michigan
-439,1977,MN,Midwest,0,0,0,0.0,Minnesota
-440,1977,MS,South,0,0,0,0.0,Mississippi
-441,1977,MO,Midwest,0,0,0,0.0,Missouri
-442,1977,MT,West,0,0,0,0.0,Montana
-443,1977,NE,Midwest,0,0,0,0.0,Nebraska
-444,1977,NV,West,0,0,0,0.0,Nevada
-445,1977,NH,Northeast,0,0,0,0.0,New Hampshire
-446,1977,NJ,Northeast,0,0,0,0.0,New Jersey
-447,1977,NM,West,0,0,0,0.0,New Mexico
-448,1977,NY,Northeast,0,0,0,0.0,New York
-449,1977,NC,South,0,0,0,0.0,North Carolina
-450,1977,ND,Midwest,0,0,0,0.0,North Dakota
-451,1977,OH,Midwest,0,0,0,0.0,Ohio
-452,1977,OK,South,0,0,0,0.0,Oklahoma
-453,1977,OR,West,0,0,0,0.0,Oregon
-454,1977,PA,Northeast,0,0,0,0.0,Pennsylvania
-455,1977,RI,Northeast,0,0,0,0.0,Rhode Island
-456,1977,SC,South,0,0,0,0.0,South Carolina
-457,1977,SD,Midwest,0,0,0,0.0,South Dakota
-458,1977,TN,South,0,0,0,0.0,Tennessee
-459,1977,TX,South,0,0,0,0.0,Texas
-460,1977,VT,Northeast,0,0,0,0.0,Vermont
-461,1977,VA,South,0,0,0,0.0,Virginia
-462,1977,WA,West,0,0,0,0.0,Washington
-463,1977,WV,South,0,0,0,0.0,West Virginia
-464,1977,WI,Midwest,0,0,0,0.0,Wisconsin
-465,1977,WY,West,0,0,0,0.0,Wyoming
-466,1979,FE,Federal,0,0,0,0.0,Federal
-467,1979,AL,South,0,0,0,0.0,Alabama
-468,1979,AK,West,0,0,0,0.0,Alaska
-469,1979,AZ,West,0,0,0,0.0,Arizona
-470,1979,AR,South,0,0,0,0.0,Arkansas
-471,1979,CA,West,0,0,0,0.0,California
-472,1979,CO,West,0,0,0,0.0,Colorado
-473,1979,CT,Northeast,0,0,0,0.0,Connecticut
-474,1979,DE,South,0,0,0,0.0,Delaware
-475,1979,GA,South,0,0,0,0.0,Georgia
-476,1979,HI,West,0,0,0,0.0,Hawaii
-477,1979,ID,West,0,0,0,0.0,Idaho
-478,1979,IL,Midwest,0,0,0,0.0,Illinois
-479,1979,IN,Midwest,0,0,0,0.0,Indiana
-480,1979,IA,Midwest,0,0,0,0.0,Iowa
-481,1979,KS,Midwest,0,0,0,0.0,Kansas
-482,1979,KY,South,0,0,0,0.0,Kentucky
-483,1979,LA,South,0,0,0,0.0,Louisiana
-484,1979,ME,Northeast,0,0,0,0.0,Maine
-485,1979,MD,South,0,0,0,0.0,Maryland
-486,1979,MA,Northeast,0,0,0,0.0,Massachusetts
-487,1979,MI,Midwest,0,0,0,0.0,Michigan
-488,1979,MN,Midwest,0,0,0,0.0,Minnesota
-489,1979,MS,South,0,0,0,0.0,Mississippi
-490,1979,MO,Midwest,0,0,0,0.0,Missouri
-491,1979,MT,West,0,0,0,0.0,Montana
-492,1979,NE,Midwest,0,0,0,0.0,Nebraska
-493,1979,NH,Northeast,0,0,0,0.0,New Hampshire
-494,1979,NJ,Northeast,0,0,0,0.0,New Jersey
-495,1979,NM,West,0,0,0,0.0,New Mexico
-496,1979,NY,Northeast,0,0,0,0.0,New York
-497,1979,NC,South,0,0,0,0.0,North Carolina
-498,1979,ND,Midwest,0,0,0,0.0,North Dakota
-499,1979,OH,Midwest,0,0,0,0.0,Ohio
-500,1979,OK,South,0,0,0,0.0,Oklahoma
-501,1979,OR,West,0,0,0,0.0,Oregon
-502,1979,PA,Northeast,0,0,0,0.0,Pennsylvania
-503,1979,RI,Northeast,0,0,0,0.0,Rhode Island
-504,1979,SC,South,0,0,0,0.0,South Carolina
-505,1979,SD,Midwest,0,0,0,0.0,South Dakota
-506,1979,TN,South,0,0,0,0.0,Tennessee
-507,1979,TX,South,0,0,0,0.0,Texas
-508,1979,UT,West,0,0,0,0.0,Utah
-509,1979,VT,Northeast,0,0,0,0.0,Vermont
-510,1979,VA,South,0,0,0,0.0,Virginia
-511,1979,WA,West,0,0,0,0.0,Washington
-512,1979,WV,South,0,0,0,0.0,West Virginia
-513,1979,WI,Midwest,0,0,0,0.0,Wisconsin
-514,1979,WY,West,0,0,0,0.0,Wyoming
-515,1981,FE,Federal,0,0,0,0.0,Federal
-516,1981,AL,South,0,0,0,0.0,Alabama
-517,1981,AK,West,0,0,0,0.0,Alaska
-518,1981,AZ,West,0,0,0,0.0,Arizona
-519,1981,AR,South,0,0,0,0.0,Arkansas
-520,1981,CA,West,0,0,0,0.0,California
-521,1981,CO,West,0,0,0,0.0,Colorado
-522,1981,CT,Northeast,0,0,0,0.0,Connecticut
-523,1981,DE,South,0,0,0,0.0,Delaware
-524,1981,FL,South,0,0,0,0.0,Florida
-525,1981,GA,South,0,0,0,0.0,Georgia
-526,1981,HI,West,0,0,0,0.0,Hawaii
-527,1981,ID,West,0,0,0,0.0,Idaho
-528,1981,IL,Midwest,0,0,0,0.0,Illinois
-529,1981,IA,Midwest,0,0,0,0.0,Iowa
-530,1981,KS,Midwest,0,0,0,0.0,Kansas
-531,1981,KY,South,0,0,0,0.0,Kentucky
-532,1981,LA,South,0,0,0,0.0,Louisiana
-533,1981,ME,Northeast,0,0,0,0.0,Maine
-534,1981,MD,South,0,0,0,0.0,Maryland
-535,1981,MA,Northeast,0,0,0,0.0,Massachusetts
-536,1981,MI,Midwest,0,0,0,0.0,Michigan
-537,1981,MN,Midwest,0,0,0,0.0,Minnesota
-538,1981,MS,South,0,0,0,0.0,Mississippi
-539,1981,MO,Midwest,0,0,0,0.0,Missouri
-540,1981,MT,West,0,0,0,0.0,Montana
-541,1981,NE,Midwest,0,0,0,0.0,Nebraska
-542,1981,NV,West,0,0,0,0.0,Nevada
-543,1981,NH,Northeast,0,0,0,0.0,New Hampshire
-544,1981,NJ,Northeast,0,0,0,0.0,New Jersey
-545,1981,NM,West,0,0,0,0.0,New Mexico
-546,1981,NY,Northeast,0,0,0,0.0,New York
-547,1981,NC,South,0,0,0,0.0,North Carolina
-548,1981,ND,Midwest,0,0,0,0.0,North Dakota
-549,1981,OH,Midwest,0,0,0,0.0,Ohio
-550,1981,OK,South,0,0,0,0.0,Oklahoma
-551,1981,OR,West,0,0,0,0.0,Oregon
-552,1981,PA,Northeast,0,0,0,0.0,Pennsylvania
-553,1981,RI,Northeast,0,0,0,0.0,Rhode Island
-554,1981,SC,South,0,0,0,0.0,South Carolina
-555,1981,SD,Midwest,0,0,0,0.0,South Dakota
-556,1981,TN,South,0,0,0,0.0,Tennessee
-557,1981,TX,South,0,0,0,0.0,Texas
-558,1981,UT,West,0,0,0,0.0,Utah
-559,1981,VT,Northeast,0,0,0,0.0,Vermont
-560,1981,VA,South,0,0,0,0.0,Virginia
-561,1981,WA,West,0,0,0,0.0,Washington
-562,1981,WV,South,0,0,0,0.0,West Virginia
-563,1981,WI,Midwest,0,0,0,0.0,Wisconsin
-564,1981,WY,West,0,0,0,0.0,Wyoming
-565,1982,FE,Federal,0,0,0,0.0,Federal
-566,1982,AL,South,0,0,0,0.0,Alabama
-567,1982,AK,West,0,0,0,0.0,Alaska
-568,1982,AZ,West,0,0,0,0.0,Arizona
-569,1982,AR,South,0,0,0,0.0,Arkansas
-570,1982,CA,West,0,0,0,0.0,California
-571,1982,CO,West,0,0,0,0.0,Colorado
-572,1982,CT,Northeast,0,0,0,0.0,Connecticut
-573,1982,DE,South,0,0,0,0.0,Delaware
-574,1982,FL,South,0,0,0,0.0,Florida
-575,1982,GA,South,0,0,0,0.0,Georgia
-576,1982,HI,West,0,0,0,0.0,Hawaii
-577,1982,ID,West,0,0,0,0.0,Idaho
-578,1982,IL,Midwest,0,0,0,0.0,Illinois
-579,1982,IN,Midwest,0,0,0,0.0,Indiana
-580,1982,IA,Midwest,0,0,0,0.0,Iowa
-581,1982,KS,Midwest,0,0,0,0.0,Kansas
-582,1982,KY,South,0,0,0,0.0,Kentucky
-583,1982,LA,South,0,0,0,0.0,Louisiana
-584,1982,ME,Northeast,0,0,0,0.0,Maine
-585,1982,MD,South,0,0,0,0.0,Maryland
-586,1982,MA,Northeast,0,0,0,0.0,Massachusetts
-587,1982,MI,Midwest,0,0,0,0.0,Michigan
-588,1982,MN,Midwest,0,0,0,0.0,Minnesota
-589,1982,MS,South,0,0,0,0.0,Mississippi
-590,1982,MO,Midwest,0,0,0,0.0,Missouri
-591,1982,MT,West,0,0,0,0.0,Montana
-592,1982,NE,Midwest,0,0,0,0.0,Nebraska
-593,1982,NV,West,0,0,0,0.0,Nevada
-594,1982,NH,Northeast,0,0,0,0.0,New Hampshire
-595,1982,NJ,Northeast,0,0,0,0.0,New Jersey
-596,1982,NM,West,0,0,0,0.0,New Mexico
-597,1982,NY,Northeast,0,0,0,0.0,New York
-598,1982,NC,South,0,0,0,0.0,North Carolina
-599,1982,ND,Midwest,0,0,0,0.0,North Dakota
-600,1982,OH,Midwest,0,0,0,0.0,Ohio
-601,1982,OK,South,0,0,0,0.0,Oklahoma
-602,1982,OR,West,0,0,0,0.0,Oregon
-603,1982,PA,Northeast,0,0,0,0.0,Pennsylvania
-604,1982,RI,Northeast,0,0,0,0.0,Rhode Island
-605,1982,SC,South,0,0,0,0.0,South Carolina
-606,1982,SD,Midwest,0,0,0,0.0,South Dakota
-607,1982,TN,South,0,0,0,0.0,Tennessee
-608,1982,UT,West,0,0,0,0.0,Utah
-609,1982,VT,Northeast,0,0,0,0.0,Vermont
-610,1982,WA,West,0,0,0,0.0,Washington
-611,1982,WV,South,0,0,0,0.0,West Virginia
-612,1982,WI,Midwest,0,0,0,0.0,Wisconsin
-613,1982,WY,West,0,0,0,0.0,Wyoming
-614,1983,FE,Federal,0,0,0,0.0,Federal
-615,1983,AK,West,0,0,0,0.0,Alaska
-616,1983,AZ,West,0,0,0,0.0,Arizona
-617,1983,AR,South,0,0,0,0.0,Arkansas
-618,1983,CA,West,0,0,0,0.0,California
-619,1983,CO,West,0,0,0,0.0,Colorado
-620,1983,CT,Northeast,0,0,0,0.0,Connecticut
-621,1983,DE,South,0,0,0,0.0,Delaware
-622,1983,HI,West,0,0,0,0.0,Hawaii
-623,1983,ID,West,0,0,0,0.0,Idaho
-624,1983,IL,Midwest,0,0,0,0.0,Illinois
-625,1983,IN,Midwest,0,0,0,0.0,Indiana
-626,1983,IA,Midwest,0,0,0,0.0,Iowa
-627,1983,KS,Midwest,0,0,0,0.0,Kansas
-628,1983,KY,South,0,0,0,0.0,Kentucky
-629,1983,ME,Northeast,0,0,0,0.0,Maine
-630,1983,MD,South,0,0,0,0.0,Maryland
-631,1983,MA,Northeast,0,0,0,0.0,Massachusetts
-632,1983,MI,Midwest,0,0,0,0.0,Michigan
-633,1983,MN,Midwest,0,0,0,0.0,Minnesota
-634,1983,MO,Midwest,0,0,0,0.0,Missouri
-635,1983,MT,West,0,0,0,0.0,Montana
-636,1983,NE,Midwest,0,0,0,0.0,Nebraska
-637,1983,NV,West,0,0,0,0.0,Nevada
-638,1983,NH,Northeast,0,0,0,0.0,New Hampshire
-639,1983,NJ,Northeast,0,0,0,0.0,New Jersey
-640,1983,NM,West,0,0,0,0.0,New Mexico
-641,1983,NY,Northeast,0,0,0,0.0,New York
-642,1983,NC,South,0,0,0,0.0,North Carolina
-643,1983,ND,Midwest,0,0,0,0.0,North Dakota
-644,1983,OH,Midwest,0,0,0,0.0,Ohio
-645,1983,OK,South,0,0,0,0.0,Oklahoma
-646,1983,OR,West,0,0,0,0.0,Oregon
-647,1983,PA,Northeast,0,0,0,0.0,Pennsylvania
-648,1983,RI,Northeast,0,0,0,0.0,Rhode Island
-649,1983,SC,South,0,0,0,0.0,South Carolina
-650,1983,SD,Midwest,0,0,0,0.0,South Dakota
-651,1983,TN,South,0,0,0,0.0,Tennessee
-652,1983,TX,South,0,0,0,0.0,Texas
-653,1983,UT,West,0,0,0,0.0,Utah
-654,1983,VT,Northeast,0,0,0,0.0,Vermont
-655,1983,VA,South,0,0,0,0.0,Virginia
-656,1983,WA,West,0,0,0,0.0,Washington
-657,1983,WV,South,0,0,0,0.0,West Virginia
-658,1983,WI,Midwest,0,0,0,0.0,Wisconsin
-659,1983,WY,West,0,0,0,0.0,Wyoming
-660,1984,FE,Federal,0,0,0,0.0,Federal
-661,1984,AL,South,0,0,0,0.0,Alabama
-662,1984,AK,West,0,0,0,0.0,Alaska
-663,1984,AZ,West,0,0,0,0.0,Arizona
-664,1984,AR,South,0,0,0,0.0,Arkansas
-665,1984,CA,West,0,0,0,0.0,California
-666,1984,CO,West,0,0,0,0.0,Colorado
-667,1984,CT,Northeast,0,0,0,0.0,Connecticut
-668,1984,DE,South,0,0,0,0.0,Delaware
-669,1984,HI,West,0,0,0,0.0,Hawaii
-670,1984,ID,West,0,0,0,0.0,Idaho
-671,1984,IL,Midwest,0,0,0,0.0,Illinois
-672,1984,IN,Midwest,0,0,0,0.0,Indiana
-673,1984,IA,Midwest,0,0,0,0.0,Iowa
-674,1984,KS,Midwest,0,0,0,0.0,Kansas
-675,1984,KY,South,0,0,0,0.0,Kentucky
-676,1984,ME,Northeast,0,0,0,0.0,Maine
-677,1984,MD,South,0,0,0,0.0,Maryland
-678,1984,MA,Northeast,0,0,0,0.0,Massachusetts
-679,1984,MI,Midwest,0,0,0,0.0,Michigan
-680,1984,MN,Midwest,0,0,0,0.0,Minnesota
-681,1984,MS,South,0,0,0,0.0,Mississippi
-682,1984,MO,Midwest,0,0,0,0.0,Missouri
-683,1984,MT,West,0,0,0,0.0,Montana
-684,1984,NE,Midwest,0,0,0,0.0,Nebraska
-685,1984,NV,West,0,0,0,0.0,Nevada
-686,1984,NH,Northeast,0,0,0,0.0,New Hampshire
-687,1984,NJ,Northeast,0,0,0,0.0,New Jersey
-688,1984,NM,West,0,0,0,0.0,New Mexico
-689,1984,NY,Northeast,0,0,0,0.0,New York
-690,1984,ND,Midwest,0,0,0,0.0,North Dakota
-691,1984,OH,Midwest,0,0,0,0.0,Ohio
-692,1984,OK,South,0,0,0,0.0,Oklahoma
-693,1984,OR,West,0,0,0,0.0,Oregon
-694,1984,PA,Northeast,0,0,0,0.0,Pennsylvania
-695,1984,RI,Northeast,0,0,0,0.0,Rhode Island
-696,1984,SC,South,0,0,0,0.0,South Carolina
-697,1984,SD,Midwest,0,0,0,0.0,South Dakota
-698,1984,TN,South,0,0,0,0.0,Tennessee
-699,1984,UT,West,0,0,0,0.0,Utah
-700,1984,VT,Northeast,0,0,0,0.0,Vermont
-701,1984,WA,West,0,0,0,0.0,Washington
-702,1984,WV,South,0,0,0,0.0,West Virginia
-703,1984,WI,Midwest,0,0,0,0.0,Wisconsin
-704,1984,WY,West,0,0,0,0.0,Wyoming
-705,1985,FE,Federal,0,0,0,0.0,Federal
-706,1985,AL,South,0,0,0,0.0,Alabama
-707,1985,AK,West,0,0,0,0.0,Alaska
-708,1985,AZ,West,0,0,0,0.0,Arizona
-709,1985,AR,South,0,0,0,0.0,Arkansas
-710,1985,CA,West,0,0,0,0.0,California
-711,1985,CO,West,0,0,0,0.0,Colorado
-712,1985,CT,Northeast,0,0,0,0.0,Connecticut
-713,1985,DE,South,0,0,0,0.0,Delaware
-714,1985,HI,West,0,0,0,0.0,Hawaii
-715,1985,ID,West,0,0,0,0.0,Idaho
-716,1985,IL,Midwest,0,0,0,0.0,Illinois
-717,1985,IA,Midwest,0,0,0,0.0,Iowa
-718,1985,KS,Midwest,0,0,0,0.0,Kansas
-719,1985,KY,South,0,0,0,0.0,Kentucky
-720,1985,ME,Northeast,0,0,0,0.0,Maine
-721,1985,MD,South,0,0,0,0.0,Maryland
-722,1985,MA,Northeast,0,0,0,0.0,Massachusetts
-723,1985,MI,Midwest,0,0,0,0.0,Michigan
-724,1985,MN,Midwest,0,0,0,0.0,Minnesota
-725,1985,MS,South,0,0,0,0.0,Mississippi
-726,1985,MO,Midwest,0,0,0,0.0,Missouri
-727,1985,MT,West,0,0,0,0.0,Montana
-728,1985,NE,Midwest,0,0,0,0.0,Nebraska
-729,1985,NH,Northeast,0,0,0,0.0,New Hampshire
-730,1985,NJ,Northeast,0,0,0,0.0,New Jersey
-731,1985,NM,West,0,0,0,0.0,New Mexico
-732,1985,NY,Northeast,0,0,0,0.0,New York
-733,1985,NC,South,0,0,0,0.0,North Carolina
-734,1985,ND,Midwest,0,0,0,0.0,North Dakota
-735,1985,OH,Midwest,0,0,0,0.0,Ohio
-736,1985,OK,South,0,0,0,0.0,Oklahoma
-737,1985,OR,West,0,0,0,0.0,Oregon
-738,1985,PA,Northeast,0,0,0,0.0,Pennsylvania
-739,1985,RI,Northeast,0,0,0,0.0,Rhode Island
-740,1985,SD,Midwest,0,0,0,0.0,South Dakota
-741,1985,TN,South,0,0,0,0.0,Tennessee
-742,1985,UT,West,0,0,0,0.0,Utah
-743,1985,VT,Northeast,0,0,0,0.0,Vermont
-744,1985,WA,West,0,0,0,0.0,Washington
-745,1985,WV,South,0,0,0,0.0,West Virginia
-746,1985,WI,Midwest,0,0,0,0.0,Wisconsin
-747,1985,WY,West,0,0,0,0.0,Wyoming
-748,1986,FE,Federal,0,0,0,0.0,Federal
-749,1986,AK,West,0,0,0,0.0,Alaska
-750,1986,AZ,West,0,0,0,0.0,Arizona
-751,1986,AR,South,0,0,0,0.0,Arkansas
-752,1986,CA,West,0,0,0,0.0,California
-753,1986,CO,West,0,0,0,0.0,Colorado
-754,1986,CT,Northeast,0,0,0,0.0,Connecticut
-755,1986,DE,South,0,0,0,0.0,Delaware
-756,1986,HI,West,0,0,0,0.0,Hawaii
-757,1986,ID,West,0,0,0,0.0,Idaho
-758,1986,IL,Midwest,0,0,0,0.0,Illinois
-759,1986,IN,Midwest,0,0,0,0.0,Indiana
-760,1986,IA,Midwest,0,0,0,0.0,Iowa
-761,1986,KS,Midwest,0,0,0,0.0,Kansas
-762,1986,KY,South,0,0,0,0.0,Kentucky
-763,1986,LA,South,0,0,0,0.0,Louisiana
-764,1986,ME,Northeast,0,0,0,0.0,Maine
-765,1986,MD,South,0,0,0,0.0,Maryland
-766,1986,MA,Northeast,0,0,0,0.0,Massachusetts
-767,1986,MI,Midwest,0,0,0,0.0,Michigan
-768,1986,MN,Midwest,0,0,0,0.0,Minnesota
-769,1986,MS,South,0,0,0,0.0,Mississippi
-770,1986,MO,Midwest,0,0,0,0.0,Missouri
-771,1986,MT,West,0,0,0,0.0,Montana
-772,1986,NE,Midwest,0,0,0,0.0,Nebraska
-773,1986,NV,West,0,0,0,0.0,Nevada
-774,1986,NH,Northeast,0,0,0,0.0,New Hampshire
-775,1986,NJ,Northeast,0,0,0,0.0,New Jersey
-776,1986,NM,West,0,0,0,0.0,New Mexico
-777,1986,NY,Northeast,0,0,0,0.0,New York
-778,1986,ND,Midwest,0,0,0,0.0,North Dakota
-779,1986,OH,Midwest,0,0,0,0.0,Ohio
-780,1986,OK,South,0,0,0,0.0,Oklahoma
-781,1986,OR,West,0,0,0,0.0,Oregon
-782,1986,PA,Northeast,0,0,0,0.0,Pennsylvania
-783,1986,RI,Northeast,0,0,0,0.0,Rhode Island
-784,1986,SD,Midwest,0,0,0,0.0,South Dakota
-785,1986,TN,South,0,0,0,0.0,Tennessee
-786,1986,UT,West,0,0,0,0.0,Utah
-787,1986,VT,Northeast,0,0,0,0.0,Vermont
-788,1986,WA,West,0,0,0,0.0,Washington
-789,1986,WV,South,0,0,0,0.0,West Virginia
-790,1986,WI,Midwest,0,0,0,0.0,Wisconsin
-791,1986,WY,West,0,0,0,0.0,Wyoming
-792,1987,FE,Federal,0,0,0,0.0,Federal
-793,1987,AK,West,0,0,0,0.0,Alaska
-794,1987,AZ,West,0,0,0,0.0,Arizona
-795,1987,AR,South,0,0,0,0.0,Arkansas
-796,1987,CA,West,0,0,0,0.0,California
-797,1987,CO,West,0,0,0,0.0,Colorado
-798,1987,CT,Northeast,0,0,0,0.0,Connecticut
-799,1987,DE,South,0,0,0,0.0,Delaware
-800,1987,HI,West,0,0,0,0.0,Hawaii
-801,1987,ID,West,0,0,0,0.0,Idaho
-802,1987,IL,Midwest,0,0,0,0.0,Illinois
-803,1987,IN,Midwest,0,0,0,0.0,Indiana
-804,1987,IA,Midwest,0,0,0,0.0,Iowa
-805,1987,KS,Midwest,0,0,0,0.0,Kansas
-806,1987,KY,South,0,0,0,0.0,Kentucky
-807,1987,ME,Northeast,0,0,0,0.0,Maine
-808,1987,MD,South,0,0,0,0.0,Maryland
-809,1987,MA,Northeast,0,0,0,0.0,Massachusetts
-810,1987,MI,Midwest,0,0,0,0.0,Michigan
-811,1987,MN,Midwest,0,0,0,0.0,Minnesota
-812,1987,MO,Midwest,0,0,0,0.0,Missouri
-813,1987,MT,West,0,0,0,0.0,Montana
-814,1987,NE,Midwest,0,0,0,0.0,Nebraska
-815,1987,NV,West,0,0,0,0.0,Nevada
-816,1987,NH,Northeast,0,0,0,0.0,New Hampshire
-817,1987,NJ,Northeast,0,0,0,0.0,New Jersey
-818,1987,NM,West,0,0,0,0.0,New Mexico
-819,1987,NY,Northeast,0,0,0,0.0,New York
-820,1987,NC,South,0,0,0,0.0,North Carolina
-821,1987,ND,Midwest,0,0,0,0.0,North Dakota
-822,1987,OH,Midwest,0,0,0,0.0,Ohio
-823,1987,OK,South,0,0,0,0.0,Oklahoma
-824,1987,OR,West,0,0,0,0.0,Oregon
-825,1987,PA,Northeast,0,0,0,0.0,Pennsylvania
-826,1987,RI,Northeast,0,0,0,0.0,Rhode Island
-827,1987,SC,South,0,0,0,0.0,South Carolina
-828,1987,SD,Midwest,0,0,0,0.0,South Dakota
-829,1987,TN,South,0,0,0,0.0,Tennessee
-830,1987,VT,Northeast,0,0,0,0.0,Vermont
-831,1987,WA,West,0,0,0,0.0,Washington
-832,1987,WV,South,0,0,0,0.0,West Virginia
-833,1987,WI,Midwest,0,0,0,0.0,Wisconsin
-834,1987,WY,West,0,0,0,0.0,Wyoming
-835,1988,FE,Federal,0,0,0,0.0,Federal
-836,1988,AL,South,0,0,0,0.0,Alabama
-837,1988,AK,West,0,0,0,0.0,Alaska
-838,1988,AZ,West,0,0,0,0.0,Arizona
-839,1988,AR,South,0,0,0,0.0,Arkansas
-840,1988,CA,West,0,0,0,0.0,California
-841,1988,CO,West,0,0,0,0.0,Colorado
-842,1988,CT,Northeast,0,0,0,0.0,Connecticut
-843,1988,DE,South,0,0,0,0.0,Delaware
-844,1988,HI,West,0,0,0,0.0,Hawaii
-845,1988,ID,West,0,0,0,0.0,Idaho
-846,1988,IL,Midwest,0,0,0,0.0,Illinois
-847,1988,IN,Midwest,0,0,0,0.0,Indiana
-848,1988,IA,Midwest,0,0,0,0.0,Iowa
-849,1988,KS,Midwest,0,0,0,0.0,Kansas
-850,1988,KY,South,0,0,0,0.0,Kentucky
-851,1988,ME,Northeast,0,0,0,0.0,Maine
-852,1988,MD,South,0,0,0,0.0,Maryland
-853,1988,MA,Northeast,0,0,0,0.0,Massachusetts
-854,1988,MI,Midwest,0,0,0,0.0,Michigan
-855,1988,MN,Midwest,0,0,0,0.0,Minnesota
-856,1988,MS,South,0,0,0,0.0,Mississippi
-857,1988,MO,Midwest,0,0,0,0.0,Missouri
-858,1988,MT,West,0,0,0,0.0,Montana
-859,1988,NE,Midwest,0,0,0,0.0,Nebraska
-860,1988,NV,West,0,0,0,0.0,Nevada
-861,1988,NH,Northeast,0,0,0,0.0,New Hampshire
-862,1988,NJ,Northeast,0,0,0,0.0,New Jersey
-863,1988,NM,West,0,0,0,0.0,New Mexico
-864,1988,NY,Northeast,0,0,0,0.0,New York
-865,1988,NC,South,0,0,0,0.0,North Carolina
-866,1988,ND,Midwest,0,0,0,0.0,North Dakota
-867,1988,OH,Midwest,0,0,0,0.0,Ohio
-868,1988,OK,South,0,0,0,0.0,Oklahoma
-869,1988,OR,West,0,0,0,0.0,Oregon
-870,1988,PA,Northeast,0,0,0,0.0,Pennsylvania
-871,1988,RI,Northeast,0,0,0,0.0,Rhode Island
-872,1988,SC,South,0,0,0,0.0,South Carolina
-873,1988,SD,Midwest,0,0,0,0.0,South Dakota
-874,1988,TN,South,0,0,0,0.0,Tennessee
-875,1988,VT,Northeast,0,0,0,0.0,Vermont
-876,1988,WA,West,0,0,0,0.0,Washington
-877,1988,WV,South,0,0,0,0.0,West Virginia
-878,1988,WI,Midwest,0,0,0,0.0,Wisconsin
-879,1988,WY,West,0,0,0,0.0,Wyoming
-880,1989,FE,Federal,0,0,0,0.0,Federal
-881,1989,AK,West,0,0,0,0.0,Alaska
-882,1989,AZ,West,0,0,0,0.0,Arizona
-883,1989,AR,South,0,0,0,0.0,Arkansas
-884,1989,CA,West,0,0,0,0.0,California
-885,1989,CO,West,0,0,0,0.0,Colorado
-886,1989,CT,Northeast,0,0,0,0.0,Connecticut
-887,1989,DE,South,0,0,0,0.0,Delaware
-888,1989,HI,West,0,0,0,0.0,Hawaii
-889,1989,ID,West,0,0,0,0.0,Idaho
-890,1989,IL,Midwest,0,0,0,0.0,Illinois
-891,1989,IN,Midwest,0,0,0,0.0,Indiana
-892,1989,IA,Midwest,0,0,0,0.0,Iowa
-893,1989,KS,Midwest,0,0,0,0.0,Kansas
-894,1989,KY,South,0,0,0,0.0,Kentucky
-895,1989,LA,South,0,0,0,0.0,Louisiana
-896,1989,ME,Northeast,0,0,0,0.0,Maine
-897,1989,MD,South,0,0,0,0.0,Maryland
-898,1989,MA,Northeast,0,0,0,0.0,Massachusetts
-899,1989,MI,Midwest,0,0,0,0.0,Michigan
-900,1989,MN,Midwest,0,0,0,0.0,Minnesota
-901,1989,MT,West,0,0,0,0.0,Montana
-902,1989,NE,Midwest,0,0,0,0.0,Nebraska
-903,1989,NH,Northeast,0,0,0,0.0,New Hampshire
-904,1989,NJ,Northeast,0,0,0,0.0,New Jersey
-905,1989,NM,West,0,0,0,0.0,New Mexico
-906,1989,NY,Northeast,0,0,0,0.0,New York
-907,1989,NC,South,0,0,0,0.0,North Carolina
-908,1989,ND,Midwest,0,0,0,0.0,North Dakota
-909,1989,OH,Midwest,0,0,0,0.0,Ohio
-910,1989,OK,South,0,0,0,0.0,Oklahoma
-911,1989,OR,West,0,0,0,0.0,Oregon
-912,1989,PA,Northeast,0,0,0,0.0,Pennsylvania
-913,1989,RI,Northeast,0,0,0,0.0,Rhode Island
-914,1989,SC,South,0,0,0,0.0,South Carolina
-915,1989,SD,Midwest,0,0,0,0.0,South Dakota
-916,1989,TN,South,0,0,0,0.0,Tennessee
-917,1989,UT,West,0,0,0,0.0,Utah
-918,1989,VT,Northeast,0,0,0,0.0,Vermont
-919,1989,WA,West,0,0,0,0.0,Washington
-920,1989,WV,South,0,0,0,0.0,West Virginia
-921,1989,WI,Midwest,0,0,0,0.0,Wisconsin
-922,1989,WY,West,0,0,0,0.0,Wyoming
-923,1990,FE,Federal,0,0,0,0.0,Federal
-924,1990,AK,West,0,0,0,0.0,Alaska
-925,1990,AZ,West,0,0,0,0.0,Arizona
-926,1990,CA,West,0,0,0,0.0,California
-927,1990,CO,West,0,0,0,0.0,Colorado
-928,1990,CT,Northeast,0,0,0,0.0,Connecticut
-929,1990,DE,South,0,0,0,0.0,Delaware
-930,1990,GA,South,0,0,0,0.0,Georgia
-931,1990,HI,West,0,0,0,0.0,Hawaii
-932,1990,ID,West,0,0,0,0.0,Idaho
-933,1990,IN,Midwest,0,0,0,0.0,Indiana
-934,1990,IA,Midwest,0,0,0,0.0,Iowa
-935,1990,KS,Midwest,0,0,0,0.0,Kansas
-936,1990,KY,South,0,0,0,0.0,Kentucky
-937,1990,ME,Northeast,0,0,0,0.0,Maine
-938,1990,MD,South,0,0,0,0.0,Maryland
-939,1990,MA,Northeast,0,0,0,0.0,Massachusetts
-940,1990,MI,Midwest,0,0,0,0.0,Michigan
-941,1990,MN,Midwest,0,0,0,0.0,Minnesota
-942,1990,MS,South,0,0,0,0.0,Mississippi
-943,1990,MT,West,0,0,0,0.0,Montana
-944,1990,NE,Midwest,0,0,0,0.0,Nebraska
-945,1990,NH,Northeast,0,0,0,0.0,New Hampshire
-946,1990,NJ,Northeast,0,0,0,0.0,New Jersey
-947,1990,NM,West,0,0,0,0.0,New Mexico
-948,1990,NY,Northeast,0,0,0,0.0,New York
-949,1990,NC,South,0,0,0,0.0,North Carolina
-950,1990,ND,Midwest,0,0,0,0.0,North Dakota
-951,1990,OH,Midwest,0,0,0,0.0,Ohio
-952,1990,OR,West,0,0,0,0.0,Oregon
-953,1990,PA,Northeast,0,0,0,0.0,Pennsylvania
-954,1990,RI,Northeast,0,0,0,0.0,Rhode Island
-955,1990,SD,Midwest,0,0,0,0.0,South Dakota
-956,1990,TN,South,0,0,0,0.0,Tennessee
-957,1990,UT,West,0,0,0,0.0,Utah
-958,1990,VT,Northeast,0,0,0,0.0,Vermont
-959,1990,WA,West,0,0,0,0.0,Washington
-960,1990,WV,South,0,0,0,0.0,West Virginia
-961,1990,WI,Midwest,0,0,0,0.0,Wisconsin
-962,1990,WY,West,0,0,0,0.0,Wyoming
-963,1991,FE,Federal,0,0,0,0.0,Federal
-964,1991,AL,South,0,0,0,0.0,Alabama
-965,1991,AK,West,0,0,0,0.0,Alaska
-966,1991,AZ,West,0,0,0,0.0,Arizona
-967,1991,AR,South,0,0,0,0.0,Arkansas
-968,1991,CA,West,0,0,0,0.0,California
-969,1991,CO,West,0,0,0,0.0,Colorado
-970,1991,CT,Northeast,0,0,0,0.0,Connecticut
-971,1991,DE,South,0,0,0,0.0,Delaware
-972,1991,HI,West,0,0,0,0.0,Hawaii
-973,1991,ID,West,0,0,0,0.0,Idaho
-974,1991,IL,Midwest,0,0,0,0.0,Illinois
-975,1991,IN,Midwest,0,0,0,0.0,Indiana
-976,1991,IA,Midwest,0,0,0,0.0,Iowa
-977,1991,KS,Midwest,0,0,0,0.0,Kansas
-978,1991,KY,South,0,0,0,0.0,Kentucky
-979,1991,ME,Northeast,0,0,0,0.0,Maine
-980,1991,MD,South,0,0,0,0.0,Maryland
-981,1991,MA,Northeast,0,0,0,0.0,Massachusetts
-982,1991,MI,Midwest,0,0,0,0.0,Michigan
-983,1991,MN,Midwest,0,0,0,0.0,Minnesota
-984,1991,MS,South,0,0,0,0.0,Mississippi
-985,1991,MT,West,0,0,0,0.0,Montana
-986,1991,NE,Midwest,0,0,0,0.0,Nebraska
-987,1991,NV,West,0,0,0,0.0,Nevada
-988,1991,NH,Northeast,0,0,0,0.0,New Hampshire
-989,1991,NJ,Northeast,0,0,0,0.0,New Jersey
-990,1991,NM,West,0,0,0,0.0,New Mexico
-991,1991,NY,Northeast,0,0,0,0.0,New York
-992,1991,ND,Midwest,0,0,0,0.0,North Dakota
-993,1991,OH,Midwest,0,0,0,0.0,Ohio
-994,1991,OK,South,0,0,0,0.0,Oklahoma
-995,1991,OR,West,0,0,0,0.0,Oregon
-996,1991,PA,Northeast,0,0,0,0.0,Pennsylvania
-997,1991,RI,Northeast,0,0,0,0.0,Rhode Island
-998,1991,SD,Midwest,0,0,0,0.0,South Dakota
-999,1991,TN,South,0,0,0,0.0,Tennessee
-1000,1991,UT,West,0,0,0,0.0,Utah
-1001,1991,VT,Northeast,0,0,0,0.0,Vermont
-1002,1991,WA,West,0,0,0,0.0,Washington
-1003,1991,WV,South,0,0,0,0.0,West Virginia
-1004,1991,WI,Midwest,0,0,0,0.0,Wisconsin
-1005,1991,WY,West,0,0,0,0.0,Wyoming
-1006,1992,FE,Federal,0,0,0,0.0,Federal
-1007,1992,AK,West,0,0,0,0.0,Alaska
-1008,1992,CO,West,0,0,0,0.0,Colorado
-1009,1992,CT,Northeast,0,0,0,0.0,Connecticut
-1010,1992,GA,South,0,0,0,0.0,Georgia
-1011,1992,HI,West,0,0,0,0.0,Hawaii
-1012,1992,ID,West,0,0,0,0.0,Idaho
-1013,1992,IL,Midwest,0,0,0,0.0,Illinois
-1014,1992,IN,Midwest,0,0,0,0.0,Indiana
-1015,1992,IA,Midwest,0,0,0,0.0,Iowa
-1016,1992,KS,Midwest,0,0,0,0.0,Kansas
-1017,1992,KY,South,0,0,0,0.0,Kentucky
-1018,1992,LA,South,0,0,0,0.0,Louisiana
-1019,1992,ME,Northeast,0,0,0,0.0,Maine
-1020,1992,MD,South,0,0,0,0.0,Maryland
-1021,1992,MA,Northeast,0,0,0,0.0,Massachusetts
-1022,1992,MI,Midwest,0,0,0,0.0,Michigan
-1023,1992,MN,Midwest,0,0,0,0.0,Minnesota
-1024,1992,MS,South,0,0,0,0.0,Mississippi
-1025,1992,MT,West,0,0,0,0.0,Montana
-1026,1992,NE,Midwest,0,0,0,0.0,Nebraska
-1027,1992,NV,West,0,0,0,0.0,Nevada
-1028,1992,NH,Northeast,0,0,0,0.0,New Hampshire
-1029,1992,NJ,Northeast,0,0,0,0.0,New Jersey
-1030,1992,NM,West,0,0,0,0.0,New Mexico
-1031,1992,NY,Northeast,0,0,0,0.0,New York
-1032,1992,ND,Midwest,0,0,0,0.0,North Dakota
-1033,1992,OH,Midwest,0,0,0,0.0,Ohio
-1034,1992,OR,West,0,0,0,0.0,Oregon
-1035,1992,PA,Northeast,0,0,0,0.0,Pennsylvania
-1036,1992,RI,Northeast,0,0,0,0.0,Rhode Island
-1037,1992,SC,South,0,0,0,0.0,South Carolina
-1038,1992,SD,Midwest,0,0,0,0.0,South Dakota
-1039,1992,TN,South,0,0,0,0.0,Tennessee
-1040,1992,VT,Northeast,0,0,0,0.0,Vermont
-1041,1992,WA,West,0,0,0,0.0,Washington
-1042,1992,WV,South,0,0,0,0.0,West Virginia
-1043,1992,WI,Midwest,0,0,0,0.0,Wisconsin
-1044,1993,FE,Federal,0,0,0,0.0,Federal
-1045,1993,AL,South,0,0,0,0.0,Alabama
-1046,1993,AK,West,0,0,0,0.0,Alaska
-1047,1993,AR,South,0,0,0,0.0,Arkansas
-1048,1993,CO,West,0,0,0,0.0,Colorado
-1049,1993,CT,Northeast,0,0,0,0.0,Connecticut
-1050,1993,HI,West,0,0,0,0.0,Hawaii
-1051,1993,ID,West,0,0,0,0.0,Idaho
-1052,1993,IL,Midwest,0,0,0,0.0,Illinois
-1053,1993,IN,Midwest,0,0,0,0.0,Indiana
-1054,1993,IA,Midwest,0,0,0,0.0,Iowa
-1055,1993,KS,Midwest,0,0,0,0.0,Kansas
-1056,1993,KY,South,0,0,0,0.0,Kentucky
-1057,1993,ME,Northeast,0,0,0,0.0,Maine
-1058,1993,MD,South,0,0,0,0.0,Maryland
-1059,1993,MA,Northeast,0,0,0,0.0,Massachusetts
-1060,1993,MI,Midwest,0,0,0,0.0,Michigan
-1061,1993,MN,Midwest,0,0,0,0.0,Minnesota
-1062,1993,MS,South,0,0,0,0.0,Mississippi
-1063,1993,MT,West,0,0,0,0.0,Montana
-1064,1993,NE,Midwest,0,0,0,0.0,Nebraska
-1065,1993,NV,West,0,0,0,0.0,Nevada
-1066,1993,NH,Northeast,0,0,0,0.0,New Hampshire
-1067,1993,NJ,Northeast,0,0,0,0.0,New Jersey
-1068,1993,NM,West,0,0,0,0.0,New Mexico
-1069,1993,NY,Northeast,0,0,0,0.0,New York
-1070,1993,NC,South,0,0,0,0.0,North Carolina
-1071,1993,ND,Midwest,0,0,0,0.0,North Dakota
-1072,1993,OH,Midwest,0,0,0,0.0,Ohio
-1073,1993,OK,South,0,0,0,0.0,Oklahoma
-1074,1993,OR,West,0,0,0,0.0,Oregon
-1075,1993,PA,Northeast,0,0,0,0.0,Pennsylvania
-1076,1993,RI,Northeast,0,0,0,0.0,Rhode Island
-1077,1993,SC,South,0,0,0,0.0,South Carolina
-1078,1993,SD,Midwest,0,0,0,0.0,South Dakota
-1079,1993,TN,South,0,0,0,0.0,Tennessee
-1080,1993,UT,West,0,0,0,0.0,Utah
-1081,1993,VT,Northeast,0,0,0,0.0,Vermont
-1082,1993,WV,South,0,0,0,0.0,West Virginia
-1083,1993,WI,Midwest,0,0,0,0.0,Wisconsin
-1084,1993,WY,West,0,0,0,0.0,Wyoming
-1085,1994,FE,Federal,0,0,0,0.0,Federal
-1086,1994,AL,South,0,0,0,0.0,Alabama
-1087,1994,AK,West,0,0,0,0.0,Alaska
-1088,1994,AZ,West,0,0,0,0.0,Arizona
-1089,1994,CA,West,0,0,0,0.0,California
-1090,1994,CO,West,0,0,0,0.0,Colorado
-1091,1994,CT,Northeast,0,0,0,0.0,Connecticut
-1092,1994,HI,West,0,0,0,0.0,Hawaii
-1093,1994,IA,Midwest,0,0,0,0.0,Iowa
-1094,1994,KS,Midwest,0,0,0,0.0,Kansas
-1095,1994,KY,South,0,0,0,0.0,Kentucky
-1096,1994,LA,South,0,0,0,0.0,Louisiana
-1097,1994,ME,Northeast,0,0,0,0.0,Maine
-1098,1994,MA,Northeast,0,0,0,0.0,Massachusetts
-1099,1994,MI,Midwest,0,0,0,0.0,Michigan
-1100,1994,MN,Midwest,0,0,0,0.0,Minnesota
-1101,1994,MS,South,0,0,0,0.0,Mississippi
-1102,1994,MO,Midwest,0,0,0,0.0,Missouri
-1103,1994,MT,West,0,0,0,0.0,Montana
-1104,1994,NV,West,0,0,0,0.0,Nevada
-1105,1994,NH,Northeast,0,0,0,0.0,New Hampshire
-1106,1994,NJ,Northeast,0,0,0,0.0,New Jersey
-1107,1994,NM,West,0,0,0,0.0,New Mexico
-1108,1994,NY,Northeast,0,0,0,0.0,New York
-1109,1994,ND,Midwest,0,0,0,0.0,North Dakota
-1110,1994,OH,Midwest,0,0,0,0.0,Ohio
-1111,1994,OK,South,0,0,0,0.0,Oklahoma
-1112,1994,OR,West,0,0,0,0.0,Oregon
-1113,1994,PA,Northeast,0,0,0,0.0,Pennsylvania
-1114,1994,RI,Northeast,0,0,0,0.0,Rhode Island
-1115,1994,SC,South,0,0,0,0.0,South Carolina
-1116,1994,SD,Midwest,0,0,0,0.0,South Dakota
-1117,1994,TN,South,0,0,0,0.0,Tennessee
-1118,1994,UT,West,0,0,0,0.0,Utah
-1119,1994,VT,Northeast,0,0,0,0.0,Vermont
-1120,1994,WV,South,0,0,0,0.0,West Virginia
-1121,1994,WI,Midwest,0,0,0,0.0,Wisconsin
-1122,1994,WY,West,0,0,0,0.0,Wyoming
-1123,1995,FE,Federal,0,0,0,0.0,Federal
-1124,1995,AK,West,0,0,0,0.0,Alaska
-1125,1995,CA,West,0,0,0,0.0,California
-1126,1995,CO,West,0,0,0,0.0,Colorado
-1127,1995,CT,Northeast,0,0,0,0.0,Connecticut
-1128,1995,HI,West,0,0,0,0.0,Hawaii
-1129,1995,ID,West,0,0,0,0.0,Idaho
-1130,1995,IN,Midwest,0,0,0,0.0,Indiana
-1131,1995,IA,Midwest,0,0,0,0.0,Iowa
-1132,1995,KS,Midwest,0,0,0,0.0,Kansas
-1133,1995,KY,South,0,0,0,0.0,Kentucky
-1134,1995,ME,Northeast,0,0,0,0.0,Maine
-1135,1995,MD,South,0,0,0,0.0,Maryland
-1136,1995,MA,Northeast,0,0,0,0.0,Massachusetts
-1137,1995,MI,Midwest,0,0,0,0.0,Michigan
-1138,1995,MN,Midwest,0,0,0,0.0,Minnesota
-1139,1995,MS,South,0,0,0,0.0,Mississippi
-1140,1995,NE,Midwest,0,0,0,0.0,Nebraska
-1141,1995,NV,West,0,0,0,0.0,Nevada
-1142,1995,NH,Northeast,0,0,0,0.0,New Hampshire
-1143,1995,NJ,Northeast,0,0,0,0.0,New Jersey
-1144,1995,NM,West,0,0,0,0.0,New Mexico
-1145,1995,NY,Northeast,0,0,0,0.0,New York
-1146,1995,ND,Midwest,0,0,0,0.0,North Dakota
-1147,1995,OH,Midwest,0,0,0,0.0,Ohio
-1148,1995,OR,West,0,0,0,0.0,Oregon
-1149,1995,RI,Northeast,0,0,0,0.0,Rhode Island
-1150,1995,SD,Midwest,0,0,0,0.0,South Dakota
-1151,1995,TN,South,0,0,0,0.0,Tennessee
-1152,1995,UT,West,0,0,0,0.0,Utah
-1153,1995,VT,Northeast,0,0,0,0.0,Vermont
-1154,1995,WA,West,0,0,0,0.0,Washington
-1155,1995,WV,South,0,0,0,0.0,West Virginia
-1156,1995,WI,Midwest,0,0,0,0.0,Wisconsin
-1157,1995,WY,West,0,0,0,0.0,Wyoming
-1158,1996,FE,Federal,0,0,0,0.0,Federal
-1159,1996,AK,West,0,0,0,0.0,Alaska
-1160,1996,CO,West,0,0,0,0.0,Colorado
-1161,1996,CT,Northeast,0,0,0,0.0,Connecticut
-1162,1996,HI,West,0,0,0,0.0,Hawaii
-1163,1996,ID,West,0,0,0,0.0,Idaho
-1164,1996,IA,Midwest,0,0,0,0.0,Iowa
-1165,1996,KS,Midwest,0,0,0,0.0,Kansas
-1166,1996,KY,South,0,0,0,0.0,Kentucky
-1167,1996,ME,Northeast,0,0,0,0.0,Maine
-1168,1996,MD,South,0,0,0,0.0,Maryland
-1169,1996,MA,Northeast,0,0,0,0.0,Massachusetts
-1170,1996,MI,Midwest,0,0,0,0.0,Michigan
-1171,1996,MN,Midwest,0,0,0,0.0,Minnesota
-1172,1996,MS,South,0,0,0,0.0,Mississippi
-1173,1996,MT,West,0,0,0,0.0,Montana
-1174,1996,NH,Northeast,0,0,0,0.0,New Hampshire
-1175,1996,NJ,Northeast,0,0,0,0.0,New Jersey
-1176,1996,NM,West,0,0,0,0.0,New Mexico
-1177,1996,NY,Northeast,0,0,0,0.0,New York
-1178,1996,NC,South,0,0,0,0.0,North Carolina
-1179,1996,ND,Midwest,0,0,0,0.0,North Dakota
-1180,1996,OH,Midwest,0,0,0,0.0,Ohio
-1181,1996,PA,Northeast,0,0,0,0.0,Pennsylvania
-1182,1996,RI,Northeast,0,0,0,0.0,Rhode Island
-1183,1996,SD,Midwest,0,0,0,0.0,South Dakota
-1184,1996,TN,South,0,0,0,0.0,Tennessee
-1185,1996,VT,Northeast,0,0,0,0.0,Vermont
-1186,1996,WA,West,0,0,0,0.0,Washington
-1187,1996,WV,South,0,0,0,0.0,West Virginia
-1188,1996,WI,Midwest,0,0,0,0.0,Wisconsin
-1189,1996,WY,West,0,0,0,0.0,Wyoming
-1190,1997,FE,Federal,0,0,0,0.0,Federal
-1191,1997,AK,West,0,0,0,0.0,Alaska
-1192,1997,CA,West,0,0,0,0.0,California
-1193,1997,CT,Northeast,0,0,0,0.0,Connecticut
-1194,1997,DE,South,0,0,0,0.0,Delaware
-1195,1997,GA,South,0,0,0,0.0,Georgia
-1196,1997,HI,West,0,0,0,0.0,Hawaii
-1197,1997,ID,West,0,0,0,0.0,Idaho
-1198,1997,IA,Midwest,0,0,0,0.0,Iowa
-1199,1997,KS,Midwest,0,0,0,0.0,Kansas
-1200,1997,ME,Northeast,0,0,0,0.0,Maine
-1201,1997,MA,Northeast,0,0,0,0.0,Massachusetts
-1202,1997,MI,Midwest,0,0,0,0.0,Michigan
-1203,1997,MN,Midwest,0,0,0,0.0,Minnesota
-1204,1997,MS,South,0,0,0,0.0,Mississippi
-1205,1997,MT,West,0,0,0,0.0,Montana
-1206,1997,NV,West,0,0,0,0.0,Nevada
-1207,1997,NH,Northeast,0,0,0,0.0,New Hampshire
-1208,1997,NJ,Northeast,0,0,0,0.0,New Jersey
-1209,1997,NM,West,0,0,0,0.0,New Mexico
-1210,1997,NY,Northeast,0,0,0,0.0,New York
-1211,1997,NC,South,0,0,0,0.0,North Carolina
-1212,1997,ND,Midwest,0,0,0,0.0,North Dakota
-1213,1997,OH,Midwest,0,0,0,0.0,Ohio
-1214,1997,PA,Northeast,0,0,0,0.0,Pennsylvania
-1215,1997,RI,Northeast,0,0,0,0.0,Rhode Island
-1216,1997,SD,Midwest,0,0,0,0.0,South Dakota
-1217,1997,TN,South,0,0,0,0.0,Tennessee
-1218,1997,UT,West,0,0,0,0.0,Utah
-1219,1997,VT,Northeast,0,0,0,0.0,Vermont
-1220,1997,WA,West,0,0,0,0.0,Washington
-1221,1997,WV,South,0,0,0,0.0,West Virginia
-1222,1997,WI,Midwest,0,0,0,0.0,Wisconsin
-1223,1997,WY,West,0,0,0,0.0,Wyoming
-1224,1998,FE,Federal,0,0,0,0.0,Federal
-1225,1998,AK,West,0,0,0,0.0,Alaska
-1226,1998,CO,West,0,0,0,0.0,Colorado
-1227,1998,CT,Northeast,0,0,0,0.0,Connecticut
-1228,1998,DE,South,0,0,0,0.0,Delaware
-1229,1998,HI,West,0,0,0,0.0,Hawaii
-1230,1998,ID,West,0,0,0,0.0,Idaho
-1231,1998,IA,Midwest,0,0,0,0.0,Iowa
-1232,1998,KS,Midwest,0,0,0,0.0,Kansas
-1233,1998,KY,South,0,0,0,0.0,Kentucky
-1234,1998,LA,South,0,0,0,0.0,Louisiana
-1235,1998,ME,Northeast,0,0,0,0.0,Maine
-1236,1998,MA,Northeast,0,0,0,0.0,Massachusetts
-1237,1998,MI,Midwest,0,0,0,0.0,Michigan
-1238,1998,MN,Midwest,0,0,0,0.0,Minnesota
-1239,1998,MS,South,0,0,0,0.0,Mississippi
-1240,1998,NE,Midwest,0,0,0,0.0,Nebraska
-1241,1998,NH,Northeast,0,0,0,0.0,New Hampshire
-1242,1998,NJ,Northeast,0,0,0,0.0,New Jersey
-1243,1998,NM,West,0,0,0,0.0,New Mexico
-1244,1998,NY,Northeast,0,0,0,0.0,New York
-1245,1998,ND,Midwest,0,0,0,0.0,North Dakota
-1246,1998,OH,Midwest,0,0,0,0.0,Ohio
-1247,1998,OR,West,0,0,0,0.0,Oregon
-1248,1998,PA,Northeast,0,0,0,0.0,Pennsylvania
-1249,1998,RI,Northeast,0,0,0,0.0,Rhode Island
-1250,1998,SD,Midwest,0,0,0,0.0,South Dakota
-1251,1998,TN,South,0,0,0,0.0,Tennessee
-1252,1998,UT,West,0,0,0,0.0,Utah
-1253,1998,VT,Northeast,0,0,0,0.0,Vermont
-1254,1998,WV,South,0,0,0,0.0,West Virginia
-1255,1998,WI,Midwest,0,0,0,0.0,Wisconsin
-1256,1998,WY,West,0,0,0,0.0,Wyoming
-1257,1999,FE,Federal,0,0,0,0.0,Federal
-1258,1999,AK,West,0,0,0,0.0,Alaska
-1259,1999,CO,West,0,0,0,0.0,Colorado
-1260,1999,CT,Northeast,0,0,0,0.0,Connecticut
-1261,1999,GA,South,0,0,0,0.0,Georgia
-1262,1999,HI,West,0,0,0,0.0,Hawaii
-1263,1999,ID,West,0,0,0,0.0,Idaho
-1264,1999,IA,Midwest,0,0,0,0.0,Iowa
-1265,1999,KS,Midwest,0,0,0,0.0,Kansas
-1266,1999,ME,Northeast,0,0,0,0.0,Maine
-1267,1999,MD,South,0,0,0,0.0,Maryland
-1268,1999,MA,Northeast,0,0,0,0.0,Massachusetts
-1269,1999,MI,Midwest,0,0,0,0.0,Michigan
-1270,1999,MN,Midwest,0,0,0,0.0,Minnesota
-1271,1999,MS,South,0,0,0,0.0,Mississippi
-1272,1999,MT,West,0,0,0,0.0,Montana
-1273,1999,NE,Midwest,0,0,0,0.0,Nebraska
-1274,1999,NH,Northeast,0,0,0,0.0,New Hampshire
-1275,1999,NJ,Northeast,0,0,0,0.0,New Jersey
-1276,1999,NM,West,0,0,0,0.0,New Mexico
-1277,1999,NY,Northeast,0,0,0,0.0,New York
-1278,1999,ND,Midwest,0,0,0,0.0,North Dakota
-1279,1999,OR,West,0,0,0,0.0,Oregon
-1280,1999,RI,Northeast,0,0,0,0.0,Rhode Island
-1281,1999,SD,Midwest,0,0,0,0.0,South Dakota
-1282,1999,TN,South,0,0,0,0.0,Tennessee
-1283,1999,VT,Northeast,0,0,0,0.0,Vermont
-1284,1999,WA,West,0,0,0,0.0,Washington
-1285,1999,WV,South,0,0,0,0.0,West Virginia
-1286,1999,WI,Midwest,0,0,0,0.0,Wisconsin
-1287,1999,WY,West,0,0,0,0.0,Wyoming
-1288,2000,FE,Federal,0,0,0,0.0,Federal
-1289,2000,AK,West,0,0,0,0.0,Alaska
-1290,2000,CO,West,0,0,0,0.0,Colorado
-1291,2000,CT,Northeast,0,0,0,0.0,Connecticut
-1292,2000,GA,South,0,0,0,0.0,Georgia
-1293,2000,HI,West,0,0,0,0.0,Hawaii
-1294,2000,ID,West,0,0,0,0.0,Idaho
-1295,2000,IL,Midwest,0,0,0,0.0,Illinois
-1296,2000,IN,Midwest,0,0,0,0.0,Indiana
-1297,2000,IA,Midwest,0,0,0,0.0,Iowa
-1298,2000,KS,Midwest,0,0,0,0.0,Kansas
-1299,2000,KY,South,0,0,0,0.0,Kentucky
-1300,2000,ME,Northeast,0,0,0,0.0,Maine
-1301,2000,MD,South,0,0,0,0.0,Maryland
-1302,2000,MA,Northeast,0,0,0,0.0,Massachusetts
-1303,2000,MI,Midwest,0,0,0,0.0,Michigan
-1304,2000,MN,Midwest,0,0,0,0.0,Minnesota
-1305,2000,MS,South,0,0,0,0.0,Mississippi
-1306,2000,MT,West,0,0,0,0.0,Montana
-1307,2000,NE,Midwest,0,0,0,0.0,Nebraska
-1308,2000,NV,West,0,0,0,0.0,Nevada
-1309,2000,NH,Northeast,0,0,0,0.0,New Hampshire
-1310,2000,NJ,Northeast,0,0,0,0.0,New Jersey
-1311,2000,NM,West,0,0,0,0.0,New Mexico
-1312,2000,NY,Northeast,0,0,0,0.0,New York
-1313,2000,ND,Midwest,0,0,0,0.0,North Dakota
-1314,2000,OH,Midwest,0,0,0,0.0,Ohio
-1315,2000,OR,West,0,0,0,0.0,Oregon
-1316,2000,PA,Northeast,0,0,0,0.0,Pennsylvania
-1317,2000,RI,Northeast,0,0,0,0.0,Rhode Island
-1318,2000,SD,Midwest,0,0,0,0.0,South Dakota
-1319,2000,UT,West,0,0,0,0.0,Utah
-1320,2000,VT,Northeast,0,0,0,0.0,Vermont
-1321,2000,WA,West,0,0,0,0.0,Washington
-1322,2000,WV,South,0,0,0,0.0,West Virginia
-1323,2000,WI,Midwest,0,0,0,0.0,Wisconsin
-1324,2000,WY,West,0,0,0,0.0,Wyoming
-1325,2001,AL,South,0,0,0,0.0,Alabama
-1326,2001,AK,West,0,0,0,0.0,Alaska
-1327,2001,AZ,West,0,0,0,0.0,Arizona
-1328,2001,CO,West,0,0,0,0.0,Colorado
-1329,2001,CT,Northeast,0,0,0,0.0,Connecticut
-1330,2001,HI,West,0,0,0,0.0,Hawaii
-1331,2001,ID,West,0,0,0,0.0,Idaho
-1332,2001,IL,Midwest,0,0,0,0.0,Illinois
-1333,2001,IA,Midwest,0,0,0,0.0,Iowa
-1334,2001,KS,Midwest,0,0,0,0.0,Kansas
-1335,2001,KY,South,0,0,0,0.0,Kentucky
-1336,2001,LA,South,0,0,0,0.0,Louisiana
-1337,2001,ME,Northeast,0,0,0,0.0,Maine
-1338,2001,MD,South,0,0,0,0.0,Maryland
-1339,2001,MA,Northeast,0,0,0,0.0,Massachusetts
-1340,2001,MI,Midwest,0,0,0,0.0,Michigan
-1341,2001,MN,Midwest,0,0,0,0.0,Minnesota
-1342,2001,MS,South,0,0,0,0.0,Mississippi
-1343,2001,MT,West,0,0,0,0.0,Montana
-1344,2001,NE,Midwest,0,0,0,0.0,Nebraska
-1345,2001,NH,Northeast,0,0,0,0.0,New Hampshire
-1346,2001,NJ,Northeast,0,0,0,0.0,New Jersey
-1347,2001,NY,Northeast,0,0,0,0.0,New York
-1348,2001,ND,Midwest,0,0,0,0.0,North Dakota
-1349,2001,OR,West,0,0,0,0.0,Oregon
-1350,2001,PA,Northeast,0,0,0,0.0,Pennsylvania
-1351,2001,RI,Northeast,0,0,0,0.0,Rhode Island
-1352,2001,SC,South,0,0,0,0.0,South Carolina
-1353,2001,SD,Midwest,0,0,0,0.0,South Dakota
-1354,2001,TN,South,0,0,0,0.0,Tennessee
-1355,2001,UT,West,0,0,0,0.0,Utah
-1356,2001,VT,Northeast,0,0,0,0.0,Vermont
-1357,2001,WV,South,0,0,0,0.0,West Virginia
-1358,2001,WI,Midwest,0,0,0,0.0,Wisconsin
-1359,2001,WY,West,0,0,0,0.0,Wyoming
-1360,2002,FE,Federal,0,0,0,0.0,Federal
-1361,2002,AK,West,0,0,0,0.0,Alaska
-1362,2002,AZ,West,0,0,0,0.0,Arizona
-1363,2002,AR,South,0,0,0,0.0,Arkansas
-1364,2002,CO,West,0,0,0,0.0,Colorado
-1365,2002,CT,Northeast,0,0,0,0.0,Connecticut
-1366,2002,DE,South,0,0,0,0.0,Delaware
-1367,2002,HI,West,0,0,0,0.0,Hawaii
-1368,2002,ID,West,0,0,0,0.0,Idaho
-1369,2002,IL,Midwest,0,0,0,0.0,Illinois
-1370,2002,IN,Midwest,0,0,0,0.0,Indiana
-1371,2002,IA,Midwest,0,0,0,0.0,Iowa
-1372,2002,KS,Midwest,0,0,0,0.0,Kansas
-1373,2002,KY,South,0,0,0,0.0,Kentucky
-1374,2002,ME,Northeast,0,0,0,0.0,Maine
-1375,2002,MD,South,0,0,0,0.0,Maryland
-1376,2002,MA,Northeast,0,0,0,0.0,Massachusetts
-1377,2002,MI,Midwest,0,0,0,0.0,Michigan
-1378,2002,MN,Midwest,0,0,0,0.0,Minnesota
-1379,2002,MT,West,0,0,0,0.0,Montana
-1380,2002,NE,Midwest,0,0,0,0.0,Nebraska
-1381,2002,NV,West,0,0,0,0.0,Nevada
-1382,2002,NH,Northeast,0,0,0,0.0,New Hampshire
-1383,2002,NJ,Northeast,0,0,0,0.0,New Jersey
-1384,2002,NM,West,0,0,0,0.0,New Mexico
-1385,2002,NY,Northeast,0,0,0,0.0,New York
-1386,2002,ND,Midwest,0,0,0,0.0,North Dakota
-1387,2002,OR,West,0,0,0,0.0,Oregon
-1388,2002,PA,Northeast,0,0,0,0.0,Pennsylvania
-1389,2002,RI,Northeast,0,0,0,0.0,Rhode Island
-1390,2002,SD,Midwest,0,0,0,0.0,South Dakota
-1391,2002,TN,South,0,0,0,0.0,Tennessee
-1392,2002,UT,West,0,0,0,0.0,Utah
-1393,2002,VT,Northeast,0,0,0,0.0,Vermont
-1394,2002,WA,West,0,0,0,0.0,Washington
-1395,2002,WV,South,0,0,0,0.0,West Virginia
-1396,2002,WI,Midwest,0,0,0,0.0,Wisconsin
-1397,2002,WY,West,0,0,0,0.0,Wyoming
-1398,2003,AK,West,0,0,0,0.0,Alaska
-1399,2003,AZ,West,0,0,0,0.0,Arizona
-1400,2003,CA,West,0,0,0,0.0,California
-1401,2003,CO,West,0,0,0,0.0,Colorado
-1402,2003,CT,Northeast,0,0,0,0.0,Connecticut
-1403,2003,DE,South,0,0,0,0.0,Delaware
-1404,2003,HI,West,0,0,0,0.0,Hawaii
-1405,2003,ID,West,0,0,0,0.0,Idaho
-1406,2003,IL,Midwest,0,0,0,0.0,Illinois
-1407,2003,IA,Midwest,0,0,0,0.0,Iowa
-1408,2003,KS,Midwest,0,0,0,0.0,Kansas
-1409,2003,KY,South,0,0,0,0.0,Kentucky
-1410,2003,LA,South,0,0,0,0.0,Louisiana
-1411,2003,ME,Northeast,0,0,0,0.0,Maine
-1412,2003,MD,South,0,0,0,0.0,Maryland
-1413,2003,MA,Northeast,0,0,0,0.0,Massachusetts
-1414,2003,MI,Midwest,0,0,0,0.0,Michigan
-1415,2003,MN,Midwest,0,0,0,0.0,Minnesota
-1416,2003,MS,South,0,0,0,0.0,Mississippi
-1417,2003,MT,West,0,0,0,0.0,Montana
-1418,2003,NE,Midwest,0,0,0,0.0,Nebraska
-1419,2003,NV,West,0,0,0,0.0,Nevada
-1420,2003,NH,Northeast,0,0,0,0.0,New Hampshire
-1421,2003,NJ,Northeast,0,0,0,0.0,New Jersey
-1422,2003,NM,West,0,0,0,0.0,New Mexico
-1423,2003,NY,Northeast,0,0,0,0.0,New York
-1424,2003,ND,Midwest,0,0,0,0.0,North Dakota
-1425,2003,OR,West,0,0,0,0.0,Oregon
-1426,2003,PA,Northeast,0,0,0,0.0,Pennsylvania
-1427,2003,RI,Northeast,0,0,0,0.0,Rhode Island
-1428,2003,SC,South,0,0,0,0.0,South Carolina
-1429,2003,SD,Midwest,0,0,0,0.0,South Dakota
-1430,2003,TN,South,0,0,0,0.0,Tennessee
-1431,2003,UT,West,0,0,0,0.0,Utah
-1432,2003,VT,Northeast,0,0,0,0.0,Vermont
-1433,2003,WA,West,0,0,0,0.0,Washington
-1434,2003,WV,South,0,0,0,0.0,West Virginia
-1435,2003,WI,Midwest,0,0,0,0.0,Wisconsin
-1436,2003,WY,West,0,0,0,0.0,Wyoming
-1437,2004,FE,Federal,0,0,0,0.0,Federal
-1438,2004,AK,West,0,0,0,0.0,Alaska
-1439,2004,AZ,West,0,0,0,0.0,Arizona
-1440,2004,CA,West,0,0,0,0.0,California
-1441,2004,CO,West,0,0,0,0.0,Colorado
-1442,2004,CT,Northeast,0,0,0,0.0,Connecticut
-1443,2004,DE,South,0,0,0,0.0,Delaware
-1444,2004,HI,West,0,0,0,0.0,Hawaii
-1445,2004,ID,West,0,0,0,0.0,Idaho
-1446,2004,IL,Midwest,0,0,0,0.0,Illinois
-1447,2004,IN,Midwest,0,0,0,0.0,Indiana
-1448,2004,IA,Midwest,0,0,0,0.0,Iowa
-1449,2004,KS,Midwest,0,0,0,0.0,Kansas
-1450,2004,KY,South,0,0,0,0.0,Kentucky
-1451,2004,LA,South,0,0,0,0.0,Louisiana
-1452,2004,ME,Northeast,0,0,0,0.0,Maine
-1453,2004,MA,Northeast,0,0,0,0.0,Massachusetts
-1454,2004,MI,Midwest,0,0,0,0.0,Michigan
-1455,2004,MN,Midwest,0,0,0,0.0,Minnesota
-1456,2004,MS,South,0,0,0,0.0,Mississippi
-1457,2004,MO,Midwest,0,0,0,0.0,Missouri
-1458,2004,MT,West,0,0,0,0.0,Montana
-1459,2004,NE,Midwest,0,0,0,0.0,Nebraska
-1460,2004,NH,Northeast,0,0,0,0.0,New Hampshire
-1461,2004,NJ,Northeast,0,0,0,0.0,New Jersey
-1462,2004,NM,West,0,0,0,0.0,New Mexico
-1463,2004,NY,Northeast,0,0,0,0.0,New York
-1464,2004,ND,Midwest,0,0,0,0.0,North Dakota
-1465,2004,OR,West,0,0,0,0.0,Oregon
-1466,2004,PA,Northeast,0,0,0,0.0,Pennsylvania
-1467,2004,RI,Northeast,0,0,0,0.0,Rhode Island
-1468,2004,SD,Midwest,0,0,0,0.0,South Dakota
-1469,2004,TN,South,0,0,0,0.0,Tennessee
-1470,2004,UT,West,0,0,0,0.0,Utah
-1471,2004,VT,Northeast,0,0,0,0.0,Vermont
-1472,2004,WA,West,0,0,0,0.0,Washington
-1473,2004,WV,South,0,0,0,0.0,West Virginia
-1474,2004,WI,Midwest,0,0,0,0.0,Wisconsin
-1475,2004,WY,West,0,0,0,0.0,Wyoming
-1476,2005,FE,Federal,0,0,0,0.0,Federal
-1477,2005,AK,West,0,0,0,0.0,Alaska
-1478,2005,AZ,West,0,0,0,0.0,Arizona
-1479,2005,CO,West,0,0,0,0.0,Colorado
-1480,2005,HI,West,0,0,0,0.0,Hawaii
-1481,2005,ID,West,0,0,0,0.0,Idaho
-1482,2005,IL,Midwest,0,0,0,0.0,Illinois
-1483,2005,IA,Midwest,0,0,0,0.0,Iowa
-1484,2005,KS,Midwest,0,0,0,0.0,Kansas
-1485,2005,KY,South,0,0,0,0.0,Kentucky
-1486,2005,LA,South,0,0,0,0.0,Louisiana
-1487,2005,ME,Northeast,0,0,0,0.0,Maine
-1488,2005,MA,Northeast,0,0,0,0.0,Massachusetts
-1489,2005,MI,Midwest,0,0,0,0.0,Michigan
-1490,2005,MN,Midwest,0,0,0,0.0,Minnesota
-1491,2005,MT,West,0,0,0,0.0,Montana
-1492,2005,NE,Midwest,0,0,0,0.0,Nebraska
-1493,2005,NV,West,0,0,0,0.0,Nevada
-1494,2005,NH,Northeast,0,0,0,0.0,New Hampshire
-1495,2005,NJ,Northeast,0,0,0,0.0,New Jersey
-1496,2005,NM,West,0,0,0,0.0,New Mexico
-1497,2005,NY,Northeast,0,0,0,0.0,New York
-1498,2005,ND,Midwest,0,0,0,0.0,North Dakota
-1499,2005,OR,West,0,0,0,0.0,Oregon
-1500,2005,PA,Northeast,0,0,0,0.0,Pennsylvania
-1501,2005,RI,Northeast,0,0,0,0.0,Rhode Island
-1502,2005,SD,Midwest,0,0,0,0.0,South Dakota
-1503,2005,TN,South,0,0,0,0.0,Tennessee
-1504,2005,UT,West,0,0,0,0.0,Utah
-1505,2005,VT,Northeast,0,0,0,0.0,Vermont
-1506,2005,VA,South,0,0,0,0.0,Virginia
-1507,2005,WA,West,0,0,0,0.0,Washington
-1508,2005,WV,South,0,0,0,0.0,West Virginia
-1509,2005,WI,Midwest,0,0,0,0.0,Wisconsin
-1510,2005,WY,West,0,0,0,0.0,Wyoming
-1511,2006,FE,Federal,0,0,0,0.0,Federal
-1512,2006,AK,West,0,0,0,0.0,Alaska
-1513,2006,AZ,West,0,0,0,0.0,Arizona
-1514,2006,AR,South,0,0,0,0.0,Arkansas
-1515,2006,CO,West,0,0,0,0.0,Colorado
-1516,2006,CT,Northeast,0,0,0,0.0,Connecticut
-1517,2006,DE,South,0,0,0,0.0,Delaware
-1518,2006,GA,South,0,0,0,0.0,Georgia
-1519,2006,HI,West,0,0,0,0.0,Hawaii
-1520,2006,ID,West,0,0,0,0.0,Idaho
-1521,2006,IL,Midwest,0,0,0,0.0,Illinois
-1522,2006,IA,Midwest,0,0,0,0.0,Iowa
-1523,2006,KS,Midwest,0,0,0,0.0,Kansas
-1524,2006,KY,South,0,0,0,0.0,Kentucky
-1525,2006,LA,South,0,0,0,0.0,Louisiana
-1526,2006,ME,Northeast,0,0,0,0.0,Maine
-1527,2006,MD,South,0,0,0,0.0,Maryland
-1528,2006,MA,Northeast,0,0,0,0.0,Massachusetts
-1529,2006,MI,Midwest,0,0,0,0.0,Michigan
-1530,2006,MN,Midwest,0,0,0,0.0,Minnesota
-1531,2006,MO,Midwest,0,0,0,0.0,Missouri
-1532,2006,NE,Midwest,0,0,0,0.0,Nebraska
-1533,2006,NH,Northeast,0,0,0,0.0,New Hampshire
-1534,2006,NJ,Northeast,0,0,0,0.0,New Jersey
-1535,2006,NM,West,0,0,0,0.0,New Mexico
-1536,2006,NY,Northeast,0,0,0,0.0,New York
-1537,2006,ND,Midwest,0,0,0,0.0,North Dakota
-1538,2006,OR,West,0,0,0,0.0,Oregon
-1539,2006,PA,Northeast,0,0,0,0.0,Pennsylvania
-1540,2006,RI,Northeast,0,0,0,0.0,Rhode Island
-1541,2006,SD,Midwest,0,0,0,0.0,South Dakota
-1542,2006,UT,West,0,0,0,0.0,Utah
-1543,2006,VT,Northeast,0,0,0,0.0,Vermont
-1544,2006,WA,West,0,0,0,0.0,Washington
-1545,2006,WV,South,0,0,0,0.0,West Virginia
-1546,2006,WI,Midwest,0,0,0,0.0,Wisconsin
-1547,2006,WY,West,0,0,0,0.0,Wyoming
-1548,2007,FE,Federal,0,0,0,0.0,Federal
-1549,2007,AK,West,0,0,0,0.0,Alaska
-1550,2007,AR,South,0,0,0,0.0,Arkansas
-1551,2007,CA,West,0,0,0,0.0,California
-1552,2007,CO,West,0,0,0,0.0,Colorado
-1553,2007,CT,Northeast,0,0,0,0.0,Connecticut
-1554,2007,DE,South,0,0,0,0.0,Delaware
-1555,2007,FL,South,0,0,0,0.0,Florida
-1556,2007,HI,West,0,0,0,0.0,Hawaii
-1557,2007,ID,West,0,0,0,0.0,Idaho
-1558,2007,IL,Midwest,0,0,0,0.0,Illinois
-1559,2007,IA,Midwest,0,0,0,0.0,Iowa
-1560,2007,KS,Midwest,0,0,0,0.0,Kansas
-1561,2007,KY,South,0,0,0,0.0,Kentucky
-1562,2007,LA,South,0,0,0,0.0,Louisiana
-1563,2007,ME,Northeast,0,0,0,0.0,Maine
-1564,2007,MD,South,0,0,0,0.0,Maryland
-1565,2007,MA,Northeast,0,0,0,0.0,Massachusetts
-1566,2007,MI,Midwest,0,0,0,0.0,Michigan
-1567,2007,MN,Midwest,0,0,0,0.0,Minnesota
-1568,2007,MS,South,0,0,0,0.0,Mississippi
-1569,2007,MO,Midwest,0,0,0,0.0,Missouri
-1570,2007,MT,West,0,0,0,0.0,Montana
-1571,2007,NE,Midwest,0,0,0,0.0,Nebraska
-1572,2007,NV,West,0,0,0,0.0,Nevada
-1573,2007,NH,Northeast,0,0,0,0.0,New Hampshire
-1574,2007,NJ,Northeast,0,0,0,0.0,New Jersey
-1575,2007,NM,West,0,0,0,0.0,New Mexico
-1576,2007,NY,Northeast,0,0,0,0.0,New York
-1577,2007,NC,South,0,0,0,0.0,North Carolina
-1578,2007,ND,Midwest,0,0,0,0.0,North Dakota
-1579,2007,OR,West,0,0,0,0.0,Oregon
-1580,2007,PA,Northeast,0,0,0,0.0,Pennsylvania
-1581,2007,RI,Northeast,0,0,0,0.0,Rhode Island
-1582,2007,UT,West,0,0,0,0.0,Utah
-1583,2007,VT,Northeast,0,0,0,0.0,Vermont
-1584,2007,VA,South,0,0,0,0.0,Virginia
-1585,2007,WA,West,0,0,0,0.0,Washington
-1586,2007,WV,South,0,0,0,0.0,West Virginia
-1587,2007,WI,Midwest,0,0,0,0.0,Wisconsin
-1588,2007,WY,West,0,0,0,0.0,Wyoming
-1589,2008,FE,Federal,0,0,0,0.0,Federal
-1590,2008,AL,South,0,0,0,0.0,Alabama
-1591,2008,AK,West,0,0,0,0.0,Alaska
-1592,2008,AZ,West,0,0,0,0.0,Arizona
-1593,2008,AR,South,0,0,0,0.0,Arkansas
-1594,2008,CA,West,0,0,0,0.0,California
-1595,2008,CO,West,0,0,0,0.0,Colorado
-1596,2008,CT,Northeast,0,0,0,0.0,Connecticut
-1597,2008,DE,South,0,0,0,0.0,Delaware
-1598,2008,HI,West,0,0,0,0.0,Hawaii
-1599,2008,ID,West,0,0,0,0.0,Idaho
-1600,2008,IL,Midwest,0,0,0,0.0,Illinois
-1601,2008,IN,Midwest,0,0,0,0.0,Indiana
-1602,2008,IA,Midwest,0,0,0,0.0,Iowa
-1603,2008,KS,Midwest,0,0,0,0.0,Kansas
-1604,2008,LA,South,0,0,0,0.0,Louisiana
-1605,2008,ME,Northeast,0,0,0,0.0,Maine
-1606,2008,MD,South,0,0,0,0.0,Maryland
-1607,2008,MA,Northeast,0,0,0,0.0,Massachusetts
-1608,2008,MI,Midwest,0,0,0,0.0,Michigan
-1609,2008,MN,Midwest,0,0,0,0.0,Minnesota
-1610,2008,MO,Midwest,0,0,0,0.0,Missouri
-1611,2008,MT,West,0,0,0,0.0,Montana
-1612,2008,NE,Midwest,0,0,0,0.0,Nebraska
-1613,2008,NV,West,0,0,0,0.0,Nevada
-1614,2008,NH,Northeast,0,0,0,0.0,New Hampshire
-1615,2008,NJ,Northeast,0,0,0,0.0,New Jersey
-1616,2008,NM,West,0,0,0,0.0,New Mexico
-1617,2008,NY,Northeast,0,0,0,0.0,New York
-1618,2008,NC,South,0,0,0,0.0,North Carolina
-1619,2008,ND,Midwest,0,0,0,0.0,North Dakota
-1620,2008,OR,West,0,0,0,0.0,Oregon
-1621,2008,PA,Northeast,0,0,0,0.0,Pennsylvania
-1622,2008,RI,Northeast,0,0,0,0.0,Rhode Island
-1623,2008,SD,Midwest,0,0,0,0.0,South Dakota
-1624,2008,TN,South,0,0,0,0.0,Tennessee
-1625,2008,UT,West,0,0,0,0.0,Utah
-1626,2008,VT,Northeast,0,0,0,0.0,Vermont
-1627,2008,WA,West,0,0,0,0.0,Washington
-1628,2008,WV,South,0,0,0,0.0,West Virginia
-1629,2008,WI,Midwest,0,0,0,0.0,Wisconsin
-1630,2008,WY,West,0,0,0,0.0,Wyoming
-1631,2009,FE,Federal,0,0,0,0.0,Federal
-1632,2009,AK,West,0,0,0,0.0,Alaska
-1633,2009,AZ,West,0,0,0,0.0,Arizona
-1634,2009,AR,South,0,0,0,0.0,Arkansas
-1635,2009,CA,West,0,0,0,0.0,California
-1636,2009,CO,West,0,0,0,0.0,Colorado
-1637,2009,CT,Northeast,0,0,0,0.0,Connecticut
-1638,2009,DE,South,0,0,0,0.0,Delaware
-1639,2009,HI,West,0,0,0,0.0,Hawaii
-1640,2009,ID,West,0,0,0,0.0,Idaho
-1641,2009,IL,Midwest,0,0,0,0.0,Illinois
-1642,2009,IA,Midwest,0,0,0,0.0,Iowa
-1643,2009,KS,Midwest,0,0,0,0.0,Kansas
-1644,2009,KY,South,0,0,0,0.0,Kentucky
-1645,2009,LA,South,0,0,0,0.0,Louisiana
-1646,2009,ME,Northeast,0,0,0,0.0,Maine
-1647,2009,MD,South,0,0,0,0.0,Maryland
-1648,2009,MA,Northeast,0,0,0,0.0,Massachusetts
-1649,2009,MI,Midwest,0,0,0,0.0,Michigan
-1650,2009,MN,Midwest,0,0,0,0.0,Minnesota
-1651,2009,MS,South,0,0,0,0.0,Mississippi
-1652,2009,MT,West,0,0,0,0.0,Montana
-1653,2009,NE,Midwest,0,0,0,0.0,Nebraska
-1654,2009,NV,West,0,0,0,0.0,Nevada
-1655,2009,NH,Northeast,0,0,0,0.0,New Hampshire
-1656,2009,NJ,Northeast,0,0,0,0.0,New Jersey
-1657,2009,NM,West,0,0,0,0.0,New Mexico
-1658,2009,NY,Northeast,0,0,0,0.0,New York
-1659,2009,NC,South,0,0,0,0.0,North Carolina
-1660,2009,ND,Midwest,0,0,0,0.0,North Dakota
-1661,2009,OR,West,0,0,0,0.0,Oregon
-1662,2009,PA,Northeast,0,0,0,0.0,Pennsylvania
-1663,2009,RI,Northeast,0,0,0,0.0,Rhode Island
-1664,2009,SD,Midwest,0,0,0,0.0,South Dakota
-1665,2009,UT,West,0,0,0,0.0,Utah
-1666,2009,VT,Northeast,0,0,0,0.0,Vermont
-1667,2009,WA,West,0,0,0,0.0,Washington
-1668,2009,WV,South,0,0,0,0.0,West Virginia
-1669,2009,WI,Midwest,0,0,0,0.0,Wisconsin
-1670,2009,WY,West,0,0,0,0.0,Wyoming
-1671,2010,FE,Federal,0,0,0,0.0,Federal
-1672,2010,AK,West,0,0,0,0.0,Alaska
-1673,2010,AR,South,0,0,0,0.0,Arkansas
-1674,2010,CA,West,0,0,0,0.0,California
-1675,2010,CO,West,0,0,0,0.0,Colorado
-1676,2010,CT,Northeast,0,0,0,0.0,Connecticut
-1677,2010,DE,South,0,0,0,0.0,Delaware
-1678,2010,HI,West,0,0,0,0.0,Hawaii
-1679,2010,ID,West,0,0,0,0.0,Idaho
-1680,2010,IL,Midwest,0,0,0,0.0,Illinois
-1681,2010,IN,Midwest,0,0,0,0.0,Indiana
-1682,2010,IA,Midwest,0,0,0,0.0,Iowa
-1683,2010,KS,Midwest,0,0,0,0.0,Kansas
-1684,2010,KY,South,0,0,0,0.0,Kentucky
-1685,2010,ME,Northeast,0,0,0,0.0,Maine
-1686,2010,MD,South,0,0,0,0.0,Maryland
-1687,2010,MA,Northeast,0,0,0,0.0,Massachusetts
-1688,2010,MI,Midwest,0,0,0,0.0,Michigan
-1689,2010,MN,Midwest,0,0,0,0.0,Minnesota
-1690,2010,MO,Midwest,0,0,0,0.0,Missouri
-1691,2010,MT,West,0,0,0,0.0,Montana
-1692,2010,NE,Midwest,0,0,0,0.0,Nebraska
-1693,2010,NV,West,0,0,0,0.0,Nevada
-1694,2010,NH,Northeast,0,0,0,0.0,New Hampshire
-1695,2010,NJ,Northeast,0,0,0,0.0,New Jersey
-1696,2010,NM,West,0,0,0,0.0,New Mexico
-1697,2010,NY,Northeast,0,0,0,0.0,New York
-1698,2010,NC,South,0,0,0,0.0,North Carolina
-1699,2010,ND,Midwest,0,0,0,0.0,North Dakota
-1700,2010,OR,West,0,0,0,0.0,Oregon
-1701,2010,PA,Northeast,0,0,0,0.0,Pennsylvania
-1702,2010,RI,Northeast,0,0,0,0.0,Rhode Island
-1703,2010,SC,South,0,0,0,0.0,South Carolina
-1704,2010,SD,Midwest,0,0,0,0.0,South Dakota
-1705,2010,TN,South,0,0,0,0.0,Tennessee
-1706,2010,VT,Northeast,0,0,0,0.0,Vermont
-1707,2010,WV,South,0,0,0,0.0,West Virginia
-1708,2010,WI,Midwest,0,0,0,0.0,Wisconsin
-1709,2010,WY,West,0,0,0,0.0,Wyoming
-1710,2011,FE,Federal,0,0,0,0.0,Federal
-1711,2011,AK,West,0,0,0,0.0,Alaska
-1712,2011,AR,South,0,0,0,0.0,Arkansas
-1713,2011,CA,West,0,0,0,0.0,California
-1714,2011,CO,West,0,0,0,0.0,Colorado
-1715,2011,CT,Northeast,0,0,0,0.0,Connecticut
-1716,2011,HI,West,0,0,0,0.0,Hawaii
-1717,2011,IL,Midwest,0,0,0,0.0,Illinois
-1718,2011,IN,Midwest,0,0,0,0.0,Indiana
-1719,2011,IA,Midwest,0,0,0,0.0,Iowa
-1720,2011,KS,Midwest,0,0,0,0.0,Kansas
-1721,2011,KY,South,0,0,0,0.0,Kentucky
-1722,2011,LA,South,0,0,0,0.0,Louisiana
-1723,2011,ME,Northeast,0,0,0,0.0,Maine
-1724,2011,MD,South,0,0,0,0.0,Maryland
-1725,2011,MA,Northeast,0,0,0,0.0,Massachusetts
-1726,2011,MI,Midwest,0,0,0,0.0,Michigan
-1727,2011,MN,Midwest,0,0,0,0.0,Minnesota
-1728,2011,MT,West,0,0,0,0.0,Montana
-1729,2011,NE,Midwest,0,0,0,0.0,Nebraska
-1730,2011,NV,West,0,0,0,0.0,Nevada
-1731,2011,NH,Northeast,0,0,0,0.0,New Hampshire
-1732,2011,NJ,Northeast,0,0,0,0.0,New Jersey
-1733,2011,NM,West,0,0,0,0.0,New Mexico
-1734,2011,NY,Northeast,0,0,0,0.0,New York
-1735,2011,NC,South,0,0,0,0.0,North Carolina
-1736,2011,ND,Midwest,0,0,0,0.0,North Dakota
-1737,2011,OR,West,0,0,0,0.0,Oregon
-1738,2011,PA,Northeast,0,0,0,0.0,Pennsylvania
-1739,2011,RI,Northeast,0,0,0,0.0,Rhode Island
-1740,2011,SD,Midwest,0,0,0,0.0,South Dakota
-1741,2011,TN,South,0,0,0,0.0,Tennessee
-1742,2011,UT,West,0,0,0,0.0,Utah
-1743,2011,VT,Northeast,0,0,0,0.0,Vermont
-1744,2011,WA,West,0,0,0,0.0,Washington
-1745,2011,WV,South,0,0,0,0.0,West Virginia
-1746,2011,WI,Midwest,0,0,0,0.0,Wisconsin
-1747,2011,WY,West,0,0,0,0.0,Wyoming
-1748,2012,FE,Federal,0,0,0,0.0,Federal
-1749,2012,AL,South,0,0,0,0.0,Alabama
-1750,2012,AK,West,0,0,0,0.0,Alaska
-1751,2012,AR,South,0,0,0,0.0,Arkansas
-1752,2012,CA,West,0,0,0,0.0,California
-1753,2012,CO,West,0,0,0,0.0,Colorado
-1754,2012,CT,Northeast,0,0,0,0.0,Connecticut
-1755,2012,GA,South,0,0,0,0.0,Georgia
-1756,2012,HI,West,0,0,0,0.0,Hawaii
-1757,2012,IL,Midwest,0,0,0,0.0,Illinois
-1758,2012,IN,Midwest,0,0,0,0.0,Indiana
-1759,2012,IA,Midwest,0,0,0,0.0,Iowa
-1760,2012,KS,Midwest,0,0,0,0.0,Kansas
-1761,2012,KY,South,0,0,0,0.0,Kentucky
-1762,2012,LA,South,0,0,0,0.0,Louisiana
-1763,2012,ME,Northeast,0,0,0,0.0,Maine
-1764,2012,MD,South,0,0,0,0.0,Maryland
-1765,2012,MA,Northeast,0,0,0,0.0,Massachusetts
-1766,2012,MI,Midwest,0,0,0,0.0,Michigan
-1767,2012,MN,Midwest,0,0,0,0.0,Minnesota
-1768,2012,MO,Midwest,0,0,0,0.0,Missouri
-1769,2012,MT,West,0,0,0,0.0,Montana
-1770,2012,NE,Midwest,0,0,0,0.0,Nebraska
-1771,2012,NV,West,0,0,0,0.0,Nevada
-1772,2012,NH,Northeast,0,0,0,0.0,New Hampshire
-1773,2012,NJ,Northeast,0,0,0,0.0,New Jersey
-1774,2012,NM,West,0,0,0,0.0,New Mexico
-1775,2012,NY,Northeast,0,0,0,0.0,New York
-1776,2012,NC,South,0,0,0,0.0,North Carolina
-1777,2012,ND,Midwest,0,0,0,0.0,North Dakota
-1778,2012,OR,West,0,0,0,0.0,Oregon
-1779,2012,PA,Northeast,0,0,0,0.0,Pennsylvania
-1780,2012,RI,Northeast,0,0,0,0.0,Rhode Island
-1781,2012,SC,South,0,0,0,0.0,South Carolina
-1782,2012,TN,South,0,0,0,0.0,Tennessee
-1783,2012,UT,West,0,0,0,0.0,Utah
-1784,2012,VT,Northeast,0,0,0,0.0,Vermont
-1785,2012,VA,South,0,0,0,0.0,Virginia
-1786,2012,WA,West,0,0,0,0.0,Washington
-1787,2012,WV,South,0,0,0,0.0,West Virginia
-1788,2012,WI,Midwest,0,0,0,0.0,Wisconsin
-1789,2012,WY,West,0,0,0,0.0,Wyoming
-1790,2013,FE,Federal,0,0,0,0.0,Federal
-1791,2013,AK,West,0,0,0,0.0,Alaska
-1792,2013,AR,South,0,0,0,0.0,Arkansas
-1793,2013,CA,West,0,0,0,0.0,California
-1794,2013,CO,West,0,0,0,0.0,Colorado
-1795,2013,CT,Northeast,0,0,0,0.0,Connecticut
-1796,2013,DE,South,0,0,0,0.0,Delaware
-1797,2013,HI,West,0,0,0,0.0,Hawaii
-1798,2013,ID,West,0,0,0,0.0,Idaho
-1799,2013,IL,Midwest,0,0,0,0.0,Illinois
-1800,2013,IN,Midwest,0,0,0,0.0,Indiana
-1801,2013,IA,Midwest,0,0,0,0.0,Iowa
-1802,2013,KS,Midwest,0,0,0,0.0,Kansas
-1803,2013,KY,South,0,0,0,0.0,Kentucky
-1804,2013,LA,South,0,0,0,0.0,Louisiana
-1805,2013,ME,Northeast,0,0,0,0.0,Maine
-1806,2013,MD,South,0,0,0,0.0,Maryland
-1807,2013,MA,Northeast,0,0,0,0.0,Massachusetts
-1808,2013,MI,Midwest,0,0,0,0.0,Michigan
-1809,2013,MN,Midwest,0,0,0,0.0,Minnesota
-1810,2013,MS,South,0,0,0,0.0,Mississippi
-1811,2013,MT,West,0,0,0,0.0,Montana
-1812,2013,NE,Midwest,0,0,0,0.0,Nebraska
-1813,2013,NV,West,0,0,0,0.0,Nevada
-1814,2013,NH,Northeast,0,0,0,0.0,New Hampshire
-1815,2013,NJ,Northeast,0,0,0,0.0,New Jersey
-1816,2013,NM,West,0,0,0,0.0,New Mexico
-1817,2013,NY,Northeast,0,0,0,0.0,New York
-1818,2013,NC,South,0,0,0,0.0,North Carolina
-1819,2013,ND,Midwest,0,0,0,0.0,North Dakota
-1820,2013,OR,West,0,0,0,0.0,Oregon
-1821,2013,PA,Northeast,0,0,0,0.0,Pennsylvania
-1822,2013,RI,Northeast,0,0,0,0.0,Rhode Island
-1823,2013,SC,South,0,0,0,0.0,South Carolina
-1824,2013,SD,Midwest,0,0,0,0.0,South Dakota
-1825,2013,TN,South,0,0,0,0.0,Tennessee
-1826,2013,UT,West,0,0,0,0.0,Utah
-1827,2013,VT,Northeast,0,0,0,0.0,Vermont
-1828,2013,WA,West,0,0,0,0.0,Washington
-1829,2013,WV,South,0,0,0,0.0,West Virginia
-1830,2013,WI,Midwest,0,0,0,0.0,Wisconsin
-1831,2013,WY,West,0,0,0,0.0,Wyoming
-1832,2014,FE,Federal,0,0,0,0.0,Federal
-1833,2014,AL,South,0,0,0,0.0,Alabama
-1834,2014,AK,West,0,0,0,0.0,Alaska
-1835,2014,AR,South,0,0,0,0.0,Arkansas
-1836,2014,CA,West,0,0,0,0.0,California
-1837,2014,CO,West,0,0,0,0.0,Colorado
-1838,2014,CT,Northeast,0,0,0,0.0,Connecticut
-1839,2014,DE,South,0,0,0,0.0,Delaware
-1840,2014,HI,West,0,0,0,0.0,Hawaii
-1841,2014,ID,West,0,0,0,0.0,Idaho
-1842,2014,IL,Midwest,0,0,0,0.0,Illinois
-1843,2014,IN,Midwest,0,0,0,0.0,Indiana
-1844,2014,IA,Midwest,0,0,0,0.0,Iowa
-1845,2014,KS,Midwest,0,0,0,0.0,Kansas
-1846,2014,KY,South,0,0,0,0.0,Kentucky
-1847,2014,LA,South,0,0,0,0.0,Louisiana
-1848,2014,ME,Northeast,0,0,0,0.0,Maine
-1849,2014,MD,South,0,0,0,0.0,Maryland
-1850,2014,MA,Northeast,0,0,0,0.0,Massachusetts
-1851,2014,MI,Midwest,0,0,0,0.0,Michigan
-1852,2014,MN,Midwest,0,0,0,0.0,Minnesota
-1853,2014,MS,South,0,0,0,0.0,Mississippi
-1854,2014,MT,West,0,0,0,0.0,Montana
-1855,2014,NE,Midwest,0,0,0,0.0,Nebraska
-1856,2014,NV,West,0,0,0,0.0,Nevada
-1857,2014,NH,Northeast,0,0,0,0.0,New Hampshire
-1858,2014,NJ,Northeast,0,0,0,0.0,New Jersey
-1859,2014,NM,West,0,0,0,0.0,New Mexico
-1860,2014,NY,Northeast,0,0,0,0.0,New York
-1861,2014,NC,South,0,0,0,0.0,North Carolina
-1862,2014,ND,Midwest,0,0,0,0.0,North Dakota
-1863,2014,OR,West,0,0,0,0.0,Oregon
-1864,2014,PA,Northeast,0,0,0,0.0,Pennsylvania
-1865,2014,RI,Northeast,0,0,0,0.0,Rhode Island
-1866,2014,SC,South,0,0,0,0.0,South Carolina
-1867,2014,SD,Midwest,0,0,0,0.0,South Dakota
-1868,2014,TN,South,0,0,0,0.0,Tennessee
-1869,2014,UT,West,0,0,0,0.0,Utah
-1870,2014,VT,Northeast,0,0,0,0.0,Vermont
-1871,2014,VA,South,0,0,0,0.0,Virginia
-1872,2014,WA,West,0,0,0,0.0,Washington
-1873,2014,WV,South,0,0,0,0.0,West Virginia
-1874,2014,WI,Midwest,0,0,0,0.0,Wisconsin
-1875,2014,WY,West,0,0,0,0.0,Wyoming
-1876,2015,FE,Federal,0,0,0,0.0,Federal
-1877,2015,AL,South,0,0,0,0.0,Alabama
-1878,2015,AK,West,0,0,0,0.0,Alaska
-1879,2015,AZ,West,0,0,0,0.0,Arizona
-1880,2015,AR,South,0,0,0,0.0,Arkansas
-1881,2015,CA,West,0,0,0,0.0,California
-1882,2015,CO,West,0,0,0,0.0,Colorado
-1883,2015,CT,Northeast,0,0,0,0.0,Connecticut
-1884,2015,DE,South,0,0,0,0.0,Delaware
-1885,2015,HI,West,0,0,0,0.0,Hawaii
-1886,2015,ID,West,0,0,0,0.0,Idaho
-1887,2015,IL,Midwest,0,0,0,0.0,Illinois
-1888,2015,IN,Midwest,0,0,0,0.0,Indiana
-1889,2015,IA,Midwest,0,0,0,0.0,Iowa
-1890,2015,KS,Midwest,0,0,0,0.0,Kansas
-1891,2015,KY,South,0,0,0,0.0,Kentucky
-1892,2015,LA,South,0,0,0,0.0,Louisiana
-1893,2015,ME,Northeast,0,0,0,0.0,Maine
-1894,2015,MD,South,0,0,0,0.0,Maryland
-1895,2015,MA,Northeast,0,0,0,0.0,Massachusetts
-1896,2015,MI,Midwest,0,0,0,0.0,Michigan
-1897,2015,MN,Midwest,0,0,0,0.0,Minnesota
-1898,2015,MS,South,0,0,0,0.0,Mississippi
-1899,2015,MT,West,0,0,0,0.0,Montana
-1900,2015,NE,Midwest,0,0,0,0.0,Nebraska
-1901,2015,NV,West,0,0,0,0.0,Nevada
-1902,2015,NH,Northeast,0,0,0,0.0,New Hampshire
-1903,2015,NJ,Northeast,0,0,0,0.0,New Jersey
-1904,2015,NM,West,0,0,0,0.0,New Mexico
-1905,2015,NY,Northeast,0,0,0,0.0,New York
-1906,2015,NC,South,0,0,0,0.0,North Carolina
-1907,2015,ND,Midwest,0,0,0,0.0,North Dakota
-1908,2015,OH,Midwest,0,0,0,0.0,Ohio
-1909,2015,OR,West,0,0,0,0.0,Oregon
-1910,2015,PA,Northeast,0,0,0,0.0,Pennsylvania
-1911,2015,RI,Northeast,0,0,0,0.0,Rhode Island
-1912,2015,SC,South,0,0,0,0.0,South Carolina
-1913,2015,SD,Midwest,0,0,0,0.0,South Dakota
-1914,2015,TN,South,0,0,0,0.0,Tennessee
-1915,2015,UT,West,0,0,0,0.0,Utah
-1916,2015,VT,Northeast,0,0,0,0.0,Vermont
-1917,2015,WA,West,0,0,0,0.0,Washington
-1918,2015,WV,South,0,0,0,0.0,West Virginia
-1919,2015,WI,Midwest,0,0,0,0.0,Wisconsin
-1920,2015,WY,West,0,0,0,0.0,Wyoming
-1921,2016,FE,Federal,0,0,0,0.0,Federal
-1922,2016,AK,West,0,0,0,0.0,Alaska
-1923,2016,AZ,West,0,0,0,0.0,Arizona
-1924,2016,AR,South,0,0,0,0.0,Arkansas
-1925,2016,CA,West,0,0,0,0.0,California
-1926,2016,CO,West,0,0,0,0.0,Colorado
-1927,2016,CT,Northeast,0,0,0,0.0,Connecticut
-1928,2016,DE,South,0,0,0,0.0,Delaware
-1929,2016,HI,West,0,0,0,0.0,Hawaii
-1930,2016,ID,West,0,0,0,0.0,Idaho
-1931,2016,IL,Midwest,0,0,0,0.0,Illinois
-1932,2016,IN,Midwest,0,0,0,0.0,Indiana
-1933,2016,IA,Midwest,0,0,0,0.0,Iowa
-1934,2016,KS,Midwest,0,0,0,0.0,Kansas
-1935,2016,KY,South,0,0,0,0.0,Kentucky
-1936,2016,LA,South,0,0,0,0.0,Louisiana
-1937,2016,ME,Northeast,0,0,0,0.0,Maine
-1938,2016,MD,South,0,0,0,0.0,Maryland
-1939,2016,MA,Northeast,0,0,0,0.0,Massachusetts
-1940,2016,MI,Midwest,0,0,0,0.0,Michigan
-1941,2016,MN,Midwest,0,0,0,0.0,Minnesota
-1942,2016,MS,South,0,0,0,0.0,Mississippi
-1943,2016,MT,West,0,0,0,0.0,Montana
-1944,2016,NE,Midwest,0,0,0,0.0,Nebraska
-1945,2016,NV,West,0,0,0,0.0,Nevada
-1946,2016,NH,Northeast,0,0,0,0.0,New Hampshire
-1947,2016,NJ,Northeast,0,0,0,0.0,New Jersey
-1948,2016,NM,West,0,0,0,0.0,New Mexico
-1949,2016,NY,Northeast,0,0,0,0.0,New York
-1950,2016,NC,South,0,0,0,0.0,North Carolina
-1951,2016,ND,Midwest,0,0,0,0.0,North Dakota
-1952,2016,OH,Midwest,0,0,0,0.0,Ohio
-1953,2016,OK,South,0,0,0,0.0,Oklahoma
-1954,2016,OR,West,0,0,0,0.0,Oregon
-1955,2016,PA,Northeast,0,0,0,0.0,Pennsylvania
-1956,2016,RI,Northeast,0,0,0,0.0,Rhode Island
-1957,2016,SC,South,0,0,0,0.0,South Carolina
-1958,2016,SD,Midwest,0,0,0,0.0,South Dakota
-1959,2016,TN,South,0,0,0,0.0,Tennessee
-1960,2016,UT,West,0,0,0,0.0,Utah
-1961,2016,VT,Northeast,0,0,0,0.0,Vermont
-1962,2016,VA,South,0,0,0,0.0,Virginia
-1963,2016,WA,West,0,0,0,0.0,Washington
-1964,2016,WV,South,0,0,0,0.0,West Virginia
-1965,2016,WI,Midwest,0,0,0,0.0,Wisconsin
-1966,2016,WY,West,0,0,0,0.0,Wyoming
-1967,2017,FE,Federal,0,0,0,0.0,Federal
-1968,2017,AK,West,0,0,0,0.0,Alaska
-1969,2017,AZ,West,0,0,0,0.0,Arizona
-1970,2017,CA,West,0,0,0,0.0,California
-1971,2017,CO,West,0,0,0,0.0,Colorado
-1972,2017,CT,Northeast,0,0,0,0.0,Connecticut
-1973,2017,DE,South,0,0,0,0.0,Delaware
-1974,2017,HI,West,0,0,0,0.0,Hawaii
-1975,2017,ID,West,0,0,0,0.0,Idaho
-1976,2017,IL,Midwest,0,0,0,0.0,Illinois
-1977,2017,IN,Midwest,0,0,0,0.0,Indiana
-1978,2017,IA,Midwest,0,0,0,0.0,Iowa
-1979,2017,KS,Midwest,0,0,0,0.0,Kansas
-1980,2017,KY,South,0,0,0,0.0,Kentucky
-1981,2017,LA,South,0,0,0,0.0,Louisiana
-1982,2017,ME,Northeast,0,0,0,0.0,Maine
-1983,2017,MD,South,0,0,0,0.0,Maryland
-1984,2017,MA,Northeast,0,0,0,0.0,Massachusetts
-1985,2017,MI,Midwest,0,0,0,0.0,Michigan
-1986,2017,MN,Midwest,0,0,0,0.0,Minnesota
-1987,2017,MS,South,0,0,0,0.0,Mississippi
-1988,2017,MT,West,0,0,0,0.0,Montana
-1989,2017,NE,Midwest,0,0,0,0.0,Nebraska
-1990,2017,NV,West,0,0,0,0.0,Nevada
-1991,2017,NH,Northeast,0,0,0,0.0,New Hampshire
-1992,2017,NJ,Northeast,0,0,0,0.0,New Jersey
-1993,2017,NM,West,0,0,0,0.0,New Mexico
-1994,2017,NY,Northeast,0,0,0,0.0,New York
-1995,2017,NC,South,0,0,0,0.0,North Carolina
-1996,2017,ND,Midwest,0,0,0,0.0,North Dakota
-1997,2017,OK,South,0,0,0,0.0,Oklahoma
-1998,2017,OR,West,0,0,0,0.0,Oregon
-1999,2017,PA,Northeast,0,0,0,0.0,Pennsylvania
-2000,2017,RI,Northeast,0,0,0,0.0,Rhode Island
-2001,2017,SC,South,0,0,0,0.0,South Carolina
-2002,2017,SD,Midwest,0,0,0,0.0,South Dakota
-2003,2017,TN,South,0,0,0,0.0,Tennessee
-2004,2017,UT,West,0,0,0,0.0,Utah
-2005,2017,VT,Northeast,0,0,0,0.0,Vermont
-2006,2017,WA,West,0,0,0,0.0,Washington
-2007,2017,WV,South,0,0,0,0.0,West Virginia
-2008,2017,WI,Midwest,0,0,0,0.0,Wisconsin
-2009,2017,WY,West,0,0,0,0.0,Wyoming
-2010,2018,FE,Federal,0,0,0,0.0,Federal
-2011,2018,AK,West,0,0,0,0.0,Alaska
-2012,2018,AZ,West,0,0,0,0.0,Arizona
-2013,2018,AR,South,0,0,0,0.0,Arkansas
-2014,2018,CA,West,0,0,0,0.0,California
-2015,2018,CO,West,0,0,0,0.0,Colorado
-2016,2018,CT,Northeast,0,0,0,0.0,Connecticut
-2017,2018,DE,South,0,0,0,0.0,Delaware
-2018,2018,HI,West,0,0,0,0.0,Hawaii
-2019,2018,ID,West,0,0,0,0.0,Idaho
-2020,2018,IL,Midwest,0,0,0,0.0,Illinois
-2021,2018,IN,Midwest,0,0,0,0.0,Indiana
-2022,2018,IA,Midwest,0,0,0,0.0,Iowa
-2023,2018,KS,Midwest,0,0,0,0.0,Kansas
-2024,2018,KY,South,0,0,0,0.0,Kentucky
-2025,2018,LA,South,0,0,0,0.0,Louisiana
-2026,2018,ME,Northeast,0,0,0,0.0,Maine
-2027,2018,MD,South,0,0,0,0.0,Maryland
-2028,2018,MA,Northeast,0,0,0,0.0,Massachusetts
-2029,2018,MI,Midwest,0,0,0,0.0,Michigan
-2030,2018,MN,Midwest,0,0,0,0.0,Minnesota
-2031,2018,MS,South,0,0,0,0.0,Mississippi
-2032,2018,MO,Midwest,0,0,0,0.0,Missouri
-2033,2018,MT,West,0,0,0,0.0,Montana
-2034,2018,NV,West,0,0,0,0.0,Nevada
-2035,2018,NH,Northeast,0,0,0,0.0,New Hampshire
-2036,2018,NJ,Northeast,0,0,0,0.0,New Jersey
-2037,2018,NM,West,0,0,0,0.0,New Mexico
-2038,2018,NY,Northeast,0,0,0,0.0,New York
-2039,2018,NC,South,0,0,0,0.0,North Carolina
-2040,2018,ND,Midwest,0,0,0,0.0,North Dakota
-2041,2018,OK,South,0,0,0,0.0,Oklahoma
-2042,2018,OR,West,0,0,0,0.0,Oregon
-2043,2018,PA,Northeast,0,0,0,0.0,Pennsylvania
-2044,2018,RI,Northeast,0,0,0,0.0,Rhode Island
-2045,2018,SC,South,0,0,0,0.0,South Carolina
-2046,2018,UT,West,0,0,0,0.0,Utah
-2047,2018,VT,Northeast,0,0,0,0.0,Vermont
-2048,2018,VA,South,0,0,0,0.0,Virginia
-2049,2018,WA,West,0,0,0,0.0,Washington
-2050,2018,WV,South,0,0,0,0.0,West Virginia
-2051,2018,WI,Midwest,0,0,0,0.0,Wisconsin
-2052,2018,WY,West,0,0,0,0.0,Wyoming
-2053,2019,FE,Federal,0,0,0,0.0,Federal
-2054,2019,AK,West,0,0,0,0.0,Alaska
-2055,2019,AZ,West,0,0,0,0.0,Arizona
-2056,2019,AR,South,0,0,0,0.0,Arkansas
-2057,2019,CA,West,0,0,0,0.0,California
-2058,2019,CO,West,0,0,0,0.0,Colorado
-2059,2019,CT,Northeast,0,0,0,0.0,Connecticut
-2060,2019,DE,South,0,0,0,0.0,Delaware
-2061,2019,HI,West,0,0,0,0.0,Hawaii
-2062,2019,ID,West,0,0,0,0.0,Idaho
-2063,2019,IL,Midwest,0,0,0,0.0,Illinois
-2064,2019,IN,Midwest,0,0,0,0.0,Indiana
-2065,2019,IA,Midwest,0,0,0,0.0,Iowa
-2066,2019,KS,Midwest,0,0,0,0.0,Kansas
-2067,2019,KY,South,0,0,0,0.0,Kentucky
-2068,2019,LA,South,0,0,0,0.0,Louisiana
-2069,2019,ME,Northeast,0,0,0,0.0,Maine
-2070,2019,MD,South,0,0,0,0.0,Maryland
-2071,2019,MA,Northeast,0,0,0,0.0,Massachusetts
-2072,2019,MI,Midwest,0,0,0,0.0,Michigan
-2073,2019,MN,Midwest,0,0,0,0.0,Minnesota
-2074,2019,MS,South,0,0,0,0.0,Mississippi
-2075,2019,MT,West,0,0,0,0.0,Montana
-2076,2019,NE,Midwest,0,0,0,0.0,Nebraska
-2077,2019,NV,West,0,0,0,0.0,Nevada
-2078,2019,NH,Northeast,0,0,0,0.0,New Hampshire
-2079,2019,NJ,Northeast,0,0,0,0.0,New Jersey
-2080,2019,NM,West,0,0,0,0.0,New Mexico
-2081,2019,NY,Northeast,0,0,0,0.0,New York
-2082,2019,NC,South,0,0,0,0.0,North Carolina
-2083,2019,ND,Midwest,0,0,0,0.0,North Dakota
-2084,2019,OH,Midwest,0,0,0,0.0,Ohio
-2085,2019,OK,South,0,0,0,0.0,Oklahoma
-2086,2019,OR,West,0,0,0,0.0,Oregon
-2087,2019,PA,Northeast,0,0,0,0.0,Pennsylvania
-2088,2019,RI,Northeast,0,0,0,0.0,Rhode Island
-2089,2019,SC,South,0,0,0,0.0,South Carolina
-2090,2019,UT,West,0,0,0,0.0,Utah
-2091,2019,VT,Northeast,0,0,0,0.0,Vermont
-2092,2019,VA,South,0,0,0,0.0,Virginia
-2093,2019,WA,West,0,0,0,0.0,Washington
-2094,2019,WV,South,0,0,0,0.0,West Virginia
-2095,2019,WI,Midwest,0,0,0,0.0,Wisconsin
-2096,2019,WY,West,0,0,0,0.0,Wyoming
-2097,2020,AK,West,0,0,0,0.0,Alaska
-2098,2020,AZ,West,0,0,0,0.0,Arizona
-2099,2020,AR,South,0,0,0,0.0,Arkansas
-2100,2020,CA,West,0,0,0,0.0,California
-2101,2020,CO,West,0,0,0,0.0,Colorado
-2102,2020,CT,Northeast,0,0,0,0.0,Connecticut
-2103,2020,DE,South,0,0,0,0.0,Delaware
-2104,2020,FL,South,0,0,0,0.0,Florida
-2105,2020,HI,West,0,0,0,0.0,Hawaii
-2106,2020,ID,West,0,0,0,0.0,Idaho
-2107,2020,IL,Midwest,0,0,0,0.0,Illinois
-2108,2020,IN,Midwest,0,0,0,0.0,Indiana
-2109,2020,IA,Midwest,0,0,0,0.0,Iowa
-2110,2020,KS,Midwest,0,0,0,0.0,Kansas
-2111,2020,KY,South,0,0,0,0.0,Kentucky
-2112,2020,LA,South,0,0,0,0.0,Louisiana
-2113,2020,ME,Northeast,0,0,0,0.0,Maine
-2114,2020,MD,South,0,0,0,0.0,Maryland
-2115,2020,MA,Northeast,0,0,0,0.0,Massachusetts
-2116,2020,MI,Midwest,0,0,0,0.0,Michigan
-2117,2020,MN,Midwest,0,0,0,0.0,Minnesota
-2118,2020,MS,South,0,0,0,0.0,Mississippi
-2119,2020,MT,West,0,0,0,0.0,Montana
-2120,2020,NE,Midwest,0,0,0,0.0,Nebraska
-2121,2020,NV,West,0,0,0,0.0,Nevada
-2122,2020,NH,Northeast,0,0,0,0.0,New Hampshire
-2123,2020,NJ,Northeast,0,0,0,0.0,New Jersey
-2124,2020,NM,West,0,0,0,0.0,New Mexico
-2125,2020,NY,Northeast,0,0,0,0.0,New York
-2126,2020,NC,South,0,0,0,0.0,North Carolina
-2127,2020,ND,Midwest,0,0,0,0.0,North Dakota
-2128,2020,OH,Midwest,0,0,0,0.0,Ohio
-2129,2020,OK,South,0,0,0,0.0,Oklahoma
-2130,2020,OR,West,0,0,0,0.0,Oregon
-2131,2020,PA,Northeast,0,0,0,0.0,Pennsylvania
-2132,2020,RI,Northeast,0,0,0,0.0,Rhode Island
-2133,2020,SC,South,0,0,0,0.0,South Carolina
-2134,2020,SD,Midwest,0,0,0,0.0,South Dakota
-2135,2020,UT,West,0,0,0,0.0,Utah
-2136,2020,VT,Northeast,0,0,0,0.0,Vermont
-2137,2020,VA,South,0,0,0,0.0,Virginia
-2138,2020,WA,West,0,0,0,0.0,Washington
-2139,2020,WV,South,0,0,0,0.0,West Virginia
-2140,2020,WI,Midwest,0,0,0,0.0,Wisconsin
-2141,2020,WY,West,0,0,0,0.0,Wyoming
+,Year,State,State Code,Region,Sex,Race,White Convicted,Other Convicted,Executions
+0,1977,Utah,UT,West,Male,White,1,0,1
+1,1979,Florida,FL,South,Male,White,1,0,1
+2,1979,Nevada,NV,West,Male,White,1,0,1
+3,1981,Indiana,IN,Midwest,Male,White,1,0,1
+4,1982,Texas,TX,South,Male,Black,0,1,1
+5,1982,Virginia,VA,South,Male,White,1,0,1
+6,1983,Alabama,AL,South,Male,White,1,0,1
+7,1983,Florida,FL,South,Male,White,1,0,1
+8,1983,Georgia,GA,South,Male,White,1,0,1
+9,1983,Louisiana,LA,South,Male,Black,0,1,1
+10,1983,Mississippi,MS,South,Male,White,1,0,1
+11,1984,Florida,FL,South,Male,Black,0,3,3
+12,1984,Florida,FL,South,Male,White,5,0,5
+13,1984,Georgia,GA,South,Male,Black,0,2,2
+14,1984,Louisiana,LA,South,Male,Black,0,2,2
+15,1984,Louisiana,LA,South,Male,White,3,0,3
+16,1984,North Carolina,NC,South,Female,White,1,0,1
+17,1984,North Carolina,NC,South,Male,White,1,0,1
+18,1984,Texas,TX,South,Male,White,3,0,3
+19,1984,Virginia,VA,South,Male,Black,0,1,1
+20,1985,Florida,FL,South,Male,Black,0,1,1
+21,1985,Florida,FL,South,Male,White,2,0,2
+22,1985,Georgia,GA,South,Male,Black,0,3,3
+23,1985,Indiana,IN,Midwest,Male,White,1,0,1
+24,1985,Louisiana,LA,South,Male,White,1,0,1
+25,1985,Nevada,NV,West,Male,White,1,0,1
+26,1985,South Carolina,SC,South,Male,White,1,0,1
+27,1985,Texas,TX,South,Male,Black,0,1,1
+28,1985,Texas,TX,South,Male,Latino,0,2,2
+29,1985,Texas,TX,South,Male,White,3,0,3
+30,1985,Virginia,VA,South,Male,Black,0,2,2
+31,1986,Alabama,AL,South,Male,Black,0,1,1
+32,1986,Florida,FL,South,Male,Black,0,2,2
+33,1986,Florida,FL,South,Male,White,1,0,1
+34,1986,Georgia,GA,South,Male,Black,0,1,1
+35,1986,North Carolina,NC,South,Male,White,1,0,1
+36,1986,South Carolina,SC,South,Male,White,1,0,1
+37,1986,Texas,TX,South,Male,Black,0,2,2
+38,1986,Texas,TX,South,Male,Latino,0,2,2
+39,1986,Texas,TX,South,Male,White,6,0,6
+40,1986,Virginia,VA,South,Male,Black,0,1,1
+41,1987,Alabama,AL,South,Male,White,1,0,1
+42,1987,Florida,FL,South,Male,Black,0,1,1
+43,1987,Georgia,GA,South,Male,Black,0,3,3
+44,1987,Georgia,GA,South,Male,White,2,0,2
+45,1987,Louisiana,LA,South,Male,Black,0,3,3
+46,1987,Louisiana,LA,South,Male,White,5,0,5
+47,1987,Mississippi,MS,South,Male,Black,0,2,2
+48,1987,Texas,TX,South,Male,Black,0,2,2
+49,1987,Texas,TX,South,Male,Latino,0,2,2
+50,1987,Texas,TX,South,Male,White,2,0,2
+51,1987,Utah,UT,West,Male,Black,0,1,1
+52,1987,Virginia,VA,South,Male,White,1,0,1
+53,1988,Florida,FL,South,Male,Black,0,1,1
+54,1988,Florida,FL,South,Male,White,1,0,1
+55,1988,Georgia,GA,South,Male,White,1,0,1
+56,1988,Louisiana,LA,South,Male,Black,0,1,1
+57,1988,Louisiana,LA,South,Male,White,2,0,2
+58,1988,Texas,TX,South,Male,Black,0,2,2
+59,1988,Texas,TX,South,Male,White,1,0,1
+60,1988,Utah,UT,West,Male,White,1,0,1
+61,1988,Virginia,VA,South,Male,Black,0,1,1
+62,1989,Alabama,AL,South,Male,Black,0,4,4
+63,1989,Florida,FL,South,Male,White,2,0,2
+64,1989,Georgia,GA,South,Male,Black,0,1,1
+65,1989,Mississippi,MS,South,Male,Black,0,1,1
+66,1989,Missouri,MO,Midwest,Male,White,1,0,1
+67,1989,Nevada,NV,West,Male,White,2,0,2
+68,1989,Texas,TX,South,Male,Black,0,1,1
+69,1989,Texas,TX,South,Male,Latino,0,1,1
+70,1989,Texas,TX,South,Male,White,2,0,2
+71,1989,Virginia,VA,South,Male,Black,0,1,1
+72,1990,Alabama,AL,South,Male,Black,0,1,1
+73,1990,Arkansas,AR,South,Male,White,2,0,2
+74,1990,Florida,FL,South,Male,Black,0,1,1
+75,1990,Florida,FL,South,Male,White,3,0,3
+76,1990,Illinois,IL,Midwest,Male,White,1,0,1
+77,1990,Louisiana,LA,South,Male,Black,0,1,1
+78,1990,Missouri,MO,Midwest,Male,Black,0,1,1
+79,1990,Missouri,MO,Midwest,Male,White,3,0,3
+80,1990,Nevada,NV,West,Male,White,1,0,1
+81,1990,Oklahoma,OK,South,Male,White,1,0,1
+82,1990,South Carolina,SC,South,Male,White,1,0,1
+83,1990,Texas,TX,South,Male,Black,0,2,2
+84,1990,Texas,TX,South,Male,White,2,0,2
+85,1990,Virginia,VA,South,Male,Black,0,1,1
+86,1990,Virginia,VA,South,Male,White,2,0,2
+87,1991,Florida,FL,South,Male,Black,0,1,1
+88,1991,Florida,FL,South,Male,White,1,0,1
+89,1991,Georgia,GA,South,Male,Black,0,1,1
+90,1991,Louisiana,LA,South,Male,Black,0,1,1
+91,1991,Missouri,MO,Midwest,Male,Black,0,1,1
+92,1991,North Carolina,NC,South,Male,White,1,0,1
+93,1991,South Carolina,SC,South,Male,White,1,0,1
+94,1991,Texas,TX,South,Male,Black,0,2,2
+95,1991,Texas,TX,South,Male,Latino,0,1,1
+96,1991,Texas,TX,South,Male,White,2,0,2
+97,1991,Virginia,VA,South,Male,Black,0,1,1
+98,1991,Virginia,VA,South,Male,White,1,0,1
+99,1992,Alabama,AL,South,Male,Black,0,1,1
+100,1992,Alabama,AL,South,Male,White,1,0,1
+101,1992,Arizona,AZ,West,Male,White,1,0,1
+102,1992,Arkansas,AR,South,Male,Black,0,1,1
+103,1992,Arkansas,AR,South,Male,White,1,0,1
+104,1992,California,CA,West,Male,White,1,0,1
+105,1992,Delaware,DE,South,Male,White,1,0,1
+106,1992,Florida,FL,South,Male,Black,0,1,1
+107,1992,Florida,FL,South,Male,White,1,0,1
+108,1992,Missouri,MO,Midwest,Male,White,1,0,1
+109,1992,North Carolina,NC,South,Male,White,1,0,1
+110,1992,Oklahoma,OK,South,Male,Black,0,1,1
+111,1992,Oklahoma,OK,South,Male,White,1,0,1
+112,1992,Texas,TX,South,Male,Black,0,5,5
+113,1992,Texas,TX,South,Male,Latino,0,2,2
+114,1992,Texas,TX,South,Male,White,5,0,5
+115,1992,Utah,UT,West,Male,Black,0,1,1
+116,1992,Virginia,VA,South,Male,Black,0,1,1
+117,1992,Virginia,VA,South,Male,White,3,0,3
+118,1992,Wyoming,WY,West,Male,White,1,0,1
+119,1993,Arizona,AZ,West,Male,White,2,0,2
+120,1993,California,CA,West,Male,White,1,0,1
+121,1993,Delaware,DE,South,Male,Black,0,1,1
+122,1993,Delaware,DE,South,Male,Native American,0,1,1
+123,1993,Florida,FL,South,Male,White,3,0,3
+124,1993,Georgia,GA,South,Male,White,2,0,2
+125,1993,Louisiana,LA,South,Male,White,1,0,1
+126,1993,Missouri,MO,Midwest,Male,Black,0,3,3
+127,1993,Missouri,MO,Midwest,Male,White,1,0,1
+128,1993,Texas,TX,South,Male,Black,0,7,7
+129,1993,Texas,TX,South,Male,Latino,0,4,4
+130,1993,Texas,TX,South,Male,White,6,0,6
+131,1993,Virginia,VA,South,Male,Black,0,3,3
+132,1993,Virginia,VA,South,Male,White,2,0,2
+133,1993,Washington,WA,West,Male,White,1,0,1
+134,1994,Arkansas,AR,South,Male,Black,0,1,1
+135,1994,Arkansas,AR,South,Male,White,4,0,4
+136,1994,Delaware,DE,South,Male,Black,0,1,1
+137,1994,Florida,FL,South,Male,White,1,0,1
+138,1994,Georgia,GA,South,Male,Black,0,1,1
+139,1994,Idaho,ID,West,Male,White,1,0,1
+140,1994,Illinois,IL,Midwest,Male,White,1,0,1
+141,1994,Indiana,IN,Midwest,Male,Black,0,1,1
+142,1994,Maryland,MD,South,Male,White,1,0,1
+143,1994,Nebraska,NE,Midwest,Male,Black,0,1,1
+144,1994,North Carolina,NC,South,Male,White,1,0,1
+145,1994,Texas,TX,South,Male,Black,0,4,4
+146,1994,Texas,TX,South,Male,Latino,0,1,1
+147,1994,Texas,TX,South,Male,White,9,0,9
+148,1994,Virginia,VA,South,Male,Black,0,2,2
+149,1994,Washington,WA,West,Male,White,1,0,1
+150,1995,Alabama,AL,South,Male,Black,0,2,2
+151,1995,Arizona,AZ,West,Male,White,1,0,1
+152,1995,Arkansas,AR,South,Male,Black,0,1,1
+153,1995,Arkansas,AR,South,Male,White,1,0,1
+154,1995,Delaware,DE,South,Male,White,1,0,1
+155,1995,Florida,FL,South,Male,Black,0,1,1
+156,1995,Florida,FL,South,Male,White,2,0,2
+157,1995,Georgia,GA,South,Male,White,2,0,2
+158,1995,Illinois,IL,Midwest,Male,Black,0,2,2
+159,1995,Illinois,IL,Midwest,Male,White,3,0,3
+160,1995,Louisiana,LA,South,Male,Black,0,1,1
+161,1995,Missouri,MO,Midwest,Male,Black,0,3,3
+162,1995,Missouri,MO,Midwest,Male,White,3,0,3
+163,1995,Montana,MT,West,Male,White,1,0,1
+164,1995,North Carolina,NC,South,Male,White,2,0,2
+165,1995,Oklahoma,OK,South,Male,White,3,0,3
+166,1995,Pennsylvania,PA,Northeast,Male,White,2,0,2
+167,1995,South Carolina,SC,South,Male,Black,0,1,1
+168,1995,Texas,TX,South,Male,Asian,0,1,1
+169,1995,Texas,TX,South,Male,Black,0,8,8
+170,1995,Texas,TX,South,Male,Latino,0,2,2
+171,1995,Texas,TX,South,Male,White,8,0,8
+172,1995,Virginia,VA,South,Male,Black,0,3,3
+173,1995,Virginia,VA,South,Male,White,2,0,2
+174,1996,Alabama,AL,South,Male,Black,0,1,1
+175,1996,Arizona,AZ,West,Male,Latino,0,1,1
+176,1996,Arizona,AZ,West,Male,White,1,0,1
+177,1996,Arkansas,AR,South,Male,White,1,0,1
+178,1996,California,CA,West,Male,White,2,0,2
+179,1996,Delaware,DE,South,Male,Black,0,1,1
+180,1996,Delaware,DE,South,Male,White,2,0,2
+181,1996,Florida,FL,South,Male,Black,0,2,2
+182,1996,Georgia,GA,South,Male,White,2,0,2
+183,1996,Illinois,IL,Midwest,Male,Black,0,1,1
+184,1996,Indiana,IN,Midwest,Male,Black,0,1,1
+185,1996,Louisiana,LA,South,Male,Black,0,1,1
+186,1996,Missouri,MO,Midwest,Male,Black,0,1,1
+187,1996,Missouri,MO,Midwest,Male,Native American,0,1,1
+188,1996,Missouri,MO,Midwest,Male,White,4,0,4
+189,1996,Nebraska,NE,Midwest,Male,White,1,0,1
+190,1996,Nevada,NV,West,Male,White,1,0,1
+191,1996,Oklahoma,OK,South,Male,White,2,0,2
+192,1996,Oregon,OR,West,Male,White,1,0,1
+193,1996,South Carolina,SC,South,Male,Black,0,1,1
+194,1996,South Carolina,SC,South,Male,White,5,0,5
+195,1996,Texas,TX,South,Male,Black,0,1,1
+196,1996,Texas,TX,South,Male,Latino,0,1,1
+197,1996,Texas,TX,South,Male,White,1,0,1
+198,1996,Utah,UT,West,Male,White,1,0,1
+199,1996,Virginia,VA,South,Male,Black,0,3,3
+200,1996,Virginia,VA,South,Male,White,5,0,5
+201,1997,Alabama,AL,South,Male,Black,0,1,1
+202,1997,Alabama,AL,South,Male,White,2,0,2
+203,1997,Arizona,AZ,West,Male,White,2,0,2
+204,1997,Arkansas,AR,South,Male,Black,0,1,1
+205,1997,Arkansas,AR,South,Male,Latino,0,1,1
+206,1997,Arkansas,AR,South,Male,White,2,0,2
+207,1997,Colorado,CO,West,Male,White,1,0,1
+208,1997,Florida,FL,South,Male,Latino,0,1,1
+209,1997,Illinois,IL,Midwest,Male,Black,0,2,2
+210,1997,Indiana,IN,Midwest,Male,Black,0,1,1
+211,1997,Kentucky,KY,South,Male,White,1,0,1
+212,1997,Louisiana,LA,South,Male,White,1,0,1
+213,1997,Maryland,MD,South,Male,Black,0,1,1
+214,1997,Missouri,MO,Midwest,Male,Black,0,1,1
+215,1997,Missouri,MO,Midwest,Male,White,5,0,5
+216,1997,Nebraska,NE,Midwest,Male,Black,0,1,1
+217,1997,Oklahoma,OK,South,Male,Native American,0,1,1
+218,1997,Oregon,OR,West,Male,White,1,0,1
+219,1997,South Carolina,SC,South,Male,Black,0,1,1
+220,1997,South Carolina,SC,South,Male,White,1,0,1
+221,1997,Texas,TX,South,Male,Asian,0,1,1
+222,1997,Texas,TX,South,Male,Black,0,13,13
+223,1997,Texas,TX,South,Male,Latino,0,2,2
+224,1997,Texas,TX,South,Male,Native American,0,1,1
+225,1997,Texas,TX,South,Male,White,20,0,20
+226,1997,Virginia,VA,South,Male,Black,0,4,4
+227,1997,Virginia,VA,South,Male,Latino,0,1,1
+228,1997,Virginia,VA,South,Male,White,4,0,4
+229,1998,Alabama,AL,South,Male,White,1,0,1
+230,1998,Arizona,AZ,West,Male,Latino,0,2,2
+231,1998,Arizona,AZ,West,Male,White,2,0,2
+232,1998,Arkansas,AR,South,Male,White,1,0,1
+233,1998,California,CA,West,Male,White,1,0,1
+234,1998,Florida,FL,South,Female,White,1,0,1
+235,1998,Florida,FL,South,Male,Black,0,1,1
+236,1998,Florida,FL,South,Male,Native American,0,1,1
+237,1998,Florida,FL,South,Male,White,1,0,1
+238,1998,Georgia,GA,South,Male,White,1,0,1
+239,1998,Illinois,IL,Midwest,Male,White,1,0,1
+240,1998,Indiana,IN,Midwest,Male,White,1,0,1
+241,1998,Maryland,MD,South,Male,Black,0,1,1
+242,1998,Missouri,MO,Midwest,Male,Black,0,2,2
+243,1998,Missouri,MO,Midwest,Male,White,1,0,1
+244,1998,Montana,MT,West,Male,White,1,0,1
+245,1998,Nevada,NV,West,Male,Latino,0,1,1
+246,1998,North Carolina,NC,South,Male,White,3,0,3
+247,1998,Oklahoma,OK,South,Male,Asian,0,1,1
+248,1998,Oklahoma,OK,South,Male,White,3,0,3
+249,1998,South Carolina,SC,South,Male,Black,0,4,4
+250,1998,South Carolina,SC,South,Male,White,3,0,3
+251,1998,Texas,TX,South,Female,White,1,0,1
+252,1998,Texas,TX,South,Male,Black,0,2,2
+253,1998,Texas,TX,South,Male,Latino,0,5,5
+254,1998,Texas,TX,South,Male,White,12,0,12
+255,1998,Virginia,VA,South,Male,Black,0,8,8
+256,1998,Virginia,VA,South,Male,Latino,0,1,1
+257,1998,Virginia,VA,South,Male,White,4,0,4
+258,1998,Washington,WA,West,Male,White,1,0,1
+259,1999,Alabama,AL,South,Male,Black,0,2,2
+260,1999,Arizona,AZ,West,Male,Latino,0,1,1
+261,1999,Arizona,AZ,West,Male,Native American,0,1,1
+262,1999,Arizona,AZ,West,Male,White,5,0,5
+263,1999,Arkansas,AR,South,Male,White,4,0,4
+264,1999,California,CA,West,Male,Asian,0,1,1
+265,1999,California,CA,West,Male,Black,0,1,1
+266,1999,Delaware,DE,South,Male,Black,0,1,1
+267,1999,Delaware,DE,South,Male,White,1,0,1
+268,1999,Florida,FL,South,Male,White,1,0,1
+269,1999,Illinois,IL,Midwest,Male,White,1,0,1
+270,1999,Indiana,IN,Midwest,Male,White,1,0,1
+271,1999,Kentucky,KY,South,Male,White,1,0,1
+272,1999,Louisiana,LA,South,Male,Black,0,1,1
+273,1999,Missouri,MO,Midwest,Male,Black,0,5,5
+274,1999,Missouri,MO,Midwest,Male,White,4,0,4
+275,1999,Nevada,NV,West,Male,Asian,0,1,1
+276,1999,North Carolina,NC,South,Male,Black,0,2,2
+277,1999,North Carolina,NC,South,Male,White,2,0,2
+278,1999,Ohio,OH,Midwest,Male,White,1,0,1
+279,1999,Oklahoma,OK,South,Male,Black,0,2,2
+280,1999,Oklahoma,OK,South,Male,Native American,0,1,1
+281,1999,Oklahoma,OK,South,Male,White,3,0,3
+282,1999,Pennsylvania,PA,Northeast,Male,White,1,0,1
+283,1999,South Carolina,SC,South,Male,Black,0,2,2
+284,1999,South Carolina,SC,South,Male,White,2,0,2
+285,1999,Texas,TX,South,Male,Black,0,11,11
+286,1999,Texas,TX,South,Male,Latino,0,6,6
+287,1999,Texas,TX,South,Male,Native American,0,1,1
+288,1999,Texas,TX,South,Male,White,17,0,17
+289,1999,Utah,UT,West,Male,White,1,0,1
+290,1999,Virginia,VA,South,Male,Black,0,6,6
+291,1999,Virginia,VA,South,Male,White,8,0,8
+292,2000,Alabama,AL,South,Male,Black,0,3,3
+293,2000,Alabama,AL,South,Male,White,1,0,1
+294,2000,Arizona,AZ,West,Male,White,3,0,3
+295,2000,Arkansas,AR,South,Female,White,1,0,1
+296,2000,Arkansas,AR,South,Male,Black,0,1,1
+297,2000,California,CA,West,Male,Native American,0,1,1
+298,2000,Delaware,DE,South,Male,Black,0,1,1
+299,2000,Florida,FL,South,Male,Black,0,1,1
+300,2000,Florida,FL,South,Male,Latino,0,1,1
+301,2000,Florida,FL,South,Male,White,4,0,4
+302,2000,Louisiana,LA,South,Male,Black,0,1,1
+303,2000,Missouri,MO,Midwest,Male,Black,0,1,1
+304,2000,Missouri,MO,Midwest,Male,White,4,0,4
+305,2000,North Carolina,NC,South,Male,Black,0,1,1
+306,2000,Oklahoma,OK,South,Male,Black,0,6,6
+307,2000,Oklahoma,OK,South,Male,Native American,0,1,1
+308,2000,Oklahoma,OK,South,Male,White,4,0,4
+309,2000,South Carolina,SC,South,Male,Black,0,1,1
+310,2000,Tennessee,TN,South,Male,White,1,0,1
+311,2000,Texas,TX,South,Female,White,1,0,1
+312,2000,Texas,TX,South,Male,Black,0,16,16
+313,2000,Texas,TX,South,Male,Latino,0,5,5
+314,2000,Texas,TX,South,Male,White,18,0,18
+315,2000,Virginia,VA,South,Male,Black,0,3,3
+316,2000,Virginia,VA,South,Male,White,5,0,5
+317,2001,Arkansas,AR,South,Male,White,1,0,1
+318,2001,California,CA,West,Male,White,1,0,1
+319,2001,Delaware,DE,South,Male,Black,0,1,1
+320,2001,Delaware,DE,South,Male,White,1,0,1
+321,2001,Federal,FE,Federal,Male,Latino,0,1,1
+322,2001,Federal,FE,Federal,Male,White,1,0,1
+323,2001,Florida,FL,South,Male,White,1,0,1
+324,2001,Georgia,GA,South,Male,Black,0,1,1
+325,2001,Georgia,GA,South,Male,White,3,0,3
+326,2001,Indiana,IN,Midwest,Male,White,2,0,2
+327,2001,Missouri,MO,Midwest,Male,Black,0,3,3
+328,2001,Missouri,MO,Midwest,Male,White,4,0,4
+329,2001,Nevada,NV,West,Male,White,1,0,1
+330,2001,New Mexico,NM,West,Male,White,1,0,1
+331,2001,North Carolina,NC,South,Male,Black,0,2,2
+332,2001,North Carolina,NC,South,Male,White,3,0,3
+333,2001,Ohio,OH,Midwest,Male,Black,0,1,1
+334,2001,Oklahoma,OK,South,Female,Black,0,1,1
+335,2001,Oklahoma,OK,South,Female,White,2,0,2
+336,2001,Oklahoma,OK,South,Male,Black,0,2,2
+337,2001,Oklahoma,OK,South,Male,Native American,0,3,3
+338,2001,Oklahoma,OK,South,Male,Other Race,0,1,1
+339,2001,Oklahoma,OK,South,Male,White,9,0,9
+340,2001,Texas,TX,South,Male,Black,0,6,6
+341,2001,Texas,TX,South,Male,Latino,0,1,1
+342,2001,Texas,TX,South,Male,White,10,0,10
+343,2001,Virginia,VA,South,Male,White,2,0,2
+344,2001,Washington,WA,West,Male,White,1,0,1
+345,2002,Alabama,AL,South,Female,White,1,0,1
+346,2002,Alabama,AL,South,Male,White,1,0,1
+347,2002,California,CA,West,Male,White,1,0,1
+348,2002,Florida,FL,South,Female,White,1,0,1
+349,2002,Florida,FL,South,Male,Black,0,1,1
+350,2002,Florida,FL,South,Male,Latino,0,1,1
+351,2002,Georgia,GA,South,Male,White,4,0,4
+352,2002,Louisiana,LA,South,Male,White,1,0,1
+353,2002,Mississippi,MS,South,Male,White,2,0,2
+354,2002,Missouri,MO,Midwest,Male,Black,0,1,1
+355,2002,Missouri,MO,Midwest,Male,White,5,0,5
+356,2002,North Carolina,NC,South,Male,Black,0,1,1
+357,2002,North Carolina,NC,South,Male,White,1,0,1
+358,2002,Ohio,OH,Midwest,Male,Black,0,1,1
+359,2002,Ohio,OH,Midwest,Male,White,2,0,2
+360,2002,Oklahoma,OK,South,Male,Black,0,1,1
+361,2002,Oklahoma,OK,South,Male,White,6,0,6
+362,2002,South Carolina,SC,South,Male,Black,0,1,1
+363,2002,South Carolina,SC,South,Male,White,2,0,2
+364,2002,Texas,TX,South,Male,Black,0,11,11
+365,2002,Texas,TX,South,Male,Latino,0,5,5
+366,2002,Texas,TX,South,Male,White,17,0,17
+367,2002,Virginia,VA,South,Male,Black,0,1,1
+368,2002,Virginia,VA,South,Male,Other Race,0,1,1
+369,2002,Virginia,VA,South,Male,White,2,0,2
+370,2003,Alabama,AL,South,Male,White,3,0,3
+371,2003,Arkansas,AR,South,Male,Black,0,1,1
+372,2003,Federal,FE,Federal,Male,Black,0,1,1
+373,2003,Florida,FL,South,Male,Black,0,1,1
+374,2003,Florida,FL,South,Male,White,2,0,2
+375,2003,Georgia,GA,South,Male,White,3,0,3
+376,2003,Indiana,IN,Midwest,Male,White,2,0,2
+377,2003,Missouri,MO,Midwest,Male,White,2,0,2
+378,2003,North Carolina,NC,South,Male,Black,0,3,3
+379,2003,North Carolina,NC,South,Male,Native American,0,1,1
+380,2003,North Carolina,NC,South,Male,White,3,0,3
+381,2003,Ohio,OH,Midwest,Male,Black,0,1,1
+382,2003,Ohio,OH,Midwest,Male,White,2,0,2
+383,2003,Oklahoma,OK,South,Male,Black,0,6,6
+384,2003,Oklahoma,OK,South,Male,White,8,0,8
+385,2003,Texas,TX,South,Male,Black,0,7,7
+386,2003,Texas,TX,South,Male,Latino,0,3,3
+387,2003,Texas,TX,South,Male,White,14,0,14
+388,2003,Virginia,VA,South,Male,White,2,0,2
+389,2004,Alabama,AL,South,Male,White,2,0,2
+390,2004,Arkansas,AR,South,Male,Black,0,1,1
+391,2004,Florida,FL,South,Male,Black,0,1,1
+392,2004,Florida,FL,South,Male,White,1,0,1
+393,2004,Georgia,GA,South,Male,White,2,0,2
+394,2004,Maryland,MD,South,Male,White,1,0,1
+395,2004,Nevada,NV,West,Male,White,2,0,2
+396,2004,North Carolina,NC,South,Male,Black,0,1,1
+397,2004,North Carolina,NC,South,Male,White,3,0,3
+398,2004,Ohio,OH,Midwest,Male,Black,0,2,2
+399,2004,Ohio,OH,Midwest,Male,White,5,0,5
+400,2004,Oklahoma,OK,South,Male,Asian,0,1,1
+401,2004,Oklahoma,OK,South,Male,Black,0,1,1
+402,2004,Oklahoma,OK,South,Male,White,4,0,4
+403,2004,South Carolina,SC,South,Male,White,4,0,4
+404,2004,Texas,TX,South,Male,Black,0,12,12
+405,2004,Texas,TX,South,Male,Latino,0,3,3
+406,2004,Texas,TX,South,Male,White,8,0,8
+407,2004,Virginia,VA,South,Male,Black,0,1,1
+408,2004,Virginia,VA,South,Male,White,4,0,4
+409,2005,Alabama,AL,South,Male,White,4,0,4
+410,2005,Arkansas,AR,South,Male,White,1,0,1
+411,2005,California,CA,West,Male,Black,0,1,1
+412,2005,California,CA,West,Male,White,1,0,1
+413,2005,Connecticut,CT,Northeast,Male,White,1,0,1
+414,2005,Delaware,DE,South,Male,White,1,0,1
+415,2005,Florida,FL,South,Male,White,1,0,1
+416,2005,Georgia,GA,South,Male,White,3,0,3
+417,2005,Indiana,IN,Midwest,Male,White,5,0,5
+418,2005,Maryland,MD,South,Male,Black,0,1,1
+419,2005,Mississippi,MS,South,Male,White,1,0,1
+420,2005,Missouri,MO,Midwest,Male,Black,0,4,4
+421,2005,Missouri,MO,Midwest,Male,White,1,0,1
+422,2005,North Carolina,NC,South,Male,Black,0,1,1
+423,2005,North Carolina,NC,South,Male,Other Race,0,1,1
+424,2005,North Carolina,NC,South,Male,White,3,0,3
+425,2005,Ohio,OH,Midwest,Male,Black,0,3,3
+426,2005,Ohio,OH,Midwest,Male,White,1,0,1
+427,2005,Oklahoma,OK,South,Male,Black,0,3,3
+428,2005,Oklahoma,OK,South,Male,White,1,0,1
+429,2005,South Carolina,SC,South,Male,Black,0,1,1
+430,2005,South Carolina,SC,South,Male,White,2,0,2
+431,2005,Texas,TX,South,Female,Black,0,1,1
+432,2005,Texas,TX,South,Male,Black,0,4,4
+433,2005,Texas,TX,South,Male,Latino,0,3,3
+434,2005,Texas,TX,South,Male,White,11,0,11
+435,2006,Alabama,AL,South,Male,White,1,0,1
+436,2006,California,CA,West,Male,Native American,0,1,1
+437,2006,Florida,FL,South,Male,Black,0,1,1
+438,2006,Florida,FL,South,Male,Latino,0,1,1
+439,2006,Florida,FL,South,Male,White,2,0,2
+440,2006,Indiana,IN,Midwest,Male,White,1,0,1
+441,2006,Mississippi,MS,South,Male,White,1,0,1
+442,2006,Montana,MT,West,Male,White,1,0,1
+443,2006,Nevada,NV,West,Male,Black,0,1,1
+444,2006,North Carolina,NC,South,Male,Black,0,2,2
+445,2006,North Carolina,NC,South,Male,White,2,0,2
+446,2006,Ohio,OH,Midwest,Male,Black,0,1,1
+447,2006,Ohio,OH,Midwest,Male,White,4,0,4
+448,2006,Oklahoma,OK,South,Male,Black,0,1,1
+449,2006,Oklahoma,OK,South,Male,White,3,0,3
+450,2006,South Carolina,SC,South,Male,White,1,0,1
+451,2006,Tennessee,TN,South,Male,White,1,0,1
+452,2006,Texas,TX,South,Male,Black,0,14,14
+453,2006,Texas,TX,South,Male,Latino,0,6,6
+454,2006,Texas,TX,South,Male,White,4,0,4
+455,2006,Virginia,VA,South,Male,Black,0,1,1
+456,2006,Virginia,VA,South,Male,White,3,0,3
+457,2007,Alabama,AL,South,Male,Black,0,3,3
+458,2007,Arizona,AZ,West,Male,White,1,0,1
+459,2007,Georgia,GA,South,Male,Black,0,1,1
+460,2007,Indiana,IN,Midwest,Male,White,2,0,2
+461,2007,Ohio,OH,Midwest,Male,White,2,0,2
+462,2007,Oklahoma,OK,South,Male,Black,0,1,1
+463,2007,Oklahoma,OK,South,Male,White,2,0,2
+464,2007,South Carolina,SC,South,Male,Black,0,1,1
+465,2007,South Dakota,SD,Midwest,Male,White,1,0,1
+466,2007,Tennessee,TN,South,Male,White,2,0,2
+467,2007,Texas,TX,South,Male,Black,0,8,8
+468,2007,Texas,TX,South,Male,Latino,0,6,6
+469,2007,Texas,TX,South,Male,White,12,0,12
+470,2008,Florida,FL,South,Male,Black,0,1,1
+471,2008,Florida,FL,South,Male,White,1,0,1
+472,2008,Georgia,GA,South,Male,Black,0,1,1
+473,2008,Georgia,GA,South,Male,White,2,0,2
+474,2008,Kentucky,KY,South,Male,White,1,0,1
+475,2008,Mississippi,MS,South,Male,White,2,0,2
+476,2008,Ohio,OH,Midwest,Male,Black,0,1,1
+477,2008,Ohio,OH,Midwest,Male,White,1,0,1
+478,2008,Oklahoma,OK,South,Male,White,2,0,2
+479,2008,South Carolina,SC,South,Male,Black,0,2,2
+480,2008,South Carolina,SC,South,Male,White,1,0,1
+481,2008,Texas,TX,South,Male,Black,0,9,9
+482,2008,Texas,TX,South,Male,Latino,0,3,3
+483,2008,Texas,TX,South,Male,White,6,0,6
+484,2008,Virginia,VA,South,Male,Black,0,3,3
+485,2008,Virginia,VA,South,Male,White,1,0,1
+486,2009,Alabama,AL,South,Male,Black,0,2,2
+487,2009,Alabama,AL,South,Male,White,4,0,4
+488,2009,Florida,FL,South,Male,White,2,0,2
+489,2009,Georgia,GA,South,Male,White,3,0,3
+490,2009,Indiana,IN,Midwest,Male,White,1,0,1
+491,2009,Missouri,MO,Midwest,Male,White,1,0,1
+492,2009,Ohio,OH,Midwest,Male,Black,0,1,1
+493,2009,Ohio,OH,Midwest,Male,White,4,0,4
+494,2009,Oklahoma,OK,South,Male,Black,0,1,1
+495,2009,Oklahoma,OK,South,Male,White,2,0,2
+496,2009,South Carolina,SC,South,Male,Black,0,1,1
+497,2009,South Carolina,SC,South,Male,White,1,0,1
+498,2009,Tennessee,TN,South,Male,Black,0,1,1
+499,2009,Tennessee,TN,South,Male,White,1,0,1
+500,2009,Texas,TX,South,Male,Black,0,14,14
+501,2009,Texas,TX,South,Male,Latino,0,7,7
+502,2009,Texas,TX,South,Male,White,3,0,3
+503,2009,Virginia,VA,South,Male,Black,0,2,2
+504,2009,Virginia,VA,South,Male,White,1,0,1
+505,2010,Alabama,AL,South,Male,Black,0,1,1
+506,2010,Alabama,AL,South,Male,White,4,0,4
+507,2010,Arizona,AZ,West,Male,Native American,0,1,1
+508,2010,Florida,FL,South,Male,White,1,0,1
+509,2010,Georgia,GA,South,Male,White,2,0,2
+510,2010,Louisiana,LA,South,Male,White,1,0,1
+511,2010,Mississippi,MS,South,Male,White,3,0,3
+512,2010,Ohio,OH,Midwest,Male,Black,0,5,5
+513,2010,Ohio,OH,Midwest,Male,White,3,0,3
+514,2010,Oklahoma,OK,South,Male,Black,0,1,1
+515,2010,Oklahoma,OK,South,Male,White,2,0,2
+516,2010,Texas,TX,South,Male,Black,0,5,5
+517,2010,Texas,TX,South,Male,Latino,0,5,5
+518,2010,Texas,TX,South,Male,White,7,0,7
+519,2010,Utah,UT,West,Male,White,1,0,1
+520,2010,Virginia,VA,South,Female,White,1,0,1
+521,2010,Virginia,VA,South,Male,Black,0,1,1
+522,2010,Virginia,VA,South,Male,White,1,0,1
+523,2010,Washington,WA,West,Male,White,1,0,1
+524,2011,Alabama,AL,South,Male,Black,0,3,3
+525,2011,Alabama,AL,South,Male,White,3,0,3
+526,2011,Arizona,AZ,West,Male,Black,0,1,1
+527,2011,Arizona,AZ,West,Male,White,3,0,3
+528,2011,Delaware,DE,South,Male,White,1,0,1
+529,2011,Florida,FL,South,Male,Latino,0,1,1
+530,2011,Florida,FL,South,Male,White,1,0,1
+531,2011,Georgia,GA,South,Male,Black,0,2,2
+532,2011,Georgia,GA,South,Male,White,2,0,2
+533,2011,Idaho,ID,West,Male,White,1,0,1
+534,2011,Mississippi,MS,South,Male,Black,0,1,1
+535,2011,Mississippi,MS,South,Male,White,1,0,1
+536,2011,Missouri,MO,Midwest,Male,White,1,0,1
+537,2011,Ohio,OH,Midwest,Male,Black,0,3,3
+538,2011,Ohio,OH,Midwest,Male,White,2,0,2
+539,2011,Oklahoma,OK,South,Male,Black,0,1,1
+540,2011,Oklahoma,OK,South,Male,White,1,0,1
+541,2011,South Carolina,SC,South,Male,White,1,0,1
+542,2011,Texas,TX,South,Male,Black,0,3,3
+543,2011,Texas,TX,South,Male,Latino,0,4,4
+544,2011,Texas,TX,South,Male,White,6,0,6
+545,2011,Virginia,VA,South,Male,Black,0,1,1
+546,2012,Arizona,AZ,West,Male,Latino,0,1,1
+547,2012,Arizona,AZ,West,Male,White,5,0,5
+548,2012,Delaware,DE,South,Male,Black,0,1,1
+549,2012,Florida,FL,South,Male,Latino,0,1,1
+550,2012,Florida,FL,South,Male,White,2,0,2
+551,2012,Idaho,ID,West,Male,White,1,0,1
+552,2012,Mississippi,MS,South,Male,Black,0,2,2
+553,2012,Mississippi,MS,South,Male,White,4,0,4
+554,2012,Ohio,OH,Midwest,Male,White,3,0,3
+555,2012,Oklahoma,OK,South,Male,Black,0,1,1
+556,2012,Oklahoma,OK,South,Male,Latino,0,1,1
+557,2012,Oklahoma,OK,South,Male,White,4,0,4
+558,2012,South Dakota,SD,Midwest,Male,White,2,0,2
+559,2012,Texas,TX,South,Male,Black,0,7,7
+560,2012,Texas,TX,South,Male,Latino,0,4,4
+561,2012,Texas,TX,South,Male,White,4,0,4
+562,2013,Alabama,AL,South,Male,White,1,0,1
+563,2013,Arizona,AZ,West,Male,White,2,0,2
+564,2013,Florida,FL,South,Male,Black,0,2,2
+565,2013,Florida,FL,South,Male,White,5,0,5
+566,2013,Georgia,GA,South,Male,White,1,0,1
+567,2013,Missouri,MO,Midwest,Male,White,2,0,2
+568,2013,Ohio,OH,Midwest,Male,White,3,0,3
+569,2013,Oklahoma,OK,South,Male,Black,0,3,3
+570,2013,Oklahoma,OK,South,Male,White,3,0,3
+571,2013,Texas,TX,South,Female,Black,0,1,1
+572,2013,Texas,TX,South,Male,Black,0,7,7
+573,2013,Texas,TX,South,Male,Latino,0,3,3
+574,2013,Texas,TX,South,Male,White,5,0,5
+575,2013,Virginia,VA,South,Male,White,1,0,1
+576,2014,Arizona,AZ,West,Male,White,1,0,1
+577,2014,Florida,FL,South,Male,Black,0,5,5
+578,2014,Florida,FL,South,Male,Latino,0,1,1
+579,2014,Florida,FL,South,Male,White,2,0,2
+580,2014,Georgia,GA,South,Male,Black,0,2,2
+581,2014,Missouri,MO,Midwest,Male,Black,0,5,5
+582,2014,Missouri,MO,Midwest,Male,White,5,0,5
+583,2014,Ohio,OH,Midwest,Male,White,1,0,1
+584,2014,Oklahoma,OK,South,Male,Black,0,2,2
+585,2014,Oklahoma,OK,South,Male,White,1,0,1
+586,2014,Texas,TX,South,Female,Black,0,1,1
+587,2014,Texas,TX,South,Female,White,1,0,1
+588,2014,Texas,TX,South,Male,Black,0,3,3
+589,2014,Texas,TX,South,Male,Latino,0,4,4
+590,2014,Texas,TX,South,Male,White,1,0,1
+591,2015,Florida,FL,South,Male,White,2,0,2
+592,2015,Georgia,GA,South,Female,White,1,0,1
+593,2015,Georgia,GA,South,Male,Black,0,2,2
+594,2015,Georgia,GA,South,Male,White,2,0,2
+595,2015,Missouri,MO,Midwest,Male,Black,0,3,3
+596,2015,Missouri,MO,Midwest,Male,White,3,0,3
+597,2015,Oklahoma,OK,South,Male,Black,0,1,1
+598,2015,Texas,TX,South,Male,Black,0,4,4
+599,2015,Texas,TX,South,Male,Latino,0,6,6
+600,2015,Texas,TX,South,Male,White,3,0,3
+601,2015,Virginia,VA,South,Male,Latino,0,1,1
+602,2016,Alabama,AL,South,Male,White,2,0,2
+603,2016,Florida,FL,South,Male,White,1,0,1
+604,2016,Georgia,GA,South,Male,Black,0,2,2
+605,2016,Georgia,GA,South,Male,White,7,0,7
+606,2016,Missouri,MO,Midwest,Male,White,1,0,1
+607,2016,Texas,TX,South,Male,Latino,0,2,2
+608,2016,Texas,TX,South,Male,White,5,0,5
+609,2017,Alabama,AL,South,Male,Black,0,2,2
+610,2017,Alabama,AL,South,Male,White,1,0,1
+611,2017,Arkansas,AR,South,Male,Black,0,3,3
+612,2017,Arkansas,AR,South,Male,White,1,0,1
+613,2017,Florida,FL,South,Male,White,3,0,3
+614,2017,Georgia,GA,South,Male,White,1,0,1
+615,2017,Missouri,MO,Midwest,Male,White,1,0,1
+616,2017,Ohio,OH,Midwest,Male,White,2,0,2
+617,2017,Texas,TX,South,Male,Black,0,2,2
+618,2017,Texas,TX,South,Male,Latino,0,2,2
+619,2017,Texas,TX,South,Male,White,3,0,3
+620,2017,Virginia,VA,South,Male,Black,0,1,1
+621,2017,Virginia,VA,South,Male,White,1,0,1
+622,2018,Alabama,AL,South,Male,White,2,0,2
+623,2018,Florida,FL,South,Male,Latino,0,1,1
+624,2018,Florida,FL,South,Male,White,1,0,1
+625,2018,Georgia,GA,South,Male,Black,0,2,2
+626,2018,Nebraska,NE,Midwest,Male,White,1,0,1
+627,2018,Ohio,OH,Midwest,Male,White,1,0,1
+628,2018,South Dakota,SD,Midwest,Male,White,1,0,1
+629,2018,Tennessee,TN,South,Male,White,3,0,3
+630,2018,Texas,TX,South,Male,Black,0,4,4
+631,2018,Texas,TX,South,Male,Latino,0,4,4
+632,2018,Texas,TX,South,Male,White,5,0,5
+633,2019,Alabama,AL,South,Male,Black,0,1,1
+634,2019,Alabama,AL,South,Male,White,2,0,2
+635,2019,Florida,FL,South,Male,White,2,0,2
+636,2019,Georgia,GA,South,Male,Black,0,3,3
+637,2019,Missouri,MO,Midwest,Male,White,1,0,1
+638,2019,South Dakota,SD,Midwest,Male,White,1,0,1
+639,2019,Tennessee,TN,South,Male,White,3,0,3
+640,2019,Texas,TX,South,Male,Black,0,3,3
+641,2019,Texas,TX,South,Male,Latino,0,1,1
+642,2019,Texas,TX,South,Male,White,5,0,5
+643,2020,Alabama,AL,South,Male,Black,0,1,1
+644,2020,Federal,FE,Federal,Male,Black,0,2,2
+645,2020,Federal,FE,Federal,Male,Native American,0,1,1
+646,2020,Federal,FE,Federal,Male,White,5,0,5
+647,2020,Georgia,GA,South,Male,White,1,0,1
+648,2020,Missouri,MO,Midwest,Male,White,1,0,1
+649,2020,Tennessee,TN,South,Male,White,1,0,1
+650,2020,Texas,TX,South,Male,Latino,0,1,1
+651,2020,Texas,TX,South,Male,White,2,0,2

@@ -1,0 +1,251 @@
+State,Race,Race Population,Region,Executions
+Alabama,White,3191450,South,38.0
+Alaska,White,448081,West,0.0
+Arizona,White,3836639,West,29.0
+Arkansas,White,2173307,South,20.0
+California,White,14616636,West,8.0
+Colorado,White,3822055,West,1.0
+Connecticut,White,2393694,Northeast,1.0
+Delaware,White,597917,South,8.0
+Florida,White,11288419,South,62.0
+Georgia,White,5487048,South,48.0
+Hawaii,White,310584,West,0.0
+Idaho,White,1407302,West,3.0
+Illinois,White,7834272,Midwest,7.0
+Indiana,White,5278785,Midwest,17.0
+Iowa,White,2701250,Midwest,0.0
+Kansas,White,2210739,Midwest,0.0
+Kentucky,White,3769995,South,3.0
+Louisiana,White,2739086,South,15.0
+Maine,White,1247090,Northeast,0.0
+Maryland,White,3066146,South,2.0
+Massachusetts,White,4906564,Northeast,0.0
+Michigan,White,7476534,Midwest,0.0
+Minnesota,White,4455056,Midwest,0.0
+Mississippi,White,1688447,South,15.0
+Missouri,White,4854821,Midwest,55.0
+Montana,White,906221,West,3.0
+Nebraska,White,1517634,Midwest,2.0
+Nevada,White,1462301,West,9.0
+New Hampshire,White,1212790,Northeast,0.0
+New Jersey,White,4939479,Northeast,0.0
+New Mexico,White,780688,West,1.0
+New York,White,10936578,Northeast,0.0
+North Carolina,White,6472902,South,28.0
+North Dakota,White,637291,Midwest,0.0
+Ohio,White,9204374,Midwest,37.0
+Oklahoma,White,2576937,South,67.0
+Oregon,White,3132752,West,2.0
+Pennsylvania,White,9780941,Northeast,3.0
+Rhode Island,White,76367,Northeast,0.0
+South Carolina,White,3197812,South,27.0
+South Dakota,White,715927,Midwest,5.0
+Tennessee,White,4962226,South,12.0
+Texas,White,11855092,South,251.0
+Utah,White,2428495,West,5.0
+Vermont,White,578706,Northeast,0.0
+Virginia,White,5226540,South,57.0
+Washington,White,5077103,West,5.0
+West Virginia,White,1670509,South,0.0
+Wisconsin,White,4706315,Midwest,0.0
+Wyoming,White,486586,West,1.0
+Alabama,Black,1302295,South,29.0
+Alaska,Black,21192,West,0.0
+Arizona,Black,290379,West,1.0
+Arkansas,Black,4555,South,10.0
+California,Black,2164239,West,2.0
+Colorado,Black,2195,West,0.0
+Connecticut,Black,35432,Northeast,0.0
+Delaware,Black,20669,South,7.0
+Florida,Black,3224452,South,28.0
+Georgia,Black,3245371,South,28.0
+Hawaii,Black,22629,West,0.0
+Idaho,Black,10947,West,0.0
+Illinois,Black,1790512,Midwest,5.0
+Indiana,Black,61308,Midwest,3.0
+Iowa,Black,103989,Midwest,0.0
+Kansas,Black,161148,Midwest,0.0
+Kentucky,Black,355829,South,0.0
+Louisiana,Black,1505991,South,13.0
+Maine,Black,15761,Northeast,0.0
+Maryland,Black,1776692,South,3.0
+Massachusetts,Black,477846,Northeast,0.0
+Michigan,Black,1359264,Midwest,0.0
+Minnesota,Black,356949,Midwest,0.0
+Mississippi,Black,1130323,South,6.0
+Missouri,Black,69427,Midwest,34.0
+Montana,Black,438,West,0.0
+Nebraska,Black,87147,Midwest,2.0
+Nevada,Black,265472,West,1.0
+New Hampshire,Black,18023,Northeast,0.0
+New Jersey,Black,1148321,Northeast,0.0
+New Mexico,Black,38022,West,0.0
+New York,Black,2846481,Northeast,0.0
+North Carolina,Black,2175617,South,13.0
+North Dakota,Black,2283,Midwest,0.0
+Ohio,Black,1421030,Midwest,19.0
+Oklahoma,Black,283068,South,35.0
+Oregon,Black,74345,West,0.0
+Pennsylvania,Black,1367815,Northeast,0.0
+Rhode Island,Black,57196,Northeast,0.0
+South Carolina,Black,1344741,South,16.0
+South Dakota,Black,16345,Midwest,0.0
+Tennessee,Black,1115187,South,1.0
+Texas,Black,3330204,South,206.0
+Utah,Black,35689,West,2.0
+Vermont,Black,7731,Northeast,0.0
+Virginia,Black,1595039,South,52.0
+Washington,Black,262211,West,0.0
+West Virginia,Black,71358,South,0.0
+Wisconsin,Black,362314,Midwest,0.0
+Wyoming,Black,5154,West,0.0
+Alabama,Latino,20197,South,0.0
+Alaska,Latino,51712,West,0.0
+Arizona,Latino,2202173,West,5.0
+Arkansas,Latino,223764,South,1.0
+California,Latino,15477306,West,0.0
+Colorado,Latino,1206724,West,0.0
+Connecticut,Latino,578833,Northeast,0.0
+Delaware,Latino,8954,South,0.0
+Florida,Latino,5370860,South,8.0
+Georgia,Latino,1001472,South,0.0
+Hawaii,Latino,150125,West,0.0
+Idaho,Latino,213619,West,0.0
+Illinois,Latino,2206927,Midwest,0.0
+Indiana,Latino,461618,Midwest,0.0
+Iowa,Latino,185746,Midwest,0.0
+Kansas,Latino,34551,Midwest,0.0
+Kentucky,Latino,155163,South,0.0
+Louisiana,Latino,24362,South,0.0
+Maine,Latino,21899,Northeast,0.0
+Maryland,Latino,612709,South,0.0
+Massachusetts,Latino,811292,Northeast,0.0
+Michigan,Latino,504398,Midwest,0.0
+Minnesota,Latino,296666,Midwest,0.0
+Mississippi,Latino,86035,South,0.0
+Missouri,Latino,255803,Midwest,0.0
+Montana,Latino,38933,West,0.0
+Nebraska,Latino,209917,Midwest,0.0
+Nevada,Latino,864663,West,1.0
+New Hampshire,Latino,50393,Northeast,0.0
+New Jersey,Latino,1840433,Northeast,0.0
+New Mexico,Latino,1018344,West,0.0
+New York,Latino,3811654,Northeast,0.0
+North Carolina,Latino,962466,South,0.0
+North Dakota,Latino,26479,Midwest,0.0
+Ohio,Latino,436762,Midwest,0.0
+Oklahoma,Latino,417708,South,1.0
+Oregon,Latino,540924,West,0.0
+Pennsylvania,Latino,938428,Northeast,0.0
+Rhode Island,Latino,163346,Northeast,0.0
+South Carolina,Latino,28599,South,0.0
+South Dakota,Latino,31278,Midwest,0.0
+Tennessee,Latino,361203,South,0.0
+Texas,Latino,11158751,South,109.0
+Utah,Latino,43429,West,0.0
+Vermont,Latino,11932,Northeast,0.0
+Virginia,Latino,790662,South,3.0
+Washington,Latino,940792,West,0.0
+West Virginia,Latino,22807,South,0.0
+Wisconsin,Latino,397847,Midwest,0.0
+Wyoming,Latino,58122,West,0.0
+Alabama,Asian,65494,South,0.0
+Alaska,Asian,48569,West,0.0
+Arizona,Asian,22581,West,0.0
+Arkansas,Asian,46583,South,0.0
+California,Asian,5679986,West,1.0
+Colorado,Asian,176176,West,0.0
+Connecticut,Asian,162564,Northeast,0.0
+Delaware,Asian,38404,South,0.0
+Florida,Asian,578136,South,0.0
+Georgia,Asian,408067,South,0.0
+Hawaii,Asian,532881,West,0.0
+Idaho,Asian,22698,West,0.0
+Illinois,Asian,689701,Midwest,0.0
+Indiana,Asian,146611,Midwest,0.0
+Iowa,Asian,80937,Midwest,0.0
+Kansas,Asian,85386,Midwest,0.0
+Kentucky,Asian,64381,South,0.0
+Louisiana,Asian,83959,South,0.0
+Maine,Asian,15141,Northeast,0.0
+Maryland,Asian,389297,South,0.0
+Massachusetts,Asian,450311,Northeast,0.0
+Michigan,Asian,306376,Midwest,0.0
+Minnesota,Asian,272228,Midwest,0.0
+Mississippi,Asian,27467,South,0.0
+Missouri,Asian,123227,Midwest,0.0
+Montana,Asian,7182,West,0.0
+Nebraska,Asian,46837,Midwest,0.0
+Nevada,Asian,249834,West,1.0
+New Hampshire,Asian,35602,Northeast,0.0
+New Jersey,Asian,882064,Northeast,0.0
+New Mexico,Asian,27514,West,0.0
+New York,Asian,1718948,Northeast,0.0
+North Carolina,Asian,29305,South,0.0
+North Dakota,Asian,12699,Midwest,0.0
+Ohio,Asian,256437,Midwest,0.0
+Oklahoma,Asian,84404,South,2.0
+Oregon,Asian,180042,West,0.0
+Pennsylvania,Asian,442425,Northeast,0.0
+Rhode Island,Asian,37798,Northeast,0.0
+South Carolina,Asian,74889,South,0.0
+South Dakota,Asian,10612,Midwest,0.0
+Tennessee,Asian,118312,South,0.0
+Texas,Asian,1344963,South,2.0
+Utah,Asian,7453,West,0.0
+Vermont,Asian,11073,Northeast,0.0
+Virginia,Asian,539382,South,0.0
+Washington,Asian,625939,West,0.0
+West Virginia,Asian,13695,South,0.0
+Wisconsin,Asian,158583,Midwest,0.0
+Wyoming,Asian,4586,West,0.0
+Alabama,Native American,22209,South,0.0
+Alaska,Native American,105146,West,0.0
+Arizona,Native American,274496,West,2.0
+Arkansas,Native American,16901,South,0.0
+California,Native American,14788,West,2.0
+Colorado,Native American,32102,West,0.0
+Connecticut,Native American,7486,Northeast,0.0
+Delaware,Native American,2344,South,1.0
+Florida,Native American,42654,South,1.0
+Georgia,Native American,18335,South,0.0
+Hawaii,Native American,1659,West,0.0
+Idaho,Native American,19136,West,0.0
+Illinois,Native American,12784,Midwest,0.0
+Indiana,Native American,9694,Midwest,0.0
+Iowa,Native American,7825,Midwest,0.0
+Kansas,Native American,17617,Midwest,0.0
+Kentucky,Native American,6882,South,0.0
+Louisiana,Native American,21942,South,0.0
+Maine,Native American,8225,Northeast,0.0
+Maryland,Native American,11879,South,0.0
+Massachusetts,Native American,9439,Northeast,0.0
+Michigan,Native American,45421,Midwest,0.0
+Minnesota,Native American,53674,Midwest,0.0
+Mississippi,Native American,1324,South,0.0
+Missouri,Native American,21332,Midwest,1.0
+Montana,Native American,62126,West,0.0
+Nebraska,Native American,12823,Midwest,0.0
+Nevada,Native American,27991,West,0.0
+New Hampshire,Native American,15,Northeast,0.0
+New Jersey,Native American,9074,Northeast,0.0
+New Mexico,Native American,182991,West,0.0
+New York,Native American,41752,Northeast,0.0
+North Carolina,Native American,111317,South,1.0
+North Dakota,Native American,40745,Midwest,0.0
+Ohio,Native American,17866,Midwest,0.0
+Oklahoma,Native American,28858,South,6.0
+Oregon,Native American,38855,West,0.0
+Pennsylvania,Native American,14498,Northeast,0.0
+Rhode Island,Native American,3134,Northeast,0.0
+South Carolina,Native American,1237,South,0.0
+South Dakota,Native American,74563,Midwest,0.0
+Tennessee,Native American,13699,South,0.0
+Texas,Native American,71859,South,2.0
+Utah,Native American,30073,West,0.0
+Vermont,Native American,1971,Northeast,0.0
+Virginia,Native American,20568,South,0.0
+Washington,Native American,75535,West,0.0
+West Virginia,Native American,2391,South,0.0
+Wisconsin,Native American,44664,Midwest,0.0
+Wyoming,Native American,12341,West,0.0

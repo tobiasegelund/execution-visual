@@ -1,52 +1,70 @@
-,State,Region,White Convicted,Other Convicted,Executions,State Code,Executions Scaled,White/Other ratio
-0,Alabama,South,38,29,67,AL,5.204692619390966,1.31
-1,Arizona,West,29,8,37,AZ,4.610917912644224,3.62
-2,Arkansas,South,20,11,31,AR,4.433987204485146,1.82
-3,California,West,8,5,13,CA,3.5649493574615367,1.6
-4,Colorado,West,1,0,1,CO,1.0,inf
-5,Connecticut,Northeast,1,0,1,CT,1.0,inf
-6,Delaware,South,8,8,16,DE,3.772588722239781,1.0
-7,Federal,Federal,6,5,11,FE,3.3978952727983707,1.2
-8,Florida,South,62,37,99,FL,5.59511985013459,1.68
-9,Georgia,South,48,28,76,GA,5.330733340286331,1.71
-10,Idaho,West,3,0,3,ID,2.09861228866811,inf
-11,Illinois,Midwest,7,5,12,IL,3.4849066497880004,1.4
-12,Indiana,Midwest,17,3,20,IN,3.995732273553991,5.67
-13,Kentucky,South,3,0,3,KY,2.09861228866811,inf
-14,Louisiana,South,15,13,28,LA,4.332204510175204,1.15
-15,Maryland,South,2,3,5,MD,2.6094379124341005,0.67
-16,Mississippi,South,15,6,21,MS,4.044522437723423,2.5
-17,Missouri,Midwest,55,35,90,MO,5.499809670330265,1.57
-18,Montana,West,3,0,3,MT,2.09861228866811,inf
-19,Nebraska,Midwest,2,2,4,NE,2.386294361119891,1.0
-20,Nevada,West,9,3,12,NV,3.4849066497880004,3.0
-21,New Mexico,West,1,0,1,NM,1.0,inf
-22,North Carolina,South,28,15,43,NC,4.761200115693562,1.87
-23,Ohio,Midwest,37,19,56,OH,5.02535169073515,1.95
-24,Oklahoma,South,67,45,112,OK,5.718498871295094,1.49
-25,Oregon,West,2,0,2,OR,1.6931471805599454,inf
-26,Pennsylvania,Northeast,3,0,3,PA,2.09861228866811,inf
-27,South Carolina,South,27,16,43,SC,4.761200115693562,1.69
-28,South Dakota,Midwest,5,0,5,SD,2.6094379124341005,inf
-29,Tennessee,South,12,1,13,TN,3.5649493574615367,12.0
-30,Texas,South,251,319,570,TX,7.345636360828596,0.79
-31,Utah,West,5,2,7,UT,2.9459101490553135,2.5
-32,Virginia,South,57,56,113,VA,5.727387818712341,1.02
-33,Washington,West,5,0,5,WA,2.6094379124341005,inf
-34,Wyoming,West,1,0,1,WY,1.0,inf
-35,Alaska,West,0,0,0,AK,0.0,No executions
-36,Hawaii,West,0,0,0,HI,0.0,No executions
-37,Iowa,Midwest,0,0,0,IA,0.0,No executions
-38,Kansas,Midwest,0,0,0,KS,0.0,No executions
-39,Maine,Northeast,0,0,0,ME,0.0,No executions
-40,Massachusetts,Northeast,0,0,0,MA,0.0,No executions
-41,Michigan,Midwest,0,0,0,MI,0.0,No executions
-42,Minnesota,Midwest,0,0,0,MN,0.0,No executions
-43,New Hampshire,Northeast,0,0,0,NH,0.0,No executions
-44,New Jersey,Northeast,0,0,0,NJ,0.0,No executions
-45,New York,Northeast,0,0,0,NY,0.0,No executions
-46,North Dakota,Midwest,0,0,0,ND,0.0,No executions
-47,Rhode Island,Northeast,0,0,0,RI,0.0,No executions
-48,Vermont,Northeast,0,0,0,VT,0.0,No executions
-49,West Virginia,South,0,0,0,WV,0.0,No executions
-50,Wisconsin,Midwest,0,0,0,WI,0.0,No executions
+,State,Region,Sex,Race,White Convicted,Other Convicted,Executions,State Code,Executions Scaled
+0,Alabama,South,Female,White,1,0,1,AL,1.0
+1,Alabama,South,Male,Other,0,29,29,AL,4.367295829986475
+2,Alabama,South,Male,White,37,0,37,AL,4.610917912644224
+3,Arizona,West,Male,Other,0,8,8,AZ,3.0794415416798357
+4,Arizona,West,Male,White,29,0,29,AZ,4.367295829986475
+5,Arkansas,South,Female,White,1,0,1,AR,1.0
+6,Arkansas,South,Male,Other,0,11,11,AR,3.3978952727983707
+7,Arkansas,South,Male,White,19,0,19,AR,3.9444389791664403
+8,California,West,Male,Other,0,5,5,CA,2.6094379124341005
+9,California,West,Male,White,8,0,8,CA,3.0794415416798357
+10,Colorado,West,Male,White,1,0,1,CO,1.0
+11,Connecticut,Northeast,Male,White,1,0,1,CT,1.0
+12,Delaware,South,Male,Other,0,8,8,DE,3.0794415416798357
+13,Delaware,South,Male,White,8,0,8,DE,3.0794415416798357
+14,Federal,Federal,Male,Other,0,5,5,FE,2.6094379124341005
+15,Federal,Federal,Male,White,6,0,6,FE,2.791759469228055
+16,Florida,South,Female,White,2,0,2,FL,1.6931471805599454
+17,Florida,South,Male,Other,0,37,37,FL,4.610917912644224
+18,Florida,South,Male,White,60,0,60,FL,5.0943445622221
+19,Georgia,South,Female,White,1,0,1,GA,1.0
+20,Georgia,South,Male,Other,0,28,28,GA,4.332204510175204
+21,Georgia,South,Male,White,47,0,47,GA,4.850147601710058
+22,Idaho,West,Male,White,3,0,3,ID,2.09861228866811
+23,Illinois,Midwest,Male,Other,0,5,5,IL,2.6094379124341005
+24,Illinois,Midwest,Male,White,7,0,7,IL,2.9459101490553135
+25,Indiana,Midwest,Male,Other,0,3,3,IN,2.09861228866811
+26,Indiana,Midwest,Male,White,17,0,17,IN,3.833213344056216
+27,Kentucky,South,Male,White,3,0,3,KY,2.09861228866811
+28,Louisiana,South,Male,Other,0,13,13,LA,3.5649493574615367
+29,Louisiana,South,Male,White,15,0,15,LA,3.70805020110221
+30,Maryland,South,Male,Other,0,3,3,MD,2.09861228866811
+31,Maryland,South,Male,White,2,0,2,MD,1.6931471805599454
+32,Mississippi,South,Male,Other,0,6,6,MS,2.791759469228055
+33,Mississippi,South,Male,White,15,0,15,MS,3.70805020110221
+34,Missouri,Midwest,Male,Other,0,35,35,MO,4.555348061489413
+35,Missouri,Midwest,Male,White,55,0,55,MO,5.007333185232471
+36,Montana,West,Male,White,3,0,3,MT,2.09861228866811
+37,Nebraska,Midwest,Male,Other,0,2,2,NE,1.6931471805599454
+38,Nebraska,Midwest,Male,White,2,0,2,NE,1.6931471805599454
+39,Nevada,West,Male,Other,0,3,3,NV,2.09861228866811
+40,Nevada,West,Male,White,9,0,9,NV,3.1972245773362196
+41,New Mexico,West,Male,White,1,0,1,NM,1.0
+42,North Carolina,South,Female,White,1,0,1,NC,1.0
+43,North Carolina,South,Male,Other,0,15,15,NC,3.70805020110221
+44,North Carolina,South,Male,White,27,0,27,NC,4.295836866004329
+45,Ohio,Midwest,Male,Other,0,19,19,OH,3.9444389791664403
+46,Ohio,Midwest,Male,White,37,0,37,OH,4.610917912644224
+47,Oklahoma,South,Female,Other,0,1,1,OK,1.0
+48,Oklahoma,South,Female,White,2,0,2,OK,1.6931471805599454
+49,Oklahoma,South,Male,Other,0,44,44,OK,4.7841896339182615
+50,Oklahoma,South,Male,White,65,0,65,OK,5.174387269895637
+51,Oregon,West,Male,White,2,0,2,OR,1.6931471805599454
+52,Pennsylvania,Northeast,Male,White,3,0,3,PA,2.09861228866811
+53,South Carolina,South,Male,Other,0,16,16,SC,3.772588722239781
+54,South Carolina,South,Male,White,27,0,27,SC,4.295836866004329
+55,South Dakota,Midwest,Male,White,5,0,5,SD,2.6094379124341005
+56,Tennessee,South,Male,Other,0,1,1,TN,1.0
+57,Tennessee,South,Male,White,12,0,12,TN,3.4849066497880004
+58,Texas,South,Female,Other,0,3,3,TX,2.09861228866811
+59,Texas,South,Female,White,3,0,3,TX,2.09861228866811
+60,Texas,South,Male,Other,0,316,316,TX,6.755742213586912
+61,Texas,South,Male,White,248,0,248,TX,6.5134287461649825
+62,Utah,West,Male,Other,0,2,2,UT,1.6931471805599454
+63,Utah,West,Male,White,5,0,5,UT,2.6094379124341005
+64,Virginia,South,Female,White,1,0,1,VA,1.0
+65,Virginia,South,Male,Other,0,56,56,VA,5.02535169073515
+66,Virginia,South,Male,White,56,0,56,VA,5.02535169073515
+67,Washington,West,Male,White,5,0,5,WA,2.6094379124341005
+68,Wyoming,West,Male,White,1,0,1,WY,1.0

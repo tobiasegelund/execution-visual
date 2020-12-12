@@ -7,8 +7,7 @@ def filter_data(
     input_region=None,
     input_sex=None,
     input_state=None,
-    input_time=None,
-    input_year=None):
+    input_time=None):
 
     # Filter on race -> Looks at len instead of correct syntax since the syntax depends on what the user clicks on first
     if input_race is None or input_race == [] or len(input_race) == 2:
@@ -43,14 +42,8 @@ def filter_data(
         range_years = [year for year in range(input_time[0], input_time[1]+1)]
         df_local = df_local[df_local['Year'].isin(range_years)]
         df_local = df_local.groupby(['State', 'State Code']).sum().reset_index()
-        df_local['Executions Scaled'] = np.log(df_local["Executions"]+1)
+        df_local['Executions scaled'] = np.log(df_local["Executions"]+1)
         # df_local = df_local[df_local['Year']==input_time]
-
-    if input_year is None:
-        df_local = df_local
-    else:
-        range_years = [year for year in range(input_time[0], input_time[1]+1)]
-        df_local = df_local[df_local['Year'].isin(range_years)]
 
     return df_local
 
@@ -71,13 +64,17 @@ def build_hierarchical_dataframe(df, levels, value_column):
         if i < len(levels) - 1:
             df_tree['parent'] = dfg[levels[i+1]].copy()
         else:
-            df_tree['parent'] = 'total'
+            df_tree['parent'] = 'All'
         df_tree['value'] = dfg[value_column]
         df_all_trees = df_all_trees.append(df_tree, ignore_index=True)
-    total = pd.Series(dict(id='total', parent='',
+    total = pd.Series(dict(id='All', parent='',
                               value=df[value_column].sum()
                           ))
     df_all_trees = df_all_trees.append(total, ignore_index=True)
+
+    df_all_trees["color"] = [1 if df_all_trees.loc[i,"id"].startswith("White")
+                            else 0.5 if df_all_trees.loc[i,"id"].startswith("All")
+                            else 0 for i in range(len(df_all_trees))]
 
     df_all_trees = df_all_trees[df_all_trees["id"]!= df_all_trees["parent"]]
 
