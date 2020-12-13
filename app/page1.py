@@ -57,7 +57,7 @@ sidebar_page_1 = html.Div(
         ),
 
         html.Hr(),
-        html.H5('Filter on executions', style={'font-size':'14px'}),
+        html.H5('Filter on executed', style={'font-size':'14px'}),
         html.Br(),
         html.H6('RACE:'),
         dcc.Checklist(
@@ -114,6 +114,7 @@ sidebar_page_1 = html.Div(
 content_page1 = html.Div(
     [
         html.H2('Death Row Executions 1977-2020'),
+        html.H6('(Hover to explore)'),
         dbc.Row(
             [
                 dbc.Col(
@@ -131,8 +132,10 @@ content_page1 = html.Div(
                 dbc.Col(
                     html.Div([
                         html.H4('Executions based on race & gender'),
+                        html.H6('(Hover and click to explore)'),
                         dcc.Graph(
-                            id='convicted_sunburst_figure'
+                            id='convicted_sunburst_figure',
+                            # style={'margin-top': '-20px'},
                         )
                     ]),
                     width={"offset": 2}
@@ -140,6 +143,7 @@ content_page1 = html.Div(
                 dbc.Col(
                     html.Div([
                         html.H4('Victims based on race & gender'),
+                        html.H6('(Hover or click to explore)'),
                         dcc.Graph(
                             id='victims_figure'
                         )
@@ -292,8 +296,11 @@ def convicted_sunburst_update(input_race, input_region, input_sex, input_state):
             size=16,
             family="Rockwell"
         ),
+        text=df_local[['percentage']],
+        textinfo='label',
         insidetextorientation='tangential',
         hovertemplate='<b>%{label} </b> <br> Executions: %{value}<br>'+
+        'Percentage: %{text[0]} % <br>' +
                         '<extra></extra>',
     ))
 
@@ -339,6 +346,8 @@ def victims_sunburst_update(input_race, input_region, input_sex, input_state):
         parents=df_local["parent"],
         values=df_local["value"],
         branchvalues="total",
+        text=df_local[['percentage']],
+        textinfo='label',
         maxdepth=4,
         marker=dict(
             colors=df_local['color'],
@@ -354,6 +363,7 @@ def victims_sunburst_update(input_race, input_region, input_sex, input_state):
         ),
         insidetextorientation='tangential',
         hovertemplate='<b>%{label} </b> <br> Victims: %{value}<br>'+
+                        'Percentage: %{text[0]} % <br>' +
                         '<extra></extra>',
     ))
 

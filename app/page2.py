@@ -56,7 +56,7 @@ sidebar_page_2 = html.Div(
         ),
 
         html.Hr(),
-        html.H5('Filter on executions', style={'font-size':'14px'}),
+        html.H5('Filter on executed', style={'font-size':'14px'}),
         html.Br(),
         html.H6('RACE:'),
         dcc.Checklist(
@@ -114,6 +114,7 @@ content_page2 = html.Div(
     [
 
         html.H2('Death Row Executions 1977-2020'),
+        html.H6('(Hover to explore and adjust time period below)'),
         html.Div(
             dcc.RangeSlider(
                 id='input_ranger',
@@ -121,7 +122,7 @@ content_page2 = html.Div(
                 max=2020,
                 step=None,
                 marks={str(year): {'label': str(year), 'style': {'font-size': '13px'}} for year in available_years},
-                value=[1985, 2010]
+                value=[1977, 2020]
             )
          ),
         dbc.Row(
@@ -141,6 +142,7 @@ content_page2 = html.Div(
                 dbc.Col(
                     html.Div([
                         html.H4('Executions over time since 1977'),
+                        html.H6('(Hover to explore)'),
                         dcc.Graph(
                             id='executions_timeline_page2'
                         )
@@ -150,6 +152,7 @@ content_page2 = html.Div(
                 dbc.Col(
                     html.Div([
                         html.H4('Number of victims by executed humans over time since 1977'),
+                        html.H6('(Hover to explore)'),
                         dcc.Graph(
                             id='victims_grouped_page2'
                         )
@@ -267,10 +270,11 @@ def update_map_timeline(input_race, input_region, input_sex, input_state, input_
 def executions_timeline(input_race, input_region, input_sex, input_state, input_year):
 
     df_local = filter_data(df,
-        # input_race=input_race,
+        input_race=input_race,
         input_region=input_region,
         input_sex=input_sex,
-        input_state=input_state
+        input_state=input_state,
+        input_year=input_year
     )
 
     fig = go.Figure()
@@ -342,7 +346,8 @@ def victims_timeline(input_race, input_region, input_sex, input_state, input_yea
         input_race=input_race,
         input_region=input_region,
         input_sex=input_sex,
-        input_state=input_state
+        input_state=input_state,
+        input_year=input_year
     )
 
     fig.add_trace(go.Bar(

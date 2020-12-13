@@ -57,7 +57,7 @@ sidebar_page_3 = html.Div(
         ),
 
         html.Hr(),
-        html.H5('Filter on executions', style={'font-size':'14px'}),
+        html.H5('Filter on executed', style={'font-size':'14px'}),
         html.Br(),
         html.H6('REGION:'),
         dcc.Dropdown(
@@ -87,7 +87,8 @@ sidebar_page_3 = html.Div(
 
 content_page3 = html.Div(
     [
-        html.H2('Death Row Executions pr. MILION (M) STATE capita 1977-2020'),
+        html.H2('Death Row Executions pr. MILLION (M) STATE capita 1977-2020'),
+        html.H6('(Hover to explore)'),
         dbc.Row(
             [
                 dbc.Col(
@@ -105,6 +106,7 @@ content_page3 = html.Div(
                 dbc.Col(
                     html.Div([
                         html.H4('Executions Per Million of Total Race Population'),
+                        html.H6('(Hover to explore)'),
                         dcc.Graph(
                             id='race_execution_output'
                         )
@@ -114,6 +116,7 @@ content_page3 = html.Div(
                 dbc.Col(
                     html.Div([
                         html.H4('Victims Per Million of Total Race Population'),
+                        html.H6('(Hover to explore)'),
                         dcc.Graph(
                             id='race_victims_output'
                         )
@@ -343,5 +346,6 @@ def race_victims(input_region, input_state):
             font_size=16,
             font_family="Rockwell"
         ),
+        # margin = dict(t=0, l=0, r=0, b=0),
     )
     return fig

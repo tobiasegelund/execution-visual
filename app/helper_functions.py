@@ -7,7 +7,8 @@ def filter_data(
     input_region=None,
     input_sex=None,
     input_state=None,
-    input_time=None):
+    input_time=None,
+    input_year=None):
 
     # Filter on race -> Looks at len instead of correct syntax since the syntax depends on what the user clicks on first
     if input_race is None or input_race == [] or len(input_race) == 2:
@@ -45,6 +46,13 @@ def filter_data(
         df_local['Executions scaled'] = np.log(df_local["Executions"]+1)
         # df_local = df_local[df_local['Year']==input_time]
 
+    if input_year is None:
+        df_local = df_local
+    else:
+        range_years = [year for year in range(input_year[0], input_year[1]+1)]
+        df_local = df_local[df_local['Year'].isin(range_years)]
+
+
     return df_local
 
 
@@ -75,6 +83,10 @@ def build_hierarchical_dataframe(df, levels, value_column):
     df_all_trees["color"] = [1 if df_all_trees.loc[i,"id"].startswith("White")
                             else 0.5 if df_all_trees.loc[i,"id"].startswith("All")
                             else 0 for i in range(len(df_all_trees))]
+
+    df_all_trees['value'] = df_all_trees['value'].astype('int64')
+    df_all_trees["percentage"] = round(df_all_trees['value'] / df_all_trees[df_all_trees['id'] == 'All']['value'].tolist()[0] * 100, 2)
+    df_all_trees
 
     df_all_trees = df_all_trees[df_all_trees["id"]!= df_all_trees["parent"]]
 
