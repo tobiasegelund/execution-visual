@@ -14,6 +14,8 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
     ]
 )
 
+server = app.server
+
 # UPDATE PAGE
 @app.callback(
     Output('page-content', 'children'),
