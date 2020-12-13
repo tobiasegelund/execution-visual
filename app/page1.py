@@ -101,11 +101,22 @@ sidebar_page_1 = html.Div(
             placeholder='Select state..'
         ),
         html.Br(),
+        html.Span(
+            [
+                "Source: ",
+                html.A(
+                    [
+                       "deathpenaltyinfo.org"
+                    ], href='https://deathpenaltyinfo.org/executions/execution-database', target="_blank", #style={"margin-left": "60px"}
+                ),
+            ]
+        ),
+        html.Br(),
         html.A(
             [
             html.Img(src='data:image/png;base64,{}'.format(github_image.decode()),
                                 style={'height': '50px'})
-            ], href='https://github.com/tobiasegelund/execution-visual', target="_blank", style={"margin-left": "80px"}
+            ], href='https://github.com/tobiasegelund/execution-visual', target="_blank", style={"margin-left": "75px"}
         )
     ],
     style=SIDEBAR_STYLE,

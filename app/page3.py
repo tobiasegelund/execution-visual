@@ -75,11 +75,22 @@ sidebar_page_3 = html.Div(
             placeholder='Select state..'
         ),
         html.Br(),
+        html.Span(
+            [
+                "Source: ",
+                html.A(
+                    [
+                       "deathpenaltyinfo.org"
+                    ], href='https://deathpenaltyinfo.org/executions/execution-database', target="_blank"
+                ),
+            ]
+        ),
+        html.Br(),
         html.A(
             [
             html.Img(src='data:image/png;base64,{}'.format(github_image.decode()),
                                 style={'height': '50px'})
-            ], href='https://github.com/tobiasegelund/execution-visual', target="_blank", style={"margin-left": "80px"}
+            ], href='https://github.com/tobiasegelund/execution-visual', target="_blank", style={"margin-left": "75px"}
         )
     ],
     style=SIDEBAR_STYLE,
@@ -125,7 +136,16 @@ content_page3 = html.Div(
                 ),
                 html.Footer(
                     [
-                        "https://www.governing.com/gov-data/census/state-minority-population-data-estimates.html"
+                    html.Span(
+                        [
+                            "Population source: ",
+                            html.A(
+                                [
+                                   "www.governing.com"
+                                ], href="https://www.governing.com/gov-data/census/state-minority-population-data-estimates.html", target="_blank"
+                            ),
+                        ]
+                    )
                     ]
                 )
             ]
