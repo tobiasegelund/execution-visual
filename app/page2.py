@@ -80,7 +80,7 @@ sidebar_page_2 = html.Div(
                 'font-size': '17px',
                 'font-weight': '700'
             },
-            labelStyle={"margin-right": "10px"},
+            labelStyle={"margin-right": "20px"},
             inputStyle={"margin-right": "5px"}
         ),
         html.Br(),

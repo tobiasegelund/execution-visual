@@ -68,7 +68,7 @@ sidebar_page_1 = html.Div(
                 'font-size': '17px',
                 'font-weight': '700'
             },
-            labelStyle={"margin-right": "10px"},
+            labelStyle={"margin-right": "20px"},
             inputStyle={"margin-right": "5px"}
         ),
         html.Br(),
@@ -310,8 +310,8 @@ def convicted_sunburst_update(input_race, input_region, input_sex, input_state):
         text=df_local[['percentage']],
         textinfo='label',
         insidetextorientation='tangential',
-        hovertemplate='<b>%{label} </b> <br> Executions: %{value}<br>'+
-        'Percentage: %{text[0]} % <br>' +
+        hovertemplate='<b>%{label} </b> <br> <i>Executions: </i>%{value}<br>'+
+        '<i>Percentage: </i>%{text[0]} % <br>' +
                         '<extra></extra>',
     ))
 
@@ -373,8 +373,8 @@ def victims_sunburst_update(input_race, input_region, input_sex, input_state):
             family="Rockwell"
         ),
         insidetextorientation='tangential',
-        hovertemplate='<b>%{label} </b> <br> Victims: %{value}<br>'+
-                        'Percentage: %{text[0]} % <br>' +
+        hovertemplate='<b>%{label} </b> <br> <i>Victims: </i>%{value}<br>'+
+                        '<i>Percentage: </i>%{text[0]} % <br>' +
                         '<extra></extra>',
     ))
 
