@@ -117,13 +117,6 @@ sidebar_page_1 = html.Div(
             html.Img(src='data:image/png;base64,{}'.format(github_image.decode()),
                                 style={'height': '50px'})
             ], href='https://github.com/tobiasegelund/execution-visual', target="_blank", style={"margin-left": "75px"}
-        ),
-        html.Div(
-            [
-                html.P(
-                    'Made by: Martin Christiansen, Magnus Engelsen, Bilal Ali & Tobias Egelund'
-                ),
-            ], style={'padding-top': '550px'}
         )
     ],
     style=SIDEBAR_STYLE,
