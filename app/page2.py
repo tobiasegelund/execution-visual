@@ -225,7 +225,7 @@ def update_map_timeline(input_race, input_region, input_sex, input_state, input_
         locations=df_local['State Code'],
         z=df_local["Executions scaled"].astype(float),
         zmin=0,
-        zmax=6,
+        zmax=8,
         locationmode='USA-states',
         colorscale=px.colors.sequential.Teal,
         colorbar_len=0.5,
@@ -242,7 +242,7 @@ def update_map_timeline(input_race, input_region, input_sex, input_state, input_
             y=0.5,
             titleside="top",
             tickmode="array",
-            tickvals=[0.5, 5.5],
+            tickvals=[0.5, 7.5],
             ticktext=['Low', 'High'],
             ticks="outside"
         )
