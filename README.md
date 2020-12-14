@@ -1,3 +1,3 @@
 ## Visualization exam project
 
-By made: Martin Christiansen, Magnus Engelsen, Bilal Ali & Tobias Egelund
+Made by: Martin Christiansen, Magnus Engelsen, Bilal Ali & Tobias Egelund
