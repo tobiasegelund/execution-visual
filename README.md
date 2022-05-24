@@ -1,5 +1,7 @@
 ## Visualization exam project
 
+The dashboard is published here: https://execution-visual.herokuapp.com/overview
+
 ## Download
 ```bash
 git clone git@github.com:tobiasegelund/execution-visual.git
